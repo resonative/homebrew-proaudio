@@ -1,6 +1,6 @@
 cask "voxengo-span-plus-auaax" do
   version "1.24"
-  sha256 :no_check
+  sha256 "c74fa7ea8ee988b68f764019e32b318dfbbfadae3cd02fae4c73532655922528"
 
   url "https://www.voxengo.com/files/VoxengoSPANPlus_#{version.delete(".")}_Mac_AU_AAX_setup.dmg"
   name "Voxengo SPAN Plus AU/AAX"
