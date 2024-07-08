@@ -1,6 +1,6 @@
 # Homebrew ProAudio
 
-Some formulae of pro audio software
+Some cask formulae of pro audio software. This tap mainly streamline/assist setting up new system (vs maintaining legacy system.) Companies' dedicated installer/portal (NI, Izotope, etc) is preferred.
 
 ## How do I install these formulae?
 
