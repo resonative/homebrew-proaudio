@@ -18,8 +18,7 @@ cask "voxengo-span-plus-auaax" do
   artifact "ProTools AAX/SPAN Plus.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/SPAN Plus.aaxplugin"
 
   uninstall delete: [
+    "/Library/Application Support/Avid/Audio/Plug-Ins/SPAN Plus.aaxplugin",
     "/Library/Audio/Plug-Ins/Components/SPAN Plus.component",
-    "/Library/Application Support/Avid/Audio/Plug-Ins/SPAN Plus.aaxplugin"
   ]
-
 end

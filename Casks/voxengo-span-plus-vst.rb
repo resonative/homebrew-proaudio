@@ -19,7 +19,6 @@ cask "voxengo-span-plus-vst" do
 
   uninstall delete: [
     "/Library/Audio/Plug-Ins/VST/SPAN Plus.vst",
-    "/Library/Audio/Plug-Ins/VST3/SPAN Plus.vst3"
+    "/Library/Audio/Plug-Ins/VST3/SPAN Plus.vst3",
   ]
-
 end

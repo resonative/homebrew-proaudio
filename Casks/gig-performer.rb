@@ -2,10 +2,11 @@ cask "gig-performer" do
   version "5.0.9"
   sha256 "1cfff954d0bb20915229d1c138405ebe147965c9d2814aa63f123a78a6468b34"
 
-  url "https://gigperformer5.s3.us-east-2.amazonaws.com/GP#{version}/GigPerformer5-Universal-#{version}.dmg"
+  url "https://gigperformer5.s3.us-east-2.amazonaws.com/GP#{version}/GigPerformer5-Universal-#{version}.dmg",
+      verified: "gigperformer5.s3.us-east-2.amazonaws.com/"
   name "Gig Performer"
   desc "Live Performance Audio Plugin Host"
-  homepage "https://gigperformer.com"
+  homepage "https://gigperformer.com/"
 
   livecheck do
     cask "gig-performer"
@@ -20,7 +21,6 @@ cask "gig-performer" do
     "com.deskew.GPRelayer",
     "com.deskew.pkg.GP5",
     "com.lostin70s.plugins",
-    "com.overloud.THUGigPerformer"
+    "com.overloud.THUGigPerformer",
   ]
-
 end
