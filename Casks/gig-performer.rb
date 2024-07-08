@@ -15,12 +15,31 @@ cask "gig-performer" do
   auto_updates true
   depends_on macos: ">= :mojave"
 
-  pkg "Gig Performer #{version}.pkg"
+  pkg "Gig Performer #{version}.pkg",
+      choices: [
+        {
+          "choiceIdentifier" => "installer_choice_2", # LostIn70s
+          "choiceAttribute" => "selected",
+          "attributeSetting" => 0
+        },
+        {
+          "choiceIdentifier" => "installer_choice_4", # TH-U for Gig Performer 1.4.25 Mac
+          "choiceAttribute" => "selected",
+          "attributeSetting" => 0
+        },
+      ]
 
   uninstall pkgutil: [
     "com.deskew.GPRelayer",
     "com.deskew.pkg.GP5",
-    "com.lostin70s.plugins",
-    "com.overloud.THUGigPerformer",
+  ]
+
+  zap trash: [
+    "~/Library/Application Support/GigPerformer",
+    "~/Library/Caches/com.deskew.gigperformer5",
+    "~/Library/Caches/GigPerformer5",
+    "~/Library/com.deskew.gigperformer5mac",
+    "~/Library/HTTPStorages/com.deskew.gigperformer5",
+    "~/Library/Preferences/com.deskew.gigperformer5.plist",
   ]
 end
