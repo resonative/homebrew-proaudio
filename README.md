@@ -1,4 +1,6 @@
-# Resonative Proaudio
+# Homebrew ProAudio
+
+Some formulae of pro audio software
 
 ## How do I install these formulae?
 
