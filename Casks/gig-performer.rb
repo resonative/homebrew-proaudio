@@ -19,13 +19,13 @@ cask "gig-performer" do
       choices: [
         {
           "choiceIdentifier" => "installer_choice_2", # LostIn70s
-          "choiceAttribute" => "selected",
-          "attributeSetting" => 0
+          "choiceAttribute"  => "selected",
+          "attributeSetting" => 0,
         },
         {
           "choiceIdentifier" => "installer_choice_4", # TH-U for Gig Performer 1.4.25 Mac
-          "choiceAttribute" => "selected",
-          "attributeSetting" => 0
+          "choiceAttribute"  => "selected",
+          "attributeSetting" => 0,
         },
       ]
 
