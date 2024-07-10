@@ -2,8 +2,15 @@
 
 Some cask formulae of pro audio software. This tap mainly streamline/assist setting up new system (vs maintaining legacy system.) Companies' dedicated installer/portal (NI, Izotope, etc) is preferred.
 
+As many audio software companies have gated downloads (after purchase), working on solution to
+* Support local http server url vs online (where local http server is setup/maintained by the user themselves, e.g. a NAS)
+
+As homebrew only support 3 versions of macos, need to work out a specific homebrew version for installation instruction.
+* Primary target is Mojave (legacy system) and Monterey (current for audio but about to be sunspported in 2024 by homebrew)
+
 > [!WARNING]
-> _Very_ alpha and intended for personal use only currently.
+> _Very_ alpha, everything is testing
+> This repo will get hard reset in near future to have a proper main/testing branch
 
 ## Formulae already in homebrew-core
 
