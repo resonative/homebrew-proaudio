@@ -9,7 +9,7 @@ As homebrew only support 3 versions of macos, need to work out a specific homebr
 * Primary target is Mojave (legacy system) and Monterey (current for audio but about to be sunspported in 2024 by homebrew)
 
 > [!WARNING]
-> _Very_ alpha, everything is testing
+> _Very_ alpha, everything is testing. Only tested on Monterey so far
 > This repo will get hard reset in near future to have a proper main/testing branch
 
 ## Formulae already in homebrew-core
@@ -36,6 +36,8 @@ tap "resonative/proaudio"
 brew "<formula>"
 ```
 
-## Documentation
+All formula under `prv` folder requires a HTTP/HTTPs server serving your own archived installers.
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Folder structure is `<your url>`/companyName/installer_name_as_downloaded
+
+## Documentation
