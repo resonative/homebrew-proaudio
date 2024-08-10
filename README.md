@@ -19,9 +19,6 @@ As many installers are downloadable only after purchase, `/Cask/Prv` formulae in
 
 
 ### Configuration:
-> [!CAUTION]
-> To be changed to instruction to use local DNS record instead (etc/host)
-
 After running brew tap `resonative/proaudio`, create the json file with wither either command below or manually:
 
 ```
