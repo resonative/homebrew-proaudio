@@ -1,4 +1,4 @@
-cask "rando" do
+cask "monkeyc-rando" do
   version "1.4.0"
   sha256 "1eb84a124ffdf9f521355a3f17dff79b213a227a5d847a3929a3135eff89e3ff"
 
@@ -9,7 +9,7 @@ cask "rando" do
   homepage "https://monkeyc.audio/pages/rando"
 
   livecheck do
-    cask "rando"
+    cask "monkeyc-rando"
   end
 
   auto_updates false
