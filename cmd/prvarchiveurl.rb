@@ -48,7 +48,6 @@ module Homebrew
         end
 
         # Add test in future (ping the server, retreive http code?)
-
       end
     end
   end
