@@ -8,11 +8,11 @@ cask "auracle-x" do
   homepage "https://www.iconnectivity.com/auracle-x-series"
 
   livecheck do
-    cask "auracle-x" # use spark, change to spark strategy in future
+    cask "auracle-x" # use spark strategy in future
   end
 
   auto_updates true
-  depends_on macos: :high_sierra
+  depends_on macos: ">= :high_sierra"
 
   app "Auracle X.app"
 
