@@ -29,10 +29,11 @@ cask "gig-performer" do
         },
       ]
 
-  uninstall pkgutil: [
-    "com.deskew.GPRelayer",
-    "com.deskew.pkg.GP5",
-  ]
+  uninstall quit:    "com.deskew.gigperformer5",
+            pkgutil: [
+              "com.deskew.GPRelayer",
+              "com.deskew.pkg.GP5",
+            ]
 
   zap trash: [
     "~/Library/Application Support/GigPerformer",
