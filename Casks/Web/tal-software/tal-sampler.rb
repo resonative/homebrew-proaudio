@@ -16,4 +16,6 @@ cask "tal-sampler" do
   pkg "TAL-Sampler-installer.pkg"
 
   uninstall pkgutil: "com.talsoftware.pkg.TAL-Sampler-*"
+
+  caveats "Download factory presets separately from https://tal-software.com/products/tal-sampler"
 end
