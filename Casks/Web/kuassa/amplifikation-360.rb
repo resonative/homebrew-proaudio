@@ -1,4 +1,4 @@
-cask "kuassa-amplifikation-360" do
+cask "amplifikation-360" do
   version "1.2.5"
   sha256 :no_check
 
