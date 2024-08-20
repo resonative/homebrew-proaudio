@@ -1,4 +1,4 @@
-# ProAudio Tap (third-party tap to be used with homebrew)
+# ProAudio Tap (third-party tap to be used with [homebrew](https://brew.sh)
 
 Some cask formulae of pro audio software.
 
@@ -19,7 +19,7 @@ As many installers are downloadable only after purchase, `/Cask/Prv` formulae in
 
 
 ### Configuration:
-After running brew tap `resonative/proaudio`, create the json file with wither either command below or manually:
+After running brew tap `resonative/proaudio`, create the json file with wither command below or manually:
 
 ```
 brew prvinstallerurl --url="http://my-downloaded-installers.lan"
@@ -32,11 +32,6 @@ This command will create json file under `#{HOMEBREW_PREFIX}/etc/resonative/home
   "server": "http://my-downloaded-installers.lan"
 }
 ```
-
-## To-Do
-
-* Better way of handling URL
-* More formulae
 
 
 ## How do I install these formulae?
