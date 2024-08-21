@@ -9,8 +9,10 @@ Some cask formulae of pro audio software.
 This tap supports both online (`/Cask/Web`) and private copies (`/Cask/Prv`).
 As many installers are downloadable only after purchase, `/Cask/Prv` formulae intend to support these install.
 
+See documentation here: [notion.so page](https://resonative.notion.site/homebrew-proaudio-Documentation-08dabd377f5e4f5d844b600fbf64ce0e?pvs=74)
 
-## /Cask/Prv
+
+## /Cask/Prv (TBD)
 
 ### Requirements
 * Your own HTTP server hosting your installer archive (e.g. Lighttpd with mod_dirlisting enabled)
