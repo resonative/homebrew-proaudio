@@ -19,8 +19,16 @@ cask "reapack" do
 
   artifact "reaper_reapack-#{arch}.dylib", target: "~/Library/Application Support/REAPER/UserPlugins/reaper_reapack-#{arch}.dylib"
 
+  postflight do
+    system_command "xattr",
+                   args: ["-d", "com.apple.quarantine", "#{staged_path}/reaper_reapack-#{arch}.dylib"]
+    puts "Extended attribute \e[31mcom.apple.quarantine\e[0m is removed from reaper_reapack-#{arch}.dylib\n" \
+         "\e[4mPlease ensure you trust this binary before running it with Reaper.\e[0m"
+  end
+
   uninstall quit:   "com.cockos.reaper",
             delete: "~/Library/Application Support/REAPER/UserPlugins/reaper_reapack-#{arch}.dylib"
 
-  caveats "You must clear the security dialog before Reapack is usable. See https://reaper.blog/2023/03/ventura-install/ for example"
+  caveats "Extended attribute \e[31mcom.apple.quarantine\e[0m is removed from reaper_reapack-#{arch}.dylib during installation.\n" \
+          "\e[4mPlease ensure you trust this binary before running it with Reaper.\e[0m"
 end
