@@ -1,6 +1,6 @@
 cask "airwindows-consolidated" do
-  version "2024-08-18-779270d"
-  sha256 "f6843591c74b554d50a8f6db0e3d6aae2e6dbb5a76415f79c6266cc4d6a1952b"
+  version "2024-08-24-fe053fb"
+  sha256 "c618c7126eac1328f7c9645ed3bcd60c33147beaff0827c2d82295b895e0f93b"
 
   url "https://github.com/baconpaul/airwin2rack/releases/download/DAWPlugin/airwindows-consolidated-macOS-#{version}.dmg",
       verified: "github.com/baconpaul/airwin2rack/"
