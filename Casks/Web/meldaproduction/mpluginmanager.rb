@@ -12,6 +12,20 @@ cask "mpluginmanager" do
 
   pkg "MPluginManager_#{version.dots_to_underscores}_setupmac.pkg"
 
+  postflight do
+    system_command "sleep",
+                   args: ["2"],
+                   sudo: false
+    system_command "pkill",
+                   args: ["-x", "MPluginManager.bin"],
+                   sudo: false
+  end
+  uninstall_postflight do
+    puts "\e[31;1m==>\e[0m \e[1mIf no MeldaProduction plugins are installed, remove below folders manually:\e[0m"
+    puts "\e[36m/Library/Application Support/MeldaProduction/\e[0m\n" \
+         "\e[36m~/Library/Application Support/MeldaProduction/\e[0m"
+  end
+
   uninstall quit:    "com.meldaproduction.MPluginManager",
             pkgutil: [
               "com.MeldaProduction.MPluginManager.pkg",
@@ -22,5 +36,5 @@ cask "mpluginmanager" do
               "~/Library/Saved Application State/com.meldaproduction.MPluginManager.savedState/",
             ]
 
-  caveats "brew uninstall cannot uninstall/delete everything installed by this app."
+  zap trash: "~/Library/Application Support/MeldaProduction/Downloader/"
 end
