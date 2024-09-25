@@ -1,4 +1,6 @@
 cask "eventide-h3000-factory-mk2" do
+  arch arm: "arm64", intel: "x86_64"
+
   version "1.0.4"
   sha256 "6a8eb2ae4b9ce6e72e74f80f9e5560da23fe43fb13d50a4e50fdd62a44886c17"
 
@@ -12,7 +14,7 @@ cask "eventide-h3000-factory-mk2" do
 
   # Different binary depend on arch
   installer script: {
-    executable: "H3000-Factory-Mk-II-1.0.4-osx-installer.app/Contents/MacOS/osx-x86_64",
+    executable: "H3000-Factory-Mk-II-#{version}-osx-installer.app/Contents/MacOS/osx-#{arch}",
     args:       ["--mode", "unattended"],
     sudo:       true,
   }
