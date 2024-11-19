@@ -1,8 +1,8 @@
 cask "vienna-assistant" do
-  version "1.1.433"
+  version "1.2.468"
   sha256 :no_check
 
-  url "https://www.vsl.co.at/service/vamac/",
+  url "https://api.vsl.co.at/data/download/va?os=mac",
       verified: "vsl.co.at/"
   name "Vienna Assistant"
   desc "VSL software and sample library manager"
