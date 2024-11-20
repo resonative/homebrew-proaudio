@@ -4,11 +4,12 @@ cask "auracle-x" do
 
   url "https://cdn.iconnectivity.com/software/AuracleX#{version}.dmg"
   name "iConnectivity Auracle X"
-  desc "Configurator for iConnectivity MIDI interfaces"
+  desc "Manager for iConnectivity MIDI interfaces"
   homepage "https://www.iconnectivity.com/auracle-x-series"
 
   livecheck do
-    cask "auracle-x" # use spark strategy in future
+    url "https://cdn.iconnectivity.com/maccast.xml"
+    strategy :sparkle, &:version
   end
 
   auto_updates true
@@ -16,12 +17,14 @@ cask "auracle-x" do
 
   app "Auracle X.app"
 
-  uninstall quit: "com.iconnectivity.auracle"
+  uninstall quit: "com.iconnectivity.auracle",
+            delete: [
+              "~/Library/Caches/com.iconnectivty.auracle",
+              "~/Library/HTTPStorages/com.iconnectivity.auracle",
+            ]
 
   zap trash: [
     "~/Library/Application Support/Auracle X",
-    "~/Library/Caches/com.iconnectivty.auracle",
-    "~/Library/HTTPStorages/com.iconnectivity.auracle",
     "~/Library/Logs/Auracle X_debug.log",
     "~/Library/Preferences/com.iconnectivity.auracle.plist",
   ]
