@@ -1,16 +1,12 @@
 cask "gig-performer" do
-  version "5.0.9"
-  sha256 "1cfff954d0bb20915229d1c138405ebe147965c9d2814aa63f123a78a6468b34"
+  version "5.0.20"
+  sha256 "599b1ad26796606624fe192d5eda254b6b19dc484ed2ce435066c6445ced4a6e"
 
-  url "https://gigperformer5.s3.us-east-2.amazonaws.com/GP#{version}/GigPerformer5-Universal-#{version}.dmg",
+  url "https://gigperformer5.s3.us-east-2.amazonaws.com/GP5.0.20/GigPerformer5-Universal-#{version}.dmg",
       verified: "gigperformer5.s3.us-east-2.amazonaws.com/"
   name "Gig Performer"
   desc "Live Performance Audio Plugin Host"
   homepage "https://gigperformer.com/"
-
-  livecheck do
-    cask "gig-performer"
-  end
 
   auto_updates true
   depends_on macos: ">= :mojave"
@@ -43,4 +39,6 @@ cask "gig-performer" do
     "~/Library/HTTPStorages/com.deskew.gigperformer5",
     "~/Library/Preferences/com.deskew.gigperformer5.plist",
   ]
+
+  caveats "This formula does not install LostIn70s VST and TH-U for Gig Performer."
 end
