@@ -1,6 +1,6 @@
 cask "oek-soothe2" do
-  version "1.3.1"
-  sha256 "ec400a6491523e7f782cd574f62918ce42c543c4c0c0da8248c202bc9be03c41"
+  version "1.3.2"
+  sha256 "6d00277b7f2f4bc1655aa807db9f16ae7d883fcc2e4826c1ecd131d65878143d"
 
   url "https://oeksound.ams3.cdn.digitaloceanspaces.com/soothe2_v#{version.no_dots}_Mac.pkg",
       verified: "oeksound.ams3.cdn.digitaloceanspaces.com/"

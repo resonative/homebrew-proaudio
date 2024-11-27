@@ -1,6 +1,6 @@
 cask "oek-spiff" do
-  version "1.4.1"
-  sha256 "7227f749e92f73f4e448b36f2223488db82691cd2451d775b27d1d446f2cfaed"
+  version "1.4.3"
+  sha256 "74ec47c68570e525d6d072cd89a2df803939e6128738673c92de7223f141cc20"
 
   url "https://oeksound.ams3.digitaloceanspaces.com/spiff_v#{version.no_dots}_Mac.pkg",
       verified: "oeksound.ams3.digitaloceanspaces.com/"
