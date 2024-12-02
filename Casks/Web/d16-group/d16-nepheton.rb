@@ -1,4 +1,4 @@
-cask "d16-nepheton2" do
+cask "d16-nepheton" do
   version "2.0.3"
   sha256 "7cf219dfa2dc20f3bbbfe48df7e400d1424487e5479fb186822efd97bc353f6d"
 

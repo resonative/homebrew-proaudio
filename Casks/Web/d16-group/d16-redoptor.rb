@@ -1,4 +1,4 @@
-cask "d16-redophor2" do
+cask "d16-redophor" do
   version "2.2.2"
   sha256 "be011f615fadb08f4f659964fcb488e5d1d8c39310a24eeebfb19a68a4d8b322"
 

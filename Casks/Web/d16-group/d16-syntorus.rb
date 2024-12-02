@@ -1,4 +1,4 @@
-cask "d16-syntorus2" do
+cask "d16-syntorus" do
   version "2.2.2"
   sha256 "0b6f1eaeac4df17f836f94a5b9ef0d9d0a68f0257984f785947f6678ae8b348e"
 

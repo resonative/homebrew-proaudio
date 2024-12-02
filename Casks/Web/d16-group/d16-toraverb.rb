@@ -1,4 +1,4 @@
-cask "d16-toraverb2" do
+cask "d16-toraverb" do
   version "2.2.2"
   sha256 "4775da738f1f35c97d3c5dbcede234ad44b143dae4ea88ebda7937adbfb00550"
 

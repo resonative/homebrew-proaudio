@@ -1,4 +1,4 @@
-cask "d16-nithonat2" do
+cask "d16-nithonat" do
   version "2.0.1"
   sha256 "9572fcea6fc029822bdc19d68185f751fa5c403f41d590bd7a3309b19ec19fe7"
 

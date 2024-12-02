@@ -1,4 +1,4 @@
-cask "d16-drumazon2" do
+cask "d16-drumazon" do
   version "2.0.6"
   sha256 "136df0c2203584c04b3da8f750f9b90e8676f0d88ccc03f06349bb0ed88aed55"
 

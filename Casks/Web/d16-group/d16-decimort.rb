@@ -1,4 +1,4 @@
-cask "d16-decimort2" do
+cask "d16-decimort" do
   version "2.3.2"
   sha256 "bdd8597a745e49a78bfe40f59c46d1ab5dd600b989b6215ee516de50a7942d58"
 

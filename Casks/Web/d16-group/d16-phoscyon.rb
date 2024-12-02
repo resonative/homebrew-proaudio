@@ -1,4 +1,4 @@
-cask "d16-phoscyon2" do
+cask "d16-phoscyon" do
   version "2.1.0"
   sha256 "6f69782a10e9d905d6b09fcfd108d72ccedf2f13c96db72870743086fa7c9e8d"
 

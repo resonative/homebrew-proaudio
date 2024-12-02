@@ -1,4 +1,4 @@
-cask "d16-lush2" do
+cask "d16-lush" do
   version "2.0.2"
   sha256 "9f85d388e74e3b1ab7dd39c3c393e65b954c5e0d49bc53b54cc881acd7d9ffdc"
 

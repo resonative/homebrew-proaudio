@@ -1,4 +1,4 @@
-cask "d16-sigmund2" do
+cask "d16-sigmund" do
   version "2.0.0"
   sha256 "4055021b7891805be5d7cab414cb110d8a9e5695124cc1210e68459b5cd855d6"
 

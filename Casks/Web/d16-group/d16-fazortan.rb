@@ -1,4 +1,4 @@
-cask "d16-fazortan2" do
+cask "d16-fazortan" do
   version "2.2.2"
   sha256 "dec800b2482f2f0f5fec988e81bb39e3cc56fbb2cfcd257b0f3ab117df18b9fc"
 
