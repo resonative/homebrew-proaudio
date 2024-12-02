@@ -1,4 +1,4 @@
-cask "apulsoft-aptrigga3" do
+cask "apulsoft-aptrigga" do
   version "3.7.2"
   sha256 "574aeeadab5d3ed0e44778b5e41584f2b941d57acb2d1b7e20b8c7d154360520"
 
