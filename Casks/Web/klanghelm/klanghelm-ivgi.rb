@@ -1,5 +1,5 @@
 cask "klanghelm-ivgi" do
-  version "2.5.0"
+  version :latest
   sha256 :no_check
 
   url "https://klanghelm.com/free/IVGI2dl.php?id=3"

@@ -1,5 +1,5 @@
 cask "klanghelm-dc1a" do
-  version "3.5.0"
+  version :latest
   sha256 :no_check
 
   url "https://klanghelm.com/free/DC1A3dl.php?id=3"

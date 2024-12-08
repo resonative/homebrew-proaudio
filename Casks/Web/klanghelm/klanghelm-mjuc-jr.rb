@@ -1,5 +1,5 @@
 cask "klanghelm-mjuc-jr" do
-  version "1.5.0"
+  version :latest
   sha256 :no_check
 
   url "https://klanghelm.com/free/MJUCjrdl.php?id=3"

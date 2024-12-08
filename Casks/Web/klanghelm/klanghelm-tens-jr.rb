@@ -1,5 +1,5 @@
 cask "klanghelm-tens-jr" do
-  version "1.0.7"
+  version :latest
   sha256 :no_check
 
   url "https://klanghelm.com/free/TENSjrdl.php?id=3"
