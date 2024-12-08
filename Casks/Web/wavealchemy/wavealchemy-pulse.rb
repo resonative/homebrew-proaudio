@@ -1,4 +1,4 @@
-cask "wave-alchemy-pulse" do
+cask "wavealchemy-pulse" do
   version "1.1.0"
   sha256 :no_check
 
