@@ -3,7 +3,7 @@ cask "zynaptiq-unmix-drums" do
   sha256 "2dda8a8cec9db591f1c5d7ec09574f8dd86a98290f57ef068813b0848f1ba9cd"
 
   url "https://downloads.zynaptiq.com/updates/Zynaptiq_UNMIX_DRUMS_#{version.no_dots}_Mac.zip"
-  name "Zyantpiq UNMIX DRUMS"
+  name "Zynaptiq UNMIX DRUMS"
   desc "Real-time drum separation from mix signal"
   homepage "https://www.zynaptiq.com/unmixdrums/"
 

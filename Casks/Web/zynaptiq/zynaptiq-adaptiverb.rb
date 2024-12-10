@@ -3,7 +3,7 @@ cask "zynaptiq-adaptiverb" do
   sha256 "aa25076c0b21a8b7735ad4922f5ca9958d1fd8add0b1ab6c44b438dad1d3f5b4"
 
   url "https://downloads.zynaptiq.com/updates/Zynaptiq_ADAPTIVERB_#{version.no_dots}_Mac.zip"
-  name "Zyantpiq ADAPTIVERB"
+  name "Zynaptiq ADAPTIVERB"
   desc "Reverb with sustain synthesis"
   homepage "https://www.zynaptiq.com/adaptiverb/"
 

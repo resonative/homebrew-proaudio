@@ -3,7 +3,7 @@ cask "zynaptiq-unveil" do
   sha256 "181847c76a61f38f5cf44e19b15cacb9c66f812c5186956beb218649a6899045"
 
   url "https://downloads.zynaptiq.com/updates/Zynaptiq_UNVEIL_#{version.no_dots}_Mac.zip"
-  name "Zyantpiq UNVEIL"
+  name "Zynaptiq UNVEIL"
   desc "Real-time reverb attenuation and boosting"
   homepage "https://www.zynaptiq.com/unveil/"
 

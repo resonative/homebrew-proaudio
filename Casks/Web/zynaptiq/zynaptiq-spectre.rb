@@ -48,7 +48,8 @@ cask "zynaptiq-spectre" do
     puts "Please remove the folder \e[0;34m/Applications/Zynaptiq SPECTRE/\e[0m manually."
   end
 
-  uninstall pkgutil: "com.zynaptiq.pkg.spectre1"
+  uninstall quit:    "com.zynaptiq.spectre1",
+            pkgutil: "com.zynaptiq.pkg.spectre1"
 
   zap trash: [
     "~/Library/Application Support/Zynaptiq SPECTRE 1/",

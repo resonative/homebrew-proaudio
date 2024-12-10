@@ -3,7 +3,7 @@ cask "zynaptiq-unchirp" do
   sha256 "bca81745142e4a1a2d083841f33ccf9d07d774b6b7d5ae5d3a59874b8df5adab"
 
   url "https://downloads.zynaptiq.com/updates/Zynaptiq_UNCHIRP_#{version.no_dots}_Mac.zip"
-  name "Zyantpiq UNCHIRP"
+  name "Zynaptiq UNCHIRP"
   desc "Lossy audio artifact and spectral artifact removal"
   homepage "https://www.zynaptiq.com/unchirp/"
 

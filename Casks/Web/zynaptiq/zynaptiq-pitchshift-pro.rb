@@ -3,7 +3,7 @@ cask "zynaptiq-pitchshift-pro" do
   sha256 "ed1984e6aff9537fdd352ffba6a50dbf00b59d51eb66a9b4b3e7b11d125f24fd"
 
   url "https://downloads.zynaptiq.com/updates/Zynaptiq_PITCHSHIFT_PRO_#{version.no_dots}_Mac.zip"
-  name "Zyantpiq PITCHSHIFT PRO"
+  name "Zynaptiq PITCHSHIFT PRO"
   desc "Pitch shift plug-in"
   homepage "https://www.zynaptiq.com/pitchshift/"
 

@@ -3,7 +3,7 @@ cask "zynaptiq-unfilter" do
   sha256 "2234a67be2be88d0b9a0f0df744151cbbc904a6906019ecd5701e503612a7aad"
 
   url "https://downloads.zynaptiq.com/updates/Zynaptiq_UNFILTER_#{version.no_dots}_Mac.zip"
-  name "Zyantpiq UNFILTER"
+  name "Zynaptiq UNFILTER"
   desc "Real-time frequency response correction"
   homepage "https://www.zynaptiq.com/unfilter/"
 

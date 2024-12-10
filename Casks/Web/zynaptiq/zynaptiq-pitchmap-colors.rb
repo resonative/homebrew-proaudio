@@ -3,7 +3,7 @@ cask "zynaptiq-pitchmap-colors" do
   sha256 "db89bdce346969f348623010b196b272b51d7066de44556f3cf2798033f649a1"
 
   url "https://downloads.zynaptiq.com/updates/Zynaptiq_PITCHMAP_COLORS_#{version.no_dots}_Mac.zip"
-  name "Zyantpiq PITCHMAP COLORS"
+  name "Zynaptiq PITCHMAP COLORS"
   desc "Polyphonic pitch shifter in mixed signal"
   homepage "https://www.zynaptiq.com/pitchmapcolors/"
 

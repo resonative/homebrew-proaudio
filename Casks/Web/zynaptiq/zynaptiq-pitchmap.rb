@@ -3,7 +3,7 @@ cask "zynaptiq-pitchmap" do
   sha256 "69d040797247a2a3e4db157a4e26d2e66c9f3cacc0d6ba9d87a49a2b610434ae"
 
   url "https://downloads.zynaptiq.com/updates/Zynaptiq_PITCHMAP_#{version.no_dots}_Mac.zip"
-  name "Zyantpiq PITCHMAP"
+  name "Zynaptiq PITCHMAP"
   desc "Real-time polyphonic pitch shifter for mixed signal"
   homepage "https://www.zynaptiq.com/pitchmap/"
 

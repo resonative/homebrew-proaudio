@@ -48,7 +48,8 @@ cask "zynaptiq-myriad" do
     puts "Please remove the folder \e[0;34m/Applications/Zynaptiq MYRIAD 4/\e[0m manually."
   end
 
-  uninstall pkgutil: "com.zynaptiq.pkg.myriad4"
+  uninstall quit:    "com.zynaptiq.myriad4",
+            pkgutil: "com.zynaptiq.pkg.myriad4"
 
   zap trash: [
     "~/Library/Application Scripts/com.zynaptiq.myriad4/",

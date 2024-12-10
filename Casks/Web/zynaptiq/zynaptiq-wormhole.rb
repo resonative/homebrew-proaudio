@@ -3,7 +3,7 @@ cask "zynaptiq-wormhole" do
   sha256 "1b5b7bd760069d15c53e63d08c2d9579c3b94dea4888909bd42dc617fcd29bc3"
 
   url "https://downloads.zynaptiq.com/updates/Zynaptiq_WORMHOLE_#{version.no_dots}_Mac.zip"
-  name "Zyantpiq WORMHOLE"
+  name "Zynaptiq WORMHOLE"
   desc "Multi-effect with frequency shifting and spectral warping"
   homepage "https://www.zynaptiq.com/wormhole/"
 

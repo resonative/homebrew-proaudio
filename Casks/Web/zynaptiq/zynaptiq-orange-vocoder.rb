@@ -3,7 +3,7 @@ cask "zynaptiq-orange-vocoder" do
   sha256 "27b1039e1c31b807d0c8f990e5bc25d59899b869e5fbe9eb4390be63a1636f2a"
 
   url "https://downloads.zynaptiq.com/updates/Zynaptiq_ORANGE_VOCODER_#{version.no_dots}_Mac.zip"
-  name "Zyantpiq ORANGE VOCODER"
+  name "Zynaptiq ORANGE VOCODER"
   desc "Vocoder with multiple models"
   homepage "https://www.zynaptiq.com/orangevocoder/"
 
