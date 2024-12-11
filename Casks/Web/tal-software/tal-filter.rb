@@ -1,4 +1,4 @@
-cask "tal-filter-2" do
+cask "tal-filter" do
   version :latest
   sha256 :no_check
 
