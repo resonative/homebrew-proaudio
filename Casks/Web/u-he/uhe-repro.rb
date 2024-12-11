@@ -1,6 +1,6 @@
 cask "uhe-repro" do
-  version "1.1.2_12092"
-  sha256 "fac4918807afb0ace57964d138ed532b8b7982fca055b67f53ef9a726a6c30e6"
+  version "1.1.3_16797"
+  sha256 "e47183dd78ae58edcf53aa6f3ae80c40bf95ff755b1e733dc9cb8a4ba1fe492d"
 
   url "https://dl.u-he.com/releases/Repro_#{version.no_dots}_Mac.zip"
   name "U-he Repro"
@@ -11,7 +11,7 @@ cask "uhe-repro" do
 
   pkg "Repro-1_#{version.split("_").second}_Mac/Repro-1 #{version.split("_").first} Installer.pkg"
 
-  uninstall pkgutil: "com.u-he.repro-1.*"
+  uninstall pkgutil: "com.u-he.Repro-1.*"
 
   zap trash: [
     "~/Library/Application Support/u-he/com.u-he.Repro-1.midiassign.txt",
