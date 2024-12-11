@@ -7,7 +7,7 @@ module Homebrew
   module Cmd
     class PrvarchiveurlCmd < AbstractCommand
       cmd_args do
-        usage_banner "`prvarchiveurl` --server 'http://some-url'"
+        usage_banner "`prvarchiveurl` --url 'http://some-url'"
         description  <<~EOS
           Use this to configure the HTTP/HTTPS server container your installer archive. The directory listing should mirror what is cask folder.\n
           Example: http://your-server.url/CompanyName/installer_name_v130.dmg
