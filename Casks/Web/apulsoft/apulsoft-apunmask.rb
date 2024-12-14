@@ -1,6 +1,6 @@
 cask "apulsoft-apunmask" do
-  version "1.0.4"
-  sha256 "20888fb00d6f0dbc0c70242bb0fbc0a0d2e280c60d69e6491be83dc7b29f71e4"
+  version "1.0.6"
+  sha256 "9b4fd1b2fcb7fe3ac1386e1c486e1cbc06c40cefb291be13504a51f1d66743a1"
 
   url "https://apulsoft.ch/apunmask/apunmask-mac-#{version.dots_to_hyphens}.pkg"
   name "apulSoft apUnmask"
