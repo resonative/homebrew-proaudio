@@ -15,7 +15,7 @@ cask "v-manager@prv" do
   version "1.4.7"
   sha256 :no_check
   
-  url "#{Utils.prv_archive_url}/v/v-avenger/v#{version}/V-Manager_mac.zip",
+  url "#{Utils.prv_archive_url}/v/v-manager/v#{version}/V-Manager_mac.zip",
       verified: "#{Utils.prv_archive_url}/"
   name "V-Manager"
   desc "Activation manager and expansion downloader for VPS Avenger"
