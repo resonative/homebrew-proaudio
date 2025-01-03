@@ -1,9 +1,9 @@
-cask "synchronarts-repitch" do
+cask "synchroarts-repitch" do
   version :latest
   sha256 :no_check
 
   url "https://app.synchroarts.com/downloads/RePitch/Standard/macOS/RePitch.pkg"
-  name "Synchron Arts RePitch Standard"
+  name "Synchro Arts RePitch Standard"
   desc "Pitch correction plugin"
   homepage "https://www.synchroarts.com/repitch"
 
