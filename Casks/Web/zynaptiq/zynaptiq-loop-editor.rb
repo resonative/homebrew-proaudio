@@ -48,7 +48,7 @@ cask "zynaptiq-loop-editor" do
     puts "Please remove the folder \e[0;34m/Applications/Zynaptiq LOOP EDITOR 2/\e[0m manually."
   end
 
-  uninstall quit:    "com.zynaptiq.loopeditor2"
+  uninstall quit:    "com.zynaptiq.loopeditor2",
             pkgutil: "com.zynaptiq.pkg.loopeditor2"
 
   zap trash: [
