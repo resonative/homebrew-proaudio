@@ -5,6 +5,7 @@ Some cask formulae of pro audio software.
 
 > [!CAUTION]
 > Formulae has mainly tested against Monterey (macos 12.7.4 and macos 12.7.5) only
+> Target to be moved to Sequoia 15.5 from Jun22
 
 This tap supports both online (`/Cask/Web`) and private copies (`/Cask/Prv`).
 As many installers are downloadable only after purchase, `/Cask/Prv` formulae intend to support these install.
