@@ -1,6 +1,6 @@
 cask "wavesfactory-equalizer" do
-  version "1.0.1"
-  sha256 "a09abe62f98a963a96aa6813038d739ef557344eeb8cf6d8998a305eac45c38d"
+  version "1.0.2"
+  sha256 "74a1ba06e338367b642012ab6b4fa0f310a7ac66f0159f4f32164c95d8748a86"
 
   url "https://equalizer-wavesfactory.s3.amazonaws.com/installers/Equalizer%20#{version}.pkg",
       verified: "equalizer-wavesfactory.s3.amazonaws.com/"
