@@ -1,9 +1,9 @@
-cask "voxengo-correlometer-au-aax" do
-  version "1.8"
+cask "voxengo-correlometer" do
+  version "1.9"
   sha256 :no_check
 
-  url "https://www.voxengo.com/files/VoxengoCorrelometer_#{version.no_dots}_Mac_AU_AAX_setup.dmg"
-  name "Voxengo Correlometer AU/AAX"
+  url "https://www.voxengo.com/files/VoxengoCorrelometer_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
+  name "Voxengo Correlometer"
   desc "Correlation meter"
   homepage "https://www.voxengo.com/product/correlometer/"
 
@@ -12,9 +12,13 @@ cask "voxengo-correlometer-au-aax" do
 
   artifact "Correlometer.component", target: "/Library/Audio/Plug-Ins/Components/Correlometer.component"
   artifact "ProTools AAX/Correlometer.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Correlometer.aaxplugin"
+  artifact "Correlometer.vst", target: "/Library/Audio/Plug-Ins/VST/Correlometer.vst"
+  artifact "Correlometer.vst3", target: "/Library/Audio/Plug-Ins/VST3/Correlometer.vst3"
 
   uninstall delete: [
     "/Library/Application Support/Avid/Audio/Plug-Ins/Correlometer.aaxplugin",
     "/Library/Audio/Plug-Ins/Components/Correlometer.component",
+    "/Library/Audio/Plug-Ins/VST/Correlometer.vst",
+    "/Library/Audio/Plug-Ins/VST3/Correlometer.vst3",
   ]
 end
