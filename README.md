@@ -25,7 +25,7 @@ See documentation here: [notion.so page](https://resonative.notion.site/homebrew
 After running brew tap `resonative/proaudio`, create the json file with wither command below or manually:
 
 ```
-brew prvinstallerurl --url="http://my-downloaded-installers.lan"
+brew prvarchiveurl --url="http://my-downloaded-installers.lan"
 ```
 
 This command will create json file under `#{HOMEBREW_PREFIX}/etc/resonative/homebrew-audio/prvinstallerhelper.json`
