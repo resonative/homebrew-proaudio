@@ -1,5 +1,5 @@
 cask "aquarius" do
-  version "2.6.050"
+  version "3.0.069"
   sha256 :no_check
 
   url "https://app.box.com/index.php?rm=box_download_shared_file&shared_name=ulbnd7iu184xiahx99ez2qrt5eipcw8d&file_id=f_247358825647",
@@ -16,7 +16,6 @@ cask "aquarius" do
           "choiceIdentifier" => "choice1",
           "choiceAttribute"  => "selected",
           "attributeSetting" => 1,
-
         },
       ]
 
