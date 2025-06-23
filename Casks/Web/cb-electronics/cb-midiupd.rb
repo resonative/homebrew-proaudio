@@ -4,7 +4,7 @@ cask "cb-midiupd" do
 
   url "https://www.dropbox.com/s/jnwoenxjyi6gsdc/xpatch4_pack.zip?dl=1",
       verified: "dropbox.com/"
-  name "CB Electronics XPatch 4.5"
+  name "CB Electronics Midiupd"
   desc "Control software for XPatch audio patchbay"
   homepage "https://www.cbelectronics.co.uk/downloads"
 

@@ -1,6 +1,6 @@
 cask "d16-drumazon" do
-  version "2.0.6"
-  sha256 "136df0c2203584c04b3da8f750f9b90e8676f0d88ccc03f06349bb0ed88aed55"
+  version "2.0.7"
+  sha256 "e096870b1931c2e0d395fa15d467cda7cfdb341099078717edb13fbf4ba4bb2c"
 
   url "https://d16group.s3.amazonaws.com/installers/Drumazon2/Drumazon2-#{version}.dmg",
       verified: "d16group.s3.amazonaws.com/"

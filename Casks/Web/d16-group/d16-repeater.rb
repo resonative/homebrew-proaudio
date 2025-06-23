@@ -1,6 +1,6 @@
 cask "d16-repeater" do
-  version "1.2.2"
-  sha256 "017d692e1f41c9166b83f6d86702a7f9507f692cfcf995c3fe73266b86aa36dc"
+  version "1.2.5"
+  sha256 "30dd325651339ce979fc19313661dd392542ddcbd36a7149b464a3b2ef3eaf29"
 
   url "https://d16group.s3.amazonaws.com/installers/Repeater/Repeater-#{version}.dmg",
       verified: "d16group.s3.amazonaws.com/"

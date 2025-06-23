@@ -1,6 +1,6 @@
 cask "apulsoft-apverb" do
-  version "1.2.2"
-  sha256 "84f3fe53b03d317b18eeda7b67936d7be18cc100985244ba297aebd93d7b29ac"
+  version "1.2.3"
+  sha256 "c061caa7e87a5f662e079af7e3706df3db8a1958bd08521fc8694f45ea326b00"
 
   url "https://apulsoft.ch/apverb/apverb-mac-#{version.dots_to_hyphens}.pkg"
   name "apulSoft apVerb"

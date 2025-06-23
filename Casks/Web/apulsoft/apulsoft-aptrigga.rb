@@ -1,6 +1,6 @@
 cask "apulsoft-aptrigga" do
-  version "3.7.2"
-  sha256 "574aeeadab5d3ed0e44778b5e41584f2b941d57acb2d1b7e20b8c7d154360520"
+  version "3.7.4"
+  sha256 "fa30746150a40e01850786934c814262cd3cbae9d04e7063e7043cab052042a2"
 
   url "https://apulsoft.ch/aptrigga3/aptrigga3-mac-#{version.dots_to_hyphens}.pkg"
   name "apulSoft apTrigga3"

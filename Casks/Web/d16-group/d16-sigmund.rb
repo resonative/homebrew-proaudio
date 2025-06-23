@@ -1,6 +1,6 @@
 cask "d16-sigmund" do
-  version "2.0.0"
-  sha256 "4055021b7891805be5d7cab414cb110d8a9e5695124cc1210e68459b5cd855d6"
+  version "2.0.1"
+  sha256 "f3a24398aea80374cae7d249d5a399e5797be590536a0899a5fee79428abd60a"
 
   url "https://d16group.s3.amazonaws.com/installers/Sigmund2/Sigmund2-#{version}.dmg",
       verified: "d16group.s3.amazonaws.com/"

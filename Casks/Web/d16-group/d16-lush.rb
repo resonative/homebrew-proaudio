@@ -1,6 +1,6 @@
 cask "d16-lush" do
-  version "2.1.0"
-  sha256 "9cc24324784603285ad11c3e6cee248741b1376b08d18203e8c6de694fb1ca65"
+  version "2.1.4"
+  sha256 "470e8dbc4fc3d8933f0965603c65269205475bec19e6a03dffa9846329205efd"
 
   url "https://d16group.s3.amazonaws.com/installers/Lush2/Lush2-#{version}.dmg",
       verified: "d16group.s3.amazonaws.com/"

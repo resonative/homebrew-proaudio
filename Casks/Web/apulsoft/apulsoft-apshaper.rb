@@ -1,6 +1,6 @@
 cask "apulsoft-apshaper" do
-  version "1.2.4"
-  sha256 "608d2acb12565a5483dd59735eeeaa7753e4e4af5e7103688917e1fcb526f5ad"
+  version "1.2.5"
+  sha256 "e756b68a7d7820308da16695d28a489ae5b7aff1779e373d60e0961b02a3fbe9"
 
   url "https://apulsoft.ch/apshaper/apshaper-mac-#{version.dots_to_hyphens}.pkg"
   name "apulSoft apShaper"

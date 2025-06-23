@@ -1,8 +1,8 @@
 cask "wing-edit" do
-  version "3.1"
-  sha256 "d5cd28c8c20432dedc6e56351c5e8bf3e6ad01bfb21a19fede2038749292f2a9"
+  version "3.2.1"
+  sha256 "5b35347069922978fabfc031c460b75b76e42162ed641374747c82a5ed1e42cb"
 
-  url "https://mediadl.musictribe.com/download/software/behringer/WING/EDIT/Wing-Edit_MAC_#{version}.zip",
+  url "https://cdn.mediavalet.com/aunsw/musictribe/Xtl-GLnnFkyCcDbxW8v-Dg/-9lyJOI140W7m8heLGDvbA/Original/Wing-Edit_MAC_#{version}.zip",
       verified: "mediadl.musictribe.com/"
   name "WING-Edit"
   desc "Behringer WING Console editor"
