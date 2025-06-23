@@ -1,5 +1,5 @@
 cask "gconmanager" do
-  version "13.0.3911"
+  version "15.0.4508"
   sha256  "94837f3a3ec915bd7cc29de4efa5911e2657bfeeb974d43831228b9bbfb84f99"
 
   url "https://wesaudio.com/uploads/WesAudio_MACx86x64_VST_AAX_v#{version}.dmg"

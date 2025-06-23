@@ -1,9 +1,9 @@
 cask "xln-online-installer" do
-  version :latest
+  version "4.4.0,9"
   sha256 :no_check
 
   # need function to rewrite this url redirect, by default it redirects to url with space and curl will return bad uri error
-  url "https://xlnaudio.s3.amazonaws.com/products/XLN%20Online%20Installer/4_0_6%20Release6/downloadables/XLN%20Online%20Installer.dmg",
+  url "https://xlnaudio.s3.amazonaws.com/products/XLN%20Online%20Installer/#{version.csv.first.dots_to_underscores}%20Release#{version.csv.second}/downloadables/XLN%20Online%20Installer.dmg",
       verified: "xlnaudio.s3.amazonaws.com/"
   name "XLN Online Installer"
   desc "XLN Audio plugins manager"
