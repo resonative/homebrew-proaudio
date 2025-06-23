@@ -1,6 +1,6 @@
 cask "liquidsonics-tai-chi" do
-  version "1.5.2"
-  sha256 "a0ac0fe45db2c898175b8991cc8bd6f41b55d86057fe1fea5ceb34d38f6ff586"
+  version "1.6.0"
+  sha256 "44a4ca5801523f11d7abded129cb5ddb8ae4c40812d8679505dd938ab0669651"
 
   url "https://us-east-1.linodeobjects.com/reverbfoundry/downloads/tai_chi/mac/Tai_Chi-v#{version}-macOS.pkg"
   name "LiquidSonics Tai Chi"

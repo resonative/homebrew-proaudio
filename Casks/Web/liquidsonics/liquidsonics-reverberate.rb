@@ -1,6 +1,6 @@
 cask "liquidsonics-reverberate" do
-  version "3.4.2"
-  sha256 "1aca6b3c19bf463a5264158d816fe2c0b53881b19adcee880c48e0fc7005f746"
+  version "3.4.3"
+  sha256 "94f6cc28683bb5d531f0e2484e0424c47f0e9d43f8bed11b5eeba20110613b48"
 
   url "https://us-east-1.linodeobjects.com/liquidsonics/software/reverberate-3/mac/Reverberate-v#{version}-macOS.pkg"
   name "LiquidSonics Reverberate"

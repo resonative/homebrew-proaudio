@@ -1,9 +1,8 @@
 cask "mpluginmanager" do
-  version "01.09"
-  sha256 "75323e228d6fb6bfdd90dbe125fb0c8c4474877d71f6d4aa9fe97dae7cc20814"
+  version "02.05"
+  sha256 "7a571c9074c89345602fb3476f0fb96dd00f8e6ccc6169f21259f3a03d5079e0"
   
-  url "https://www.meldaproduction.com/downloads/down?name=MPluginManager_#{version.dots_to_underscores}_setupmac.zip&platform=mac&version=#{version}&mirror=bunnycdn&url=https%3A%2F%2Fmeldaproduction.b-cdn.net%2Fdownload%2FMPluginManager_#{version.dots_to_underscores}_setupmac.zip&checksum=fe51dadebcbede964a856f7310ff64582cdea027"
-
+  url "https://meldaproduction.b-cdn.net/download/mpluginmanager/MPluginManager_#{version.dots_to_underscores}_setupmac.zip"
   name "MeldaProduction MPluginManager V17"
   desc "Plugin manager for Melda Production products"
   homepage "https://www.meldaproduction.com/downloads"

@@ -1,6 +1,6 @@
 cask "liquidsonics-illusion" do
-  version "1.4.1"
-  sha256 "37452391e773093de05a05940b61311b58bb0c0e47872294a172a3d5a5f0b540"
+  version "1.4.4"
+  sha256 "8c37700e4a522f4545377eedadcbb16db6964f5b4b87280d6c1fa07e39f18258"
 
   url "https://us-east-1.linodeobjects.com/liquidsonics/software/illusion/mac/Illusion-v#{version}-macOS.pkg"
   name "LiquidSonics Illusion"

@@ -1,6 +1,6 @@
 cask "liquidsonics-hd-cart" do
-  version "1.3.3"
-  sha256 "5734bd8fa9e8a7277b97516598c62550f107e494eeac80ee2bff97c62374abdf"
+  version "1.3.6"
+  sha256 "99fc3daf9afd7382afb8b62780b90d29117aa98ddc6906203542b7b55399ddc3"
 
   url "https://us-east-1.linodeobjects.com/reverbfoundry/downloads/hd_cart/mac/HD_Cart-v#{version}-macOS.pkg"
   name "LiquidSonics HD Cart"

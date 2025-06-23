@@ -1,6 +1,6 @@
 cask "liquidsonics-seventh-heaven-professional" do
-  version "1.5.2"
-  sha256 "6e8e7b7e329e31f3f08f538690e587026f349b4db27e7e52012356a6e85f5370"
+  version "1.5.4"
+  sha256 "81a16c01dabb3fdce7ea764ba44cfa96af883facd01ffe063e5426c53ab94cf3"
 
   url "https://us-east-1.linodeobjects.com/liquidsonics/software/seventh-heaven-professional/mac/v#{version}/Seventh_Heaven_Professional-Complete_v#{version}-macOS.pkg"
   name "LiquidSonics Seventh Heaven Professional"

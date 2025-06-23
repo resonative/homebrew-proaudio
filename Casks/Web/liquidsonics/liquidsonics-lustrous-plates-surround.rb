@@ -1,6 +1,6 @@
 cask "liquidsonics-lustrous-plates-surround" do
-  version "1.3.1"
-  sha256 "550a38b9dde6a0f8ff48e0cd46f24ed096fd560b385d9accb80d790283d54c55"
+  version "1.3.3"
+  sha256 "b5ac4c083a50dfeceae583ae5fab1e677d57222ea6cbffb3fc1e9e39d298e863"
 
   url "https://us-east-1.linodeobjects.com/liquidsonics/software/lustrous-plates/mac/Lustrous_Plates_Surround-v#{version}-macOS.pkg"
   name "LiquidSonics Cinematic Rooms Lustrous Plates Surround Edition"
