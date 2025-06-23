@@ -1,7 +1,7 @@
 cask "slate-digital-connect" do
-  version "1.22.2"
-  sha256 arm:   "753d6339039d6a42b173ea30cf859e9e97737adea1ac1694f136edf64e7a8fff",
-         intel: "720cdcafa0c140308fb328983127428c0e9e301f613edbc4d104bd3f2c49525e"
+  version "1.30.0"
+  sha256 arm:   "be589f47c3bddaf83e0c6ec906095ea85f695bbf310e662c40b916a15dd55a7b",
+         intel: "dac1ce0d6851d9e1e8381f4ccad2adb1debfee92c1724d82eac5c65a5b8bb001"
 
   on_arm do
     url "https://cdn1.slatedigital.com/sd-connect-releases/latest/Slate%20Digital%20Connect-#{version}-arm64.dmg"

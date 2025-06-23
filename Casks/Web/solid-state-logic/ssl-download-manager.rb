@@ -1,9 +1,8 @@
 cask "ssl-download-manager" do
-  version "1.3.7"
-  sha256 "b1c90cb9e373492101729d14953615e43a983ac7bafc031ae4bae17b06737e4a"
+  version "1.4.8"
+  sha256 "eba5297c3ba4c982cc7c29bb0355e15c346a0d61e8c51bd41ad0c6c79fa87930"
 
-  url "https://s3.eu-west-1.amazonaws.com/eu1.download.solidstatelogic.com/Download%20Manager/SSL_Download_Manager-#{version}-universal%5B1%5D.dmg",
-      verified: "amazonaws.com/"
+  url "https://eu1.download.solidstatelogic.com/Download%20Manager/SSL%20Download%20Manager-#{version}-universal.dmg"
   name "SSL Download Manager"
   desc "SSL, Harrison plugins and SSL 360 install manager"
   homepage "https://solidstatelogic.com/ssl-download-manager"
