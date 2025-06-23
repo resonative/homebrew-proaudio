@@ -1,6 +1,6 @@
 cask "pulsar-mu" do
-  version "1.5.5"
-  sha256 "0c4bee00dc98420fb079c70a51c8f63da080013ebca59cdfa5e12b7ef23ac490"
+  version "1.6.6"
+  sha256 "cb9b5f59311e3032d64f405a5cafb27c1f894983ed17168540ab9dc894ef4d74"
 
   url "https://pulsaraudio.s3.us-east-2.amazonaws.com/Mu/PulsarMu-#{version}.dmg",
       verified: "pulsaraudio.s3.us-east-2.amazonaws.com/"

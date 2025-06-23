@@ -1,6 +1,6 @@
 cask "pulsar-echorec" do
-  version "1.6.5"
-  sha256 "7817656ced487b0dbd16904ef18d2803457ddb90198871493894dcbea6e925e0"
+  version "1.7.6"
+  sha256 "4868d322036a4fab50db26a5bb18a9cee57f387298f90025e094d7ea9ee1c5ca"
 
   url "https://pulsaraudio.s3.us-east-2.amazonaws.com/Echorec/PulsarEchorec-#{version}.dmg",
       verified: "pulsaraudio.s3.us-east-2.amazonaws.com/"

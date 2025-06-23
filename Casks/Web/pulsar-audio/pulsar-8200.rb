@@ -1,6 +1,6 @@
 cask "pulsar-8200" do
-  version "1.1.5"
-  sha256 "39d1b712f8d09fcf3e3cc0dab193dbba56bd815c2167e44a8bfa31c31f8283af"
+  version "1.2.6"
+  sha256 "fc68f2544da4e94db3b3d54c1c5763d8cc6003b919134ad07db6a8681924ddc3"
 
   url "https://pulsaraudio.s3.us-east-2.amazonaws.com/8200/Pulsar8200-#{version}.dmg",
       verified: "pulsaraudio.s3.us-east-2.amazonaws.com/"

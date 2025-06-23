@@ -1,6 +1,6 @@
 cask "pulsar-1178" do
-  version "1.5.0"
-  sha256 "5d39562deced0012a3dfe7116d5a7cc02fcdc6f980e1b2bf04fe1a48b978bfd2"
+  version "1.5.6"
+  sha256 "b5c2b322c863f142bb86e5c64ba8d907359f20cc744b015c9029556d1e3ce62f"
 
   url "https://pulsaraudio.s3.us-east-2.amazonaws.com/1178/Pulsar1178-#{version}.dmg",
       verified: "pulsaraudio.s3.us-east-2.amazonaws.com/"

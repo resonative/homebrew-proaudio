@@ -1,6 +1,6 @@
 cask "pulsar-massive" do
-  version "1.3.5"
-  sha256 "4fae03490dc253bcf32285a70e6b815c12f70bfcde33f757d3071560fd941594"
+  version "1.4.6"
+  sha256 "214fe514c7c14a04c423faf07da8d0718692af26e9b4b8b938ca1b10da50f3b5"
 
   url "https://pulsaraudio.s3.us-east-2.amazonaws.com/Massive/PulsarMassive-#{version}.dmg",
       verified: "pulsaraudio.s3.us-east-2.amazonaws.com/"
