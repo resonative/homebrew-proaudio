@@ -1,28 +1,34 @@
 cask "monkeyc-rando" do
-  version "1.5.0"
-  sha256 "65a0cd0415c59e0f4f42856fb135a187cb04125d5b0b9ada56fcb02dd3c5f95e"
+  version :latest
+  sha256 :no_check
 
-  url "https://monkeyc.s3.eu-central-1.amazonaws.com/Rando+#{version}.zip",
-      verified: "monkeyc.s3.eu-central-1.amazonaws.com/"
+  url "https://monkeyc.link/rando",
+      verified: "monkeyc.link"
   name "MonkeyC Rando"
   desc "Randomizing sampler"
   homepage "https://monkeyc.audio/pages/rando"
 
   auto_updates false
   depends_on macos: ">= :catalina"
-  container nested: "Rando Mac #{version} f4b6f5f.dmg"
+  container nested: "Rando 2 MacOS.dmg"
 
-  pkg "Rando Mac #{version} f4b6f5f.pkg"
+  pkg "Rando 2 MacOS.pkg"
 
-  uninstall quit:    "com.monkeycaudio.rando",
-            pkgutil: "com.monkeycaudio.rando.*"
+  uninstall quit:    "com.monkeycaudio.rando2",
+            pkgutil: "com.monkeycaudio.rando2.*",
+            delete:  [
+              "~/Library/Caches/com.monkeycaudio.rando2/",
+              "~/Library/Caches/Rando 2/",
+              "~/Library/HTTPStorages/com.monkeycaudio.rando2/",
+              "~/Library/HTTPStorages/com.monkeycaudio.rando2.binarycookies",
+              "~/Library/Preferences/com.monkeycaudio.rando2.plist",
+              "~/Library/WebKit/com.monkeycaudio.rando2/",
+            ]
 
   zap trash: [
-    "~/Library/Caches/com.monkeycaudio.rando/",
-    "~/Library/Caches/Rando/",
-    "~/Library/HTTPStorages/com.monkeycaudio.rando/",
-    "~/Library/HTTPStorages/com.monkeycaudio.rando.binarycookies",
-    "~/Library/Preferences/com.monkeycaudio.rando.plist",
-    "~/Library/WebKit/com.monkeycaudio.rando",
+    "~/Library/Application Support/Monkey C. Audio/Rando 2/database.db",
+    "~/Library/Application Support/Monkey C. Audio/Rando 2/Packs/Audiotent.com Sampler/",
+    "~/Library/Application Support/Monkey C. Audio/Rando 2/Rando 2.settings",
+    "~/Library/Application Support/Monkey C. Audio/Rando 2/Settings.xml",
   ]
 end
