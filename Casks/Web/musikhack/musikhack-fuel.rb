@@ -1,6 +1,6 @@
 cask "musikhack-fuel" do
-  version "1.0.0"
-  sha256 "f4c7fc2a48a06721b352d1302bef48f2edffe5d1ffe86c1b6318313863305292"
+  version "1.0.11"
+  sha256 "4f9a0decfaa29ebe59f9c09a932ecb548df6fa36cb2464a53d1baf26ce198f5d"
 
   url "https://downloads.musikhack.com/FUEL/FUEL_MAC_#{version}.dmg"
   name "Musik Hack FUEL"
