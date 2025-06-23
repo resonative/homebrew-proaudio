@@ -1,9 +1,9 @@
-cask "zynaptiq-intensity" do
-  version "1.4.0"
-  sha256 "c035d03aae6dfd02552eb9e3ea699f4ccf5f8e917fb878e8b0feb95e65d76103"
+cask "zynaptiq-intensity@1" do
+  version "1.4.1"
+  sha256 "f5e52931d7683bc9775d44a716ad93639a08e645a33c755155fec22c39fe8a4f"
 
   url "https://downloads.zynaptiq.com/updates/Zynaptiq_INTENSITY_#{version.no_dots}_Mac.zip"
-  name "Zynaptiq INTENSITY"
+  name "Zynaptiq INTENSITY v1"
   desc "Loudness enhancer"
   homepage "https://www.zynaptiq.com/intensity/"
 
