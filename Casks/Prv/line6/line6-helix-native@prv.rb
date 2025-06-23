@@ -5,10 +5,10 @@ cask "line6-helix-native@prv" do
     data["server"] ||= "http://not_configured.lan"
   end
 
-  version "3.80"
-  sha256 "13a6a0ac5ad6c9740d3568d6c790d6a589a984eec9e37ef143c00c32c91d1c25"
+  version "3.82"
+  sha256 "e13cce0bb202a1105217911e65f652e3e958a37c1b9585010247fa8091eea6bd"
 
-  url "#{prv_archive_url}/l/line6-helix-native/v#{version}/HelixNative#{version}.dmg",
+  url "#{prv_archive_url}/l/line6-helix-native/v#{version}/HelixNative #{version}.dmg",
       verified: prv_archive_url.to_s
   name "Line6 Helix Native"
   desc "Guitar amp and fx emulation"
