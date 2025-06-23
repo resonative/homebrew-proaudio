@@ -1,8 +1,8 @@
 cask "efektor-whammo" do
-  version "1.0.4"
+  version "1.1.0"
   sha256 :no_check
 
-  url "https://www.kuassa.com/?dl_id=964"
+  url "https://www.kuassa.com/?dl_id=1019"
   name "Kuassa Efektor Whammo"
   desc "Pitch Shifting/Bending FX"
   homepage "https://www.kuassa.com/products/efektor-whammo-pitch-shifter/"

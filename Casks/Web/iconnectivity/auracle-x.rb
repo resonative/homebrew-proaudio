@@ -1,8 +1,11 @@
 cask "auracle-x" do
-  version "2.2.0"
-  sha256 "59da20f711b7f240d6e82ce487bee80222f97e310302f7bf5209e409ac742f57"
+  arch arm: "arm64", intel: "x86_64"
 
-  url "https://cdn.iconnectivity.com/software/AuracleX#{version}.dmg"
+  version "2.3.2"
+  sha256 arm:   "ee414e653c5868fee66f77e4469f5b194e8f3592ad3c762060556bfb762dc856",
+         intel: "50fcb6aa9f24790186170b16ddc0336db6d2e4dbb835171c93422208d57a760f"
+
+  url "https://cdn.iconnectivity.com/software/AuracleX#{version}-#{arch}.dmg"
   name "iConnectivity Auracle X"
   desc "Manager for iConnectivity MIDI interfaces"
   homepage "https://www.iconnectivity.com/auracle-x-series"
@@ -17,7 +20,7 @@ cask "auracle-x" do
 
   app "Auracle X.app"
 
-  uninstall quit: "com.iconnectivity.auracle",
+  uninstall quit:   "com.iconnectivity.auracle",
             delete: [
               "~/Library/Caches/com.iconnectivty.auracle",
               "~/Library/HTTPStorages/com.iconnectivity.auracle",
