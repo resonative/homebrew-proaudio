@@ -4,4 +4,5 @@
 bottle_output.txt
 linkage_output.txt
 skipped_or_failed_formulae-monterey.txt
-homebrew-proaudio.sublime-*
+*.sublime-project
+*.sublime-workspace
