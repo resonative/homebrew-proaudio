@@ -1,6 +1,6 @@
 cask "uhe-presswerk" do
-  version "1.1.5_12092"
-  sha256 "61dfcc2e377fcaab4b912c6257034842ca59eead04acf088651cf78c2ed595d0"
+  version "1.1.6_16960"
+  sha256 "4bb0beff3bd00c7255b87ac11ffef163f9de99d9405bf6fd422fbd7d07c31056"
 
   url "https://uhe-dl.b-cdn.net/releases/Presswerk_#{version.no_dots}_Mac.zip"
   name "U-he Presswerk"
