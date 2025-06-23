@@ -1,9 +1,9 @@
-cask "voxengo-warmifier-au-aax" do
-  version "2.8"
+cask "voxengo-warmifier" do
+  version "2.9"
   sha256 :no_check
 
-  url "https://www.voxengo.com/files/VoxengoWarmifier_#{version.no_dots}_Mac_AU_AAX_setup.dmg"
-  name "Voxengo Warmifier AU/AAX"
+  url "https://www.voxengo.com/files/VoxengoWarmifier_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
+  name "Voxengo Warmifier"
   desc "Subtle tube saturation"
   homepage "https://www.voxengo.com/product/warmifier/"
 
@@ -12,9 +12,13 @@ cask "voxengo-warmifier-au-aax" do
 
   artifact "Warmifier.component", target: "/Library/Audio/Plug-Ins/Components/Warmifier.component"
   artifact "ProTools AAX/Warmifier.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Warmifier.aaxplugin"
+  artifact "Warmifier.vst", target: "/Library/Audio/Plug-Ins/VST/Warmifier.vst"
+  artifact "Warmifier.vst3", target: "/Library/Audio/Plug-Ins/VST3/Warmifier.vst3"
 
   uninstall delete: [
     "/Library/Application Support/Avid/Audio/Plug-Ins/Warmifier.aaxplugin",
     "/Library/Audio/Plug-Ins/Components/Warmifier.component",
+    "/Library/Audio/Plug-Ins/VST/Warmifier.vst",
+    "/Library/Audio/Plug-Ins/VST3/Warmifier.vst3",
   ]
 end
