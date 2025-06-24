@@ -1,6 +1,6 @@
 cask "auto-tune-central" do
-  version "1.5.1"
-  sha256 "b085426eee16e389e1f809ceabeb66500b97281c92a0f6c553ef596ca2445bda"
+  version "1.7.1"
+  sha256 "c0fa86ee8a8cfb13188d9ea868c41cd943a20c4d61fb7966e0e62a63e7c64dae"
 
   url "https://antares.sfo2.cdn.digitaloceanspaces.com/auto-tune-central/auto-update/mac/Auto_Tune_Central_#{version}_universal.dmg",
       verified: "antares.sfo2.cdn.digitaloceanspaces.com/"
