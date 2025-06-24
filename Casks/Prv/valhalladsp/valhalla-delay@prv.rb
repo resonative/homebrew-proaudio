@@ -10,7 +10,7 @@ cask "valhalla-delay@prv" do
   version "3.0.5"
   sha256 "cbf31b056b6bc57c7979488cdb1325507ac37796a06d507bf89d621414ea7451"
 
-  url "#{Utils.prv_archive_url}/v/valhalla-delay/v#{version}/ValhallaDelayOSX_#{version.dots_to_underscores}v14.dmg",
+  url "#{Utils.prv_archive_url}/v/valhalla-delay/v#{version}/ValhallaDelayOSX_#{version.dots_to_underscores}.dmg",
       verified: "#{Utils.prv_archive_url}/"
   name "ValhallaDSP Valhalla Delay"
   desc "Multi-mode delay"
