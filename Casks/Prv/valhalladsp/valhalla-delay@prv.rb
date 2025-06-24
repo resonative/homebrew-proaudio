@@ -7,8 +7,8 @@ cask "valhalla-delay@prv" do
     end
   end
 
-  version "3.0.0"
-  sha256 "1356a1c9b1ad324783df632b23fe0a6f54acfc56af3bc3467b03f709935a871c"
+  version "3.0.5"
+  sha256 "cbf31b056b6bc57c7979488cdb1325507ac37796a06d507bf89d621414ea7451"
 
   url "#{Utils.prv_archive_url}/v/valhalla-delay/v#{version}/ValhallaDelayOSX_#{version.dots_to_underscores}v14.dmg",
       verified: "#{Utils.prv_archive_url}/"
