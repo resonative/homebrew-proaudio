@@ -1,16 +1,15 @@
 cask "wavealchemy-triaz@prv" do
-  module Utils
-    def self.prv_archive_url
-      # json_path = "#{ENV['HOMEBREW_PREFIX']}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
-      # data = JSON.parse(File.read(json_path))
-      # data['server'] ||= "http://not_configured.lan"
-    end
+  def self.prv_archive_url
+    json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
+    data = JSON.parse(File.read(json_path))
+    data["server"] ||= "http://not_configured.lan"
   end
 
-  version "1.1.1"
-  sha256 "42dc08afed1ee3a038cde385cf051f66a23a925a5788755dee0ba6813acdc5a7"
+  version "1.1.2"
+  sha256 "a8e6b76d170ef7e260cc0aa7d02f55690f5c6b61c0cac3766b03b72efd881b73"
 
-  url "#{Utils.prv_archive_url}/w/wavealchemy-triaz/v#{version}/Triaz_macOS.zip"
+  url "#{prv_archive_url}/w/wavealchemy-triaz/v#{version}/Triaz_macOS.zip",
+      verified: prv_archive_url.to_s
   name "Wave Alchemy Triaz"
   desc "Drum Machine instrument"
   homepage "https://www.wavealchemy.co.uk/product/triaz/"
