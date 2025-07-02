@@ -1,22 +1,15 @@
 cask "bc-axiom@prv" do
-  module Utils
-    def self.prv_archive_url(argument = nil)
-      json_path = "#{ENV.fetch('HOMEBREW_PREFIX')}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
-      
-      data = JSON.parse(File.read(json_path))
-      data["server"] ||= "http://not_configured.lan"
-
-      return data["server"].sub(%r{\Ahttps?://}, "") if argument == "verified"
-
-      data["server"]
-    end
+  def self.prv_archive_url
+    json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
+    data = JSON.parse(File.read(json_path))
+    data["server"] ||= "http://not_configured.lan"
   end
 
   version "2.1"
   sha256 "0eeac5c07d237e437a9753027c251b1f4c0e70a2ab1af61f934641666cd18fd9"
 
-  url "#{Utils.prv_archive_url}/b/bc-axiom/v#{version}/BlueCatAxiom.dmg",
-      verified: "#{Utils.prv_archive_url}/"
+  url "#{prv_archive_url}/b/bc-axiom/v#{version}/BlueCatAxiom.dmg",
+      verified: prv_archive_url.to_s
   name "Blue Cat Axiom"
   desc "Guitar amp modeling and plugin host"
   homepage "https://www.bluecataudio.com/Products/Product_Axiom/"

@@ -1,22 +1,15 @@
 cask "bc-patchwork@prv" do
-  module Utils
-    def self.prv_archive_url(argument = nil)
-      json_path = "#{ENV.fetch('HOMEBREW_PREFIX')}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
-      
-      data = JSON.parse(File.read(json_path))
-      data["server"] ||= "http://not_configured.lan"
-
-      return data["server"].sub(%r{\Ahttps?://}, "") if argument == "verified"
-
-      data["server"]
-    end
+  def self.prv_archive_url
+    json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
+    data = JSON.parse(File.read(json_path))
+    data["server"] ||= "http://not_configured.lan"
   end
 
-  version "2.7"
-  sha256 "eb762c43fe42e96d73f67345ab5969e93ca5a85dde8638960e0b27f32725d0e1"
+  version "2.72"
+  sha256 "f902617fde781fbd765519087f10bf6a0544a12ce636d48503aa0dcbdcb03cb9"
 
-  url "#{Utils.prv_archive_url}/b/bc-patchwork/v#{version}/BlueCatPatchWork.dmg",
-      verified: "#{Utils.prv_archive_url}/"
+  url "#{prv_archive_url}/b/bc-patchwork/v#{version}/BlueCatPatchWork.dmg",
+      verified: prv_archive_url.to_s
   name "Blue Cat PatchWork"
   desc "Plugin host"
   homepage "https://www.bluecataudio.com/Products/Product_PatchWork/"

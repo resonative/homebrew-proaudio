@@ -1,22 +1,15 @@
 cask "bc-mb-7-mixer@prv" do
-  module Utils
-    def self.prv_archive_url(argument = nil)
-      json_path = "#{ENV.fetch('HOMEBREW_PREFIX')}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
-      
-      data = JSON.parse(File.read(json_path))
-      data["server"] ||= "http://not_configured.lan"
-
-      return data["server"].sub(%r{\Ahttps?://}, "") if argument == "verified"
-
-      data["server"]
-    end
+  def self.prv_archive_url
+    json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
+    data = JSON.parse(File.read(json_path))
+    data["server"] ||= "http://not_configured.lan"
   end
 
   version "3.6"
   sha256 "9ba1ccf4160e4447881829a8a0dd3ed9e9fba005512fac605dd46cef182b24ff"
 
-  url "#{Utils.prv_archive_url}/b/bc-mb-7-mixer/v#{version}/BlueCatMB7Mixer.dmg",
-      verified: "#{Utils.prv_archive_url}/"
+  url "#{prv_archive_url}/b/bc-mb-7-mixer/v#{version}/BlueCatMB7Mixer.dmg",
+      verified: prv_archive_url.to_s
   name "Blue Cat MB-7 Mixer"
   desc "Mult-band plugin host"
   homepage "https://www.bluecataudio.com/Products/Product_MB7Mixer/"

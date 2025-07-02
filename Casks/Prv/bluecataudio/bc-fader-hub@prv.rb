@@ -1,22 +1,15 @@
 cask "bc-fader-hub@prv" do
-  module Utils
-    def self.prv_archive_url(argument = nil)
-      json_path = "#{ENV.fetch('HOMEBREW_PREFIX')}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
-      
-      data = JSON.parse(File.read(json_path))
-      data["server"] ||= "http://not_configured.lan"
-
-      return data["server"].sub(%r{\Ahttps?://}, "") if argument == "verified"
-
-      data["server"]
-    end
+  def self.prv_archive_url
+    json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
+    data = JSON.parse(File.read(json_path))
+    data["server"] ||= "http://not_configured.lan"
   end
 
-  version "1.1"
-  sha256 "93f2448fe64659299589ff1442c90cd2d8c8cbeffed9f2f2ffc17f088da1cb42"
+  version "1.2"
+  sha256 "8268ae3e1bf4084726cac21e5013b27c1a5f92472e8087d15eda905572e5a78f"
 
-  url "#{Utils.prv_archive_url}/b/bc-fader-hub/v#{version}/BlueCatFaderHub.dmg",
-      verified: "#{Utils.prv_archive_url}/"
+  url "#{prv_archive_url}/b/bc-fader-hub/v#{version}/BlueCatFaderHub.dmg",
+      verified: prv_archive_url.to_s
   name "Blue Cat Fader Hub"
   desc "Network audio mixing and streaming"
   homepage "https://www.bluecataudio.com/Products/Product_FaderHub/"

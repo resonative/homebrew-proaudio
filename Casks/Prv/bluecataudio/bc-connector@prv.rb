@@ -1,22 +1,15 @@
 cask "bc-connector@prv" do
-  module Utils
-    def self.prv_archive_url(argument = nil)
-      json_path = "#{ENV.fetch('HOMEBREW_PREFIX')}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
-      
-      data = JSON.parse(File.read(json_path))
-      data["server"] ||= "http://not_configured.lan"
-
-      return data["server"].sub(%r{\Ahttps?://}, "") if argument == "verified"
-
-      data["server"]
-    end
+  def self.prv_archive_url
+    json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
+    data = JSON.parse(File.read(json_path))
+    data["server"] ||= "http://not_configured.lan"
   end
 
-  version "1.31"
-  sha256 "648ea1ede279ee5ccb2afdfbdc8b5beb7bb860f7696969cd0f898b1423c4c473"
+  version "1.4"
+  sha256 "7abf1e2302c4579a45c5fe90725e5a5cc7aca3e3381676d5aa58357991040297"
 
-  url "#{Utils.prv_archive_url}/b/bc-connector/v#{version}/BlueCatConnector.dmg",
-      verified: "#{Utils.prv_archive_url}/"
+  url "#{prv_archive_url}/b/bc-connector/v#{version}/BlueCatConnector.dmg",
+      verified: prv_archive_url.to_s
   name "Blue Cat Connector"
   desc "Network audio MIDI and streaming plugin"
   homepage "https://www.bluecataudio.com/Products/Product_Connector/"

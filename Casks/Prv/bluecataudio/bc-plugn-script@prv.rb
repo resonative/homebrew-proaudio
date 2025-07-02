@@ -1,22 +1,15 @@
 cask "bc-plugn-script@prv" do
-  module Utils
-    def self.prv_archive_url(argument = nil)
-      json_path = "#{ENV.fetch('HOMEBREW_PREFIX')}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
-      
-      data = JSON.parse(File.read(json_path))
-      data["server"] ||= "http://not_configured.lan"
-
-      return data["server"].sub(%r{\Ahttps?://}, "") if argument == "verified"
-
-      data["server"]
-    end
+  def self.prv_archive_url
+    json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
+    data = JSON.parse(File.read(json_path))
+    data["server"] ||= "http://not_configured.lan"
   end
 
-  version "3.4"
-  sha256 "aac5978e5eef67477dd1ed87855cdcaac5af35f051a85d7ce2947328cd3973e2"
+  version "3.5"
+  sha256 "d09f374981af7596865d5211cd032540140661d66691c503e9ade6e0eee1d66d"
 
-  url "#{Utils.prv_archive_url}/b/bc-plugn-script/v#{version}/BlueCatPlugNScript.dmg",
-      verified: "#{Utils.prv_archive_url}/"
+  url "#{prv_archive_url}/b/bc-plugn-script/v#{version}/BlueCatPlugNScript.dmg",
+      verified: prv_archive_url.to_s
   name "Blue Cat Audio Plug'n Script"
   desc "Audio and MIDI scripting plugin"
   homepage "https://www.bluecataudio.com/Products/Product_PlugNScript/"
