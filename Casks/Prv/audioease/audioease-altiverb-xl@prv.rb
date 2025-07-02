@@ -1,20 +1,15 @@
 cask "audioease-altiverb-xl@prv" do
-  def self.prv_archive_url(argument = nil)
+  def self.prv_archive_url
     json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
-
     data = JSON.parse(File.read(json_path))
     data["server"] ||= "http://not_configured.lan"
-
-    return data["server"].sub(%r{\Ahttps?://}, "") if argument == "verified"
-
-    data["server"]
   end
 
-  version "8.1.0"
-  sha256 "439c5906dd68fd0d4bb639b61c93e5933aef2026fa664b351b36ae309f0751b9"
+  version "8.2.5"
+  sha256 "047bc14aa728acadb5a61e68f8d7abf1078b222561893352fd37817a97e183d7"
 
   url "#{prv_archive_url}/a/audioease-altiverb-xl/v#{version}/Altiverb-XL-#{version}-Mac-Installer.zip",
-      verified: prv_archive_url("verified").to_s
+      verified: prv_archive_url.to_s
   name "Audioease Altiverb XL"
   desc "Convolution reverb"
   homepage "https://audioease.com/altiverb/"
