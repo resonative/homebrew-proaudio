@@ -1,22 +1,15 @@
 cask "ad-replicant@prv" do
-  module Utils
-    def self.prv_archive_url(argument = nil)
-      json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
-
-      data = JSON.parse(File.read(json_path))
-      data["server"] ||= "http://not_configured.lan"
-
-      return data["server"].sub(%r{\Ahttps?://}, "") if argument == "verified"
-
-      data["server"]
-    end
+  def self.prv_archive_url
+    json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
+    data = JSON.parse(File.read(json_path))
+    data["server"] ||= "http://not_configured.lan"
   end
 
   version "3.0.9"
   sha256 "73c4477b61f5e9e331151fdaa09c674a8b82a95f4e722c5f6ba094b11997bf42"
 
-  url "#{Utils.prv_archive_url}/a/ad-replicant/v#{version}/AD056_Replicant_#{version}.zip",
-      verified: Utils.prv_archive_url("verified").to_s
+  url "#{prv_archive_url}/a/ad-replicant/v#{version}/AD056_Replicant_#{version}.zip",
+      verified: prv_archive_url.to_s
   name "Audio Damage Replicant"
   desc "Tempo synced audio buffer sutter slicing effect"
   homepage "https://www.audiodamage.com/products/ad056-replicant-3"

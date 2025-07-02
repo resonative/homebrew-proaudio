@@ -1,22 +1,15 @@
 cask "ad-dubstation@prv" do
-  module Utils
-    def self.prv_archive_url(argument = nil)
-      json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
-
-      data = JSON.parse(File.read(json_path))
-      data["server"] ||= "http://not_configured.lan"
-
-      return data["server"].sub(%r{\Ahttps?://}, "") if argument == "verified"
-
-      data["server"]
-    end
+  def self.prv_archive_url
+    json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
+    data = JSON.parse(File.read(json_path))
+    data["server"] ||= "http://not_configured.lan"
   end
 
   version "2.3.0a,2.3.1"
   sha256 "eb52278fa265ee932c9e7ccc13f06e13476ebd50b1159942def2a5b9c8471b42"
 
-  url "#{Utils.prv_archive_url}/a/ad-dubstation/v#{version.csv.first}/AD036_Dubstation_#{version.csv.first}.zip",
-      verified: Utils.prv_archive_url("verified").to_s
+  url "#{prv_archive_url}/a/ad-dubstation/v#{version.csv.first}/AD036_Dubstation_#{version.csv.first}.zip",
+      verified: prv_archive_url.to_s
   name "Audio Damage Dubstation"
   desc "BBD delay"
   homepage "https://www.audiodamage.com/products/ad036-dubstation-2"

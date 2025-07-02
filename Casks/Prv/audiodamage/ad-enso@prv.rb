@@ -1,22 +1,15 @@
 cask "ad-enso@prv" do
-  module Utils
-    def self.prv_archive_url(argument = nil)
-      json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
-
-      data = JSON.parse(File.read(json_path))
-      data["server"] ||= "http://not_configured.lan"
-
-      return data["server"].sub(%r{\Ahttps?://}, "") if argument == "verified"
-
-      data["server"]
-    end
+  def self.prv_archive_url
+    json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
+    data = JSON.parse(File.read(json_path))
+    data["server"] ||= "http://not_configured.lan"
   end
 
-  version "1.3.2"
-  sha256 "1b2ba6d372abc532d1576c4241ec0856385be65e04cecefc61de7dcddcb87b8c"
+  version "1.3.3"
+  sha256 "6673f8d17164134105abb3e18f0ecbce41c9677f36ff3ce1f404ea7c410bf035"
 
-  url "#{Utils.prv_archive_url}/a/ad-enso/v#{version}/AD049_Enso_#{version}.zip",
-      verified: Utils.prv_archive_url("verified").to_s
+  url "#{prv_archive_url}/a/ad-enso/v#{version}/AD049_Enso_#{version}.zip",
+      verified: prv_archive_url.to_s
   name "Audio Damage Enso"
   desc "Looper"
   homepage "https://www.audiodamage.com/products/ad049-enso"

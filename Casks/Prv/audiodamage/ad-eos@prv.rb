@@ -1,22 +1,15 @@
 cask "ad-eos@prv" do
-  module Utils
-    def self.prv_archive_url(argument = nil)
-      json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
-
-      data = JSON.parse(File.read(json_path))
-      data["server"] ||= "http://not_configured.lan"
-
-      return data["server"].sub(%r{\Ahttps?://}, "") if argument == "verified"
-
-      data["server"]
-    end
+  def self.prv_archive_url
+    json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
+    data = JSON.parse(File.read(json_path))
+    data["server"] ||= "http://not_configured.lan"
   end
 
-  version "2.3.2"
-  sha256 "c2e045de7d695346b7b3386ac045a87dea15c929cb2f65e78680bf29270cf9bf"
+  version "2.4.0"
+  sha256 "30e08551f3835c4c01b585eaddc0cb1f0e5a696f8cfd884dea4fa1409ea32287"
 
-  url "#{Utils.prv_archive_url}/a/ad-eos/v#{version}/AD034_Eos_#{version}.zip",
-      verified: Utils.prv_archive_url("verified").to_s
+  url "#{prv_archive_url}/a/ad-eos/v#{version}/AD034_Eos_#{version}.zip",
+      verified: prv_archive_url.to_s
   name "Audio Damage Eos"
   desc "Reverb"
   homepage "https://www.audiodamage.com/products/ad034-eos-2"
@@ -24,7 +17,7 @@ cask "ad-eos@prv" do
   auto_updates false
   container nested: "AD034_Eos_#{version}/macOS_Eos_#{version}.zip"
 
-  installer manual: "Eos 2 Installer.app"
+  installer manual: "Eos 2_Installer_v#{version}.app"
 
   uninstall delete: [
     "/Library/Application Support/Avid/Audio/Plug-Ins/Eos 2.aaxplugin",

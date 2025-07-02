@@ -1,22 +1,15 @@
 cask "ad-other-desert-cities@prv" do
-  module Utils
-    def self.prv_archive_url(argument = nil)
-      json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
-
-      data = JSON.parse(File.read(json_path))
-      data["server"] ||= "http://not_configured.lan"
-
-      return data["server"].sub(%r{\Ahttps?://}, "") if argument == "verified"
-
-      data["server"]
-    end
+  def self.prv_archive_url
+    json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
+    data = JSON.parse(File.read(json_path))
+    data["server"] ||= "http://not_configured.lan"
   end
 
   version "1.0.11"
   sha256 "d70285b81d6522ae40df62fcae3113e86aba0caea78b596b5ed7660b0acccde1"
 
-  url "#{Utils.prv_archive_url}/a/ad-other-desert-cities/v#{version}/AD054_Other_Desert_Cities_#{version}.zip",
-      verified: Utils.prv_archive_url("verified").to_s
+  url "#{prv_archive_url}/a/ad-other-desert-cities/v#{version}/AD054_Other_Desert_Cities_#{version}.zip",
+      verified: prv_archive_url.to_s
   name "Audio Damage Other Desert Cities"
   desc "Multi mode stereo delay"
   homepage "https://www.audiodamage.com/products/ad054-other-desert-cities"
