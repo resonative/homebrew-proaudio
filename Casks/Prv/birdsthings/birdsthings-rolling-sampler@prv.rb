@@ -1,15 +1,15 @@
 cask "birdsthings-rolling-sampler@prv" do
-  module Utils
-    def self.prv_archive_url
-      json_path = "#{ENV['HOMEBREW_PREFIX']}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
-      data = JSON.parse(File.read(json_path))
-      data['server'] ||= "http://not_configured.lan"
-    end
+  def self.prv_archive_url
+    json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
+    data = JSON.parse(File.read(json_path))
+    data["server"] ||= "http://not_configured.lan"
   end
-  version "1.0.5"
-  sha256 :no_check
 
-  url "#{Utils.prv_archive_url}/b/birdsthings-rolling-sampler/v1.0.5/utkORTEwSUSEMylQ6yRi_Rolling Sampler.zip"
+  version "1.0.5"
+  sha256 "f3f7caaf7a4e83b4f9a9438d1e41d5a2979c8129d5f5b2d8a34855d587f4889d"
+
+  url "#{prv_archive_url}/b/birdsthings-rolling-sampler/v#{version}/utkORTEwSUSEMylQ6yRi_Rolling Sampler.zip",
+  verified: prv_archive_url.to_s
 
   name "Bird's Things Rolling Sampler"
   desc "Always-on recorder"
