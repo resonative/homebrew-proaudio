@@ -1,6 +1,6 @@
 cask "polyverse-filterverse" do
-  version "1.0.1"
-  sha256 "e01c4a0a1b746a690b71408f700211ff9a789927d90806320bc55a2fb30be984"
+  version "1.2.0"
+  sha256 "f9520fa5e79eb884f970dfb9fd07304fc97b0d0af34369208711083835324c7f"
 
   url "https://polyversemusic.com/downloads/releases/filterverse/Polyverse-Filterverse-V#{version}.dmg"
   name "Polyverse Filterverse"
