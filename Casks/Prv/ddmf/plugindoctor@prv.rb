@@ -25,6 +25,7 @@ cask "plugindoctor@prv" do
               "eu.ddmf.pkg.Plugindoctor*",
             ]
             delete: [
+              "~/Library/Caches/com.yourcompany.PluginAnalyzer/"
               "~/Library/HTTPStorages/com.yourcompany.PluginAnalyzer/",
               "~/Library/HTTPStorages/com.yourcompany.PluginAnalyzer.binarycookies",
             ]
