@@ -1,5 +1,5 @@
 cask "kush-hammer-mk2" do
-  version "1.0.0"
+  version "1.0.1"
   sha256 :no_check
 
   url "https://thedataofkush.com/installers/HammerMk2_Mac.zip",
