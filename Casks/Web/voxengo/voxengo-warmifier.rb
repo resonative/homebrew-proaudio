@@ -1,6 +1,6 @@
 cask "voxengo-warmifier" do
   version "2.9"
-  sha256 :no_check
+  sha256 "ffbae464f76ee5eec64639b78ee16070a784aa531035c920a3d71822d9a37195"
 
   url "https://www.voxengo.com/files/VoxengoWarmifier_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo Warmifier"

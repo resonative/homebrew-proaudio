@@ -1,6 +1,6 @@
 cask "voxengo-drumformer" do
   version "1.12"
-  sha256 :no_check
+  sha256 "ece08a121b5b06bc67419808f110a2cdae98d07df0114f7795156051a7d5fae7"
 
   url "https://www.voxengo.com/files/VoxengoDrumformer_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo Drumformer"

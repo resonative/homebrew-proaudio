@@ -1,6 +1,6 @@
 cask "voxengo-sobor" do
   version "3.4"
-  sha256 :no_check
+  sha256 "bc0350743dbda9e29e212f2a8afcb57d77a4c655f2131eb8c1b63d0d14283da9"
 
   url "https://www.voxengo.com/files/VoxengoSobor_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo Sobor"

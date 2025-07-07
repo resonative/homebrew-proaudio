@@ -1,6 +1,6 @@
 cask "voxengo-lf-max-punch" do
   version "1.16"
-  sha256 :no_check
+  sha256 "aba0c7e2ac2b83d0b4e9c987ee1a1c52967d9bfd8e097818540a5241ae6da996"
 
   url "https://www.voxengo.com/files/VoxengoLFMaxPunch_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo LF Max Punch"

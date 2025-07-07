@@ -1,6 +1,6 @@
 cask "voxengo-elephant" do
   version "5.7"
-  sha256 :no_check
+  sha256 "71d1804323a747b5bbe5987f661d34c77de49ff61a826d2e94ea5aa846abc930"
 
   url "https://www.voxengo.com/files/VoxengoElephant_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo Elephant"

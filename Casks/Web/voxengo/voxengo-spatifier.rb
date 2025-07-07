@@ -1,6 +1,6 @@
 cask "voxengo-spatifier" do
   version "1.11"
-  sha256 :no_check
+  sha256 "5cce90ce336fc0a3d1c4ddf3238929463a64903744415d3b3b97450c81681c1e"
 
   url "https://www.voxengo.com/files/VoxengoSpatifier_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo Spatifier"

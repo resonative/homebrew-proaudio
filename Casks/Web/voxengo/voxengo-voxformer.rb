@@ -1,6 +1,6 @@
 cask "voxengo-voxformer" do
   version "2.23"
-  sha256 :no_check
+  sha256 "079a522fa530398cb1a82800fbc4d16fcbf85e47cd70c8234e8d6faebb3f9582"
 
   url "https://www.voxengo.com/files/VoxengoVoxformer_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo Voxformer"

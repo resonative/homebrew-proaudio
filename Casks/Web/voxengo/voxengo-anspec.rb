@@ -1,6 +1,6 @@
 cask "voxengo-anspec" do
   version "1.8"
-  sha256 :no_check
+  sha256 "75495f2f021d52108641d9c3af6f3639a2b59c7bb0bbf193206d6c348350e677"
 
   url "https://www.voxengo.com/files/VoxengoAnSpec_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo AnSpec"

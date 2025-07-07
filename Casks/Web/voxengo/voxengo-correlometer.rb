@@ -1,6 +1,6 @@
 cask "voxengo-correlometer" do
   version "1.9"
-  sha256 :no_check
+  sha256 "c8df39ff82dca9dfa79fb88d046c80b02f9ef26713071f667ab6f6cfea4c8b76"
 
   url "https://www.voxengo.com/files/VoxengoCorrelometer_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo Correlometer"

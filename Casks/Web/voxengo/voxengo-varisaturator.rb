@@ -1,6 +1,6 @@
 cask "voxengo-varisaturator" do
   version "2.7"
-  sha256 :no_check
+  sha256 "22360224a7c627bc794cf9a26bab6314e14cfc2880f7d636072e54da10db4719"
 
   url "https://www.voxengo.com/files/VoxengoVariSaturator_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo VariSaturator"

@@ -1,6 +1,6 @@
 cask "voxengo-marvel-geq" do
   version "1.16"
-  sha256 :no_check
+  sha256 "fd30f82f781e276af2d982a748614597f4193a30807c6d88db1c7740a1d9c774"
 
   url "https://www.voxengo.com/files/VoxengoMarvelGEQ_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo Marvel GEQ"

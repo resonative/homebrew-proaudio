@@ -1,6 +1,6 @@
 cask "voxengo-msed" do
   version "3.12"
-  sha256 :no_check
+  sha256 "d7c9c5ed3b144b9b9011e63d184fd33b3d1e7b219c482b6c58a347a32e3a8e8b"
 
   url "https://www.voxengo.com/files/VoxengoMSED_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo MSED"
