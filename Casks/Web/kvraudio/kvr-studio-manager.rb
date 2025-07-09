@@ -1,7 +1,7 @@
 cask "kvr-studio-manager" do
-  version "0.2.2.0"
-  sha256 "b7acab568ce29ff99d698bfdb1dfa2e155099f0950be0d4f87d6d209ea8f39ec"
-  
+  version "0.3.0.0"
+  sha256 "50d446ce2db8361c74ac97ec80481fdb8a20e6ec1dc5b5d03e078ce67623c2ac"
+
   url "https://static.kvraudio.com/files/175/kvr-studio-manager-#{version.dots_to_hyphens}.dmg",
       referer: "https://www.kvraudio.com/kvr-studio-manager",
       user_agent: :fake
