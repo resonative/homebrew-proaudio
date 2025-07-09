@@ -5,8 +5,8 @@ cask "bc-axiom@prv" do
     data["server"] ||= "http://not_configured.lan"
   end
 
-  version "2.1"
-  sha256 "0eeac5c07d237e437a9753027c251b1f4c0e70a2ab1af61f934641666cd18fd9"
+  version "2.2"
+  sha256 "d230c2dda5d16e527351fef3fd14dd4bd185b8c85f5f7bffc48ec5ec62af2252"
 
   url "#{prv_archive_url}/b/bc-axiom/v#{version}/BlueCatAxiom.dmg",
       verified: prv_archive_url.to_s
