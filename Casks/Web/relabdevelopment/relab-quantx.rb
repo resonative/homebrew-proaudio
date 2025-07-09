@@ -1,8 +1,8 @@
 cask "relab-quantx" do
-  version "1.2.2"
-  sha256 "f16ee67e37c5ea75d0e7c035daafea5b34117b28771409a38f7435f379fd1ce4"
+  version "2.0.1"
+  sha256 "bf58e330aa8bfbfcdb8d514f5f978a3f099b266080ec3747c2c0c39de3bcd568"
 
-  url "https://relab-software-downloads.s3.us-west-1.amazonaws.com/products/QuantX/v#{version.major_minor}/QuantX.pkg",
+  url "https://relab-software-downloads.s3.us-west-1.amazonaws.com/products/QuantX/v#{version}/QuantX.pkg",
       verified: "relab-software-downloads.s3.us-west-1.amazonaws.com/"
   name "Relab Development QuantX"
   desc "Quantec Room Simulator (QRS) reverb emulation"

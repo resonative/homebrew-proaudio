@@ -1,6 +1,6 @@
 cask "relab-lx480" do
-  version "4.0.5"
-  sha256 "256b5df53feffa3176c57b0791a7d58380e8aee124b907aaafe48fee1621aaac"
+  version "4.0.6"
+  sha256 "b7c518d541bb6302aa7f30ff8485da4956e0fb4dfbb4cc82521d2fc5abf829e2"
 
   url "https://relab-software-downloads.s3.us-west-1.amazonaws.com/products/LX480_Complete/Mac/LX480_Mac_v#{version}.pkg.zip",
       verified: "relab-software-downloads.s3.us-west-1.amazonaws.com/"

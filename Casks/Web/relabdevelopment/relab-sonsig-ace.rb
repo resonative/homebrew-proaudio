@@ -1,5 +1,5 @@
 cask "relab-sonsig-ace" do
-  version "1.1.1"
+  version "1.1.2"
   sha256 "064c959d1db106d13ee0f026ac16125bc93a0817182c0d743902224675c77fa7"
 
   url "https://relab-software-downloads.s3.us-west-1.amazonaws.com/products/Sonsig_ACE/v#{version}/SonsigACE.pkg",

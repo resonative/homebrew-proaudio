@@ -1,6 +1,6 @@
 cask "relab-maselec-mea-2" do
-  version "1.1.2"
-  sha256 "86837b794baf865d32489a4b7be8c48dbdef642c9f69456d19e771037b6f3bab"
+  version "1.1.3"
+  sha256 "688df260d307123aa6d281c309e39a100d9bf64fe941e33de01fed030d6fdb37"
 
   url "https://relab-software-downloads.s3.us-west-1.amazonaws.com/products/Maselec/v#{version.major_minor}/Maselec+MEA-2.pkg",
       verified: "relab-software-downloads.s3.us-west-1.amazonaws.com/"
