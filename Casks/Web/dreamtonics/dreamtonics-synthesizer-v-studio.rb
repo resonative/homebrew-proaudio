@@ -13,9 +13,10 @@ cask "dreamtonics-synthesizer-v-studio" do
 
   uninstall quit:    "com.dreamtonics.svstudio2.pro",
             pkgutil: "com.dreamtonics.svstudio2.*",
-            delete:  [
-              "~/Library/Caches/com.dreamtonics.svstudio2.pro/",
-              "~/Library/HTTPStorages/com.dreamtonics.svstudio2.pro/",
-              "~/Library/WebKit/com.dreamtonics.svstudio2.pro",
-            ]
+            delete:  "~/Library/Caches/com.dreamtonics.svstudio2.pro/"
+
+  zap trash: [
+    "~/Library/HTTPStorages/com.dreamtonics.svstudio2.pro/",
+    "~/Library/WebKit/com.dreamtonics.svstudio2.pro/",
+  ]
 end
