@@ -1,22 +1,15 @@
   cask "soundtoys-bundle@prv" do
-  module Utils
-    def self.prv_archive_url(argument = nil)
-      json_path = "#{ENV.fetch('HOMEBREW_PREFIX')}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
-      
-      data = JSON.parse(File.read(json_path))
-      data["server"] ||= "http://not_configured.lan"
-
-      return data["server"].sub(%r{\Ahttps?://}, "") if argument == "verified"
-
-      data["server"]
-    end
+  def self.prv_archive_url
+    json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
+    data = JSON.parse(File.read(json_path))
+    data["server"] ||= "http://not_configured.lan"
   end
 
   version "5.4.3.17500"
   sha256 "0c1427c2a4172cd943f37e5a1753dd87023d620a75aecb2c0107f63a9f1ad5dc"
 
-  url "#{Utils.prv_archive_url}/s/soundtoys-bundle/v#{version}/SoundtoysV#{version.major_minor.no_dots}Bundle_#{version}.dmg",
-      verified: "#{Utils.prv_archive_url}/"
+  url "#{prv_archive_url}/s/soundtoys-bundle/v#{version}/SoundtoysV#{version.major_minor.no_dots}Bundle_#{version}.dmg",
+      verified: prv_archive_url.to_s
   name "Soundtoys 5 Bundle"
   desc "All soundtoys plugins with effect rack"
   homepage "https://www.soundtoys.com/product/soundtoys-5/"

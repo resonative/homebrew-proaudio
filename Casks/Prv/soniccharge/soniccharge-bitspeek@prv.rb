@@ -1,21 +1,14 @@
 cask "soniccharge-bitspeek@prv" do
-  module Utils
-    def self.prv_archive_url(argument = nil)
-      json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
-
-      data = JSON.parse(File.read(json_path))
-      data["server"] ||= "http://not_configured.lan"
-
-      return data["server"].sub(%r{\Ahttps?://}, "") if argument == "verified"
-
-      data["server"]
-    end
+  def self.prv_archive_url
+    json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
+    data = JSON.parse(File.read(json_path))
+    data["server"] ||= "http://not_configured.lan"
   end
 
   version "2024.08.30"
   sha256 "849ae107b53e15a785a344c0648c5989ca6acc5e3945001139555321add6dcac"
-  url "#{Utils.prv_archive_url}/s/soniccharge-installer/v#{version}/Sonic%20Charge%20Plugins%20#{version}.dmg",
-      verified: Utils.prv_archive_url("verified").to_s  
+  url "#{prv_archive_url}/s/soniccharge-installer/v#{version}/Sonic%20Charge%20Plugins%20#{version}.dmg",
+      verified: prv_archive_url.to_s
   name "Sonic Charge Bitspeek"
   desc "Linear prediction codec effect"
   homepage "https://soniccharge.com/bitspeek"
