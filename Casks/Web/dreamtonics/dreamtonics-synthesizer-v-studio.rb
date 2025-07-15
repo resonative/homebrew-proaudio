@@ -5,7 +5,7 @@ cask "dreamtonics-synthesizer-v-studio" do
   url "https://download.dreamtonics.com/svstudio2/svstudio2-pro-setup-latest.pkg"
   name "Dreamtonics Synthesizer V Studio"
   desc "Synthesized voice production"
-  homepage "https://dreamtonics.com/"
+  homepage "https://dreamtonics.com/synthesizerv/"
 
   auto_updates false
 
