@@ -1,20 +1,20 @@
 cask "renoise@prv" do
-  module Utils
-    def self.prv_archive_url
-      json_path = "#{ENV['HOMEBREW_PREFIX']}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
+  class << self
+    define_method(:prv_archive_url) do
+      json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
       data = JSON.parse(File.read(json_path))
-      data['server'] ||= "http://not_configured.lan"
+      data["server"] ||= "http://not_configured.lan"
     end
   end
 
-  version "3.4.4"
+  version "3.5.1"
   sha256 :no_check
 
-  url "#{Utils.prv_archive_url}/r/renoise/v#{version}/rns_#{version.no_dots}_osx.tar.gz"
-
+  url "#{prv_archive_url}/r/renoise/v#{version}/rns_#{version.no_dots}_osx.tar.gz",
+      verified: prv_archive_url.to_s
   name "Renoise"
   desc "Tracker DAW"
-  homepage "https://www.renoise.com"
+  homepage "https://www.renoise.com/"
 
   auto_updates false
 
@@ -24,16 +24,15 @@ cask "renoise@prv" do
   uninstall quit:   "com.renoise.renoise",
             delete: [
               "~/Library/Caches/com.renoise.renoise/",
-              "~/Library/HTTPStorages/com.renoise.renoise/",
               "~/Library/HTTPStorages/com.renoise.renoise.binarycookies",
+              "~/Library/HTTPStorages/com.renoise.renoise/",
               "~/Library/Saved Application State/com.renoise.renoise.savedState/",
             ],
             trash:  [
-              "~/Library/Logs/Renoise.log",
               "~/Library/Logs/Renoise Plugin Server.log",
+              "~/Library/Logs/Renoise.log",
               "~/Library/Preferences/com.renoise.renoise.plist",
-              "~/Library/Preferences/Renoise/",
               "~/Library/Preferences/Renoise Plugin Server/",
-              # "~/Library/Application Support/Renoise/",
+              "~/Library/Preferences/Renoise/",
             ]
 end
