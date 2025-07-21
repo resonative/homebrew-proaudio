@@ -1,22 +1,17 @@
 cask "cableguys-snapback@prv" do
-  module Utils
-    def self.prv_archive_url(argument = nil)
+  class << self
+    define_method(:prv_archive_url) do
       json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
-
       data = JSON.parse(File.read(json_path))
       data["server"] ||= "http://not_configured.lan"
-
-      return data["server"].sub(%r{\Ahttps?://}, "") if argument == "verified"
-
-      data["server"]
     end
   end
 
   version "1.0.1"
   sha256 "a5765fe2730c15e41dd2f741fac82982ef7ea3fdf3a4f876bcb14158398e5176"
 
-  url "#{Utils.prv_archive_url}/c/cableguys-snapback/v#{version}/Cableguys-Snapback.zip",
-      verified: Utils.prv_archive_url("verified").to_s
+  url "#{prv_archive_url}/c/cableguys-snapback/v#{version}/Cableguys-Snapback.zip",
+      verified: prv_archive_url.to_s
   name "Cableguys Snapback"
   desc "Sample trigger"
   homepage "https://www.cableguys.com/snapback"
