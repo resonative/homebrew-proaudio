@@ -1,6 +1,6 @@
 cask "sine-player" do
-  version "1.3.3.1181"
-  sha256 "369a00a7dc26309e69ff25effad60eaa6f5e5ad8421a0fdb27b6ffbed56976ab"
+  version "1.3.4.1218"
+  sha256 "4c5a9facbbecf189dee4bc68442ff86929609384c6d9af3e3fdbc0d143329dea"
 
   url "https://orchtools-installers-dl.s3.eu-central-1.amazonaws.com/SINE_Player_#{version}.pkg",
       verified: "orchtools-installers-dl.s3.eu-central-1.amazonaws.com/"
