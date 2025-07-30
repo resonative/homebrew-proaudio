@@ -20,7 +20,7 @@ cask "wavealchemy-triaz@prv" do
 
   postflight do
     puts "To install Triaz Content Library:\n" \
-         "  open #{caskroom_path}/#{version}/Triaz_macOS/Triaz Content Installer/Triaz Content Installer.dmg"
+         "  open \'#{caskroom_path}/#{version}/Triaz_macOS/Triaz Content Installer/Triaz Content Installer.dmg\'"
   end
 
   uninstall pkgutil: "com.wavealchemy.pkg.Triaz*"
