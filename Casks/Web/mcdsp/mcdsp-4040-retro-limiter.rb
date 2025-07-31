@@ -1,4 +1,4 @@
-cask "mcdsp-4030-retro-limiter" do
+cask "mcdsp-4040-retro-limiter" do
   version "7.2.35"
   sha256 "a569ccd8ed8c3f8d4a01b661b1f382474193db7e9eb30bdadaeda59b8183a3c8"
 
