@@ -8,7 +8,6 @@ cask "voxengo-transgainer" do
   homepage "https://www.voxengo.com/product/transgainer/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "TransGainer.component", target: "/Library/Audio/Plug-Ins/Components/TransGainer.component"
   artifact "ProTools AAX/TransGainer.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/TransGainer.aaxplugin"

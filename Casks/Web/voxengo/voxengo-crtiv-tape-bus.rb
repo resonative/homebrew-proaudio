@@ -8,7 +8,6 @@ cask "voxengo-crtiv-tape-bus" do
   homepage "https://www.voxengo.com/product/crtivtapebus/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "CRTIV Tape Bus.component", target: "/Library/Audio/Plug-Ins/Components/CRTIV Tape Bus.component"
   artifact "ProTools AAX/CRTIV Tape Bus.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/CRTIV Tape Bus.aaxplugin"

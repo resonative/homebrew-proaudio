@@ -8,7 +8,6 @@ cask "voxengo-stereo-touch-vst" do
   homepage "https://www.voxengo.com/product/stereotouch/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Stereo Touch.vst", target: "/Library/Audio/Plug-Ins/VST/Stereo Touch.vst"
   artifact "Stereo Touch.vst3", target: "/Library/Audio/Plug-Ins/VST3/Stereo Touch.vst3"

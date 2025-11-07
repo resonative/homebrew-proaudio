@@ -8,7 +8,6 @@ cask "voxengo-peakbuster-vst" do
   homepage "https://www.voxengo.com/product/peakbuster/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Peakbuster.vst", target: "/Library/Audio/Plug-Ins/VST/Peakbuster.vst"
   artifact "Peakbuster.vst3", target: "/Library/Audio/Plug-Ins/VST3/Peakbuster.vst3"

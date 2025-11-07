@@ -8,7 +8,6 @@ cask "voxengo-stereo-touch-au-aax" do
   homepage "https://www.voxengo.com/product/stereotouch/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Stereo Touch.component", target: "/Library/Audio/Plug-Ins/Components/Stereo Touch.component"
   artifact "ProTools AAX/Stereo Touch.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Stereo Touch.aaxplugin"

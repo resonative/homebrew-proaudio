@@ -8,7 +8,6 @@ cask "voxengo-marquis-compressor-au-aax" do
   homepage "https://www.voxengo.com/product/marquiscomp/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Marquis Compressor.component", target: "/Library/Audio/Plug-Ins/Components/Marquis Compressor.component"
   artifact "ProTools AAX/Marquis Compressor.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Marquis Compressor.aaxplugin"

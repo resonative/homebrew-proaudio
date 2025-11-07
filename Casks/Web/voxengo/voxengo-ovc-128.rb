@@ -8,7 +8,6 @@ cask "voxengo-ovc-128-au-aax" do
   homepage "https://www.voxengo.com/product/ovc128/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "OVC-128.component", target: "/Library/Audio/Plug-Ins/Components/OVC-128.component"
   artifact "ProTools AAX/OVC-128.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/OVC-128.aaxplugin"

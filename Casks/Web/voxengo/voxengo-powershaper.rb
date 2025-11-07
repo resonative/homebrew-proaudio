@@ -8,7 +8,6 @@ cask "voxengo-powershaper" do
   homepage "https://www.voxengo.com/product/powershaper/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "ProTools AAX/Powershaper.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Powershaper.aaxplugin"
   artifact "Powershaper.component", target: "/Library/Audio/Plug-Ins/Components/Powershaper.component"

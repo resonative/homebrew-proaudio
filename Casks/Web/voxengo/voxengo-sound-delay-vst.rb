@@ -8,7 +8,6 @@ cask "voxengo-sound-delay-vst" do
   homepage "https://www.voxengo.com/product/sounddelay/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Sound Delay.vst", target: "/Library/Audio/Plug-Ins/VST/Sound Delay.vst"
   artifact "Sound Delay.vst3", target: "/Library/Audio/Plug-Ins/VST3/Sound Delay.vst3"

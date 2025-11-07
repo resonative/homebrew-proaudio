@@ -8,7 +8,6 @@ cask "voxengo-warmifier" do
   homepage "https://www.voxengo.com/product/warmifier/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Warmifier.component", target: "/Library/Audio/Plug-Ins/Components/Warmifier.component"
   artifact "ProTools AAX/Warmifier.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Warmifier.aaxplugin"

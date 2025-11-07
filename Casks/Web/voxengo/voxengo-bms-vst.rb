@@ -8,7 +8,6 @@ cask "voxengo-bms-vst" do
   homepage "https://www.voxengo.com/product/bms/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "BMS.vst", target: "/Library/Audio/Plug-Ins/VST/BMS.vst"
   artifact "BMS.vst3", target: "/Library/Audio/Plug-Ins/VST3/BMS.vst3"

@@ -8,7 +8,6 @@ cask "voxengo-harmonieq-vst" do
   homepage "https://www.voxengo.com/product/harmonieq/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "HarmoniEQ.vst", target: "/Library/Audio/Plug-Ins/VST/HarmoniEQ.vst"
   artifact "HarmoniEQ.vst3", target: "/Library/Audio/Plug-Ins/VST3/HarmoniEQ.vst3"

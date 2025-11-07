@@ -8,7 +8,6 @@ cask "voxengo-overtone-geq-vst" do
   homepage "https://www.voxengo.com/product/overtonegeq/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Overtone GEQ.vst", target: "/Library/Audio/Plug-Ins/VST/Overtone GEQ.vst"
   artifact "Overtone GEQ.vst3", target: "/Library/Audio/Plug-Ins/VST3/Overtone GEQ.vst3"

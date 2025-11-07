@@ -1,6 +1,6 @@
 cask "voxengo-glisseq" do
   version "3.19"
-  sha256 :no_check
+  sha256 "069c6e8eebd27a5f049e03bd1fe7bd492b84ce72b3dfa7b4a35466b69875afad"
 
   url "https://www.voxengo.com/files/VoxengoGlissEQ_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo GlissEQ"
@@ -8,7 +8,6 @@ cask "voxengo-glisseq" do
   homepage "https://www.voxengo.com/product/glisseq/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "ProTools AAX/GlissEQ.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/GlissEQ.aaxplugin"
   artifact "GlissEQ.component", target: "/Library/Audio/Plug-Ins/Components/GlissEQ.component"

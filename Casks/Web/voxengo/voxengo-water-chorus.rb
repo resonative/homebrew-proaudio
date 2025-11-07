@@ -8,7 +8,6 @@ cask "voxengo-water-chorus" do
   homepage "https://www.voxengo.com/product/waterchorus/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "ProTools AAX/Water Chorus.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Water Chorus.aaxplugin"
   artifact "Water Chorus.component", target: "/Library/Audio/Plug-Ins/Components/Water Chorus.component"

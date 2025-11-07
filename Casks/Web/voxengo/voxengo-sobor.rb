@@ -8,7 +8,6 @@ cask "voxengo-sobor" do
   homepage "https://www.voxengo.com/product/sobor/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Sobor.component", target: "/Library/Audio/Plug-Ins/Components/Sobor.component"
   artifact "ProTools AAX/Sobor.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Sobor.aaxplugin"

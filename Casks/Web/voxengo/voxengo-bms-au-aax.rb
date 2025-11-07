@@ -8,7 +8,6 @@ cask "voxengo-bms-au-aax" do
   homepage "https://www.voxengo.com/product/bms/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "BMS.component", target: "/Library/Audio/Plug-Ins/Components/BMS.component"
   artifact "ProTools AAX/BMS.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/BMS.aaxplugin"

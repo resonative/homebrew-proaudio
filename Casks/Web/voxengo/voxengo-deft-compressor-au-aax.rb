@@ -8,7 +8,6 @@ cask "voxengo-deft-compressor-au-aax" do
   homepage "https://www.voxengo.com/product/deftcompressor/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Deft Compressor.component", target: "/Library/Audio/Plug-Ins/Components/Deft Compressor.component"
   artifact "ProTools AAX/Deft Compressor.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Deft Compressor.aaxplugin"

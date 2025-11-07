@@ -8,7 +8,6 @@ cask "voxengo-pha-979" do
   homepage "https://www.voxengo.com/product/pha979/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "PHA-979.component", target: "/Library/Audio/Plug-Ins/Components/PHA-979.component"
   artifact "ProTools AAX/PHA-979.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/PHA-979.aaxplugin"

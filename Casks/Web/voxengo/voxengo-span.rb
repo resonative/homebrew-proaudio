@@ -8,7 +8,6 @@ cask "voxengo-span" do
   homepage "https://www.voxengo.com/product/span/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "SPAN.component", target: "/Library/Audio/Plug-Ins/Components/SPAN.component"
   artifact "ProTools AAX/SPAN.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/SPAN.aaxplugin"

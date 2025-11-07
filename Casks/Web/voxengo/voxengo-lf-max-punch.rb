@@ -8,7 +8,6 @@ cask "voxengo-lf-max-punch" do
   homepage "https://www.voxengo.com/product/lfmaxpunch/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "LF Max Punch.component", target: "/Library/Audio/Plug-Ins/Components/LF Max Punch.component"
   artifact "ProTools AAX/LF Max Punch.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/LF Max Punch.aaxplugin"

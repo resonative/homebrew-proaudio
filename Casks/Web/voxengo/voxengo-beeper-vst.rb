@@ -8,7 +8,6 @@ cask "voxengo-beeper-vst" do
   homepage "https://www.voxengo.com/product/beeper/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Beeper.vst", target: "/Library/Audio/Plug-Ins/VST/Beeper.vst"
   artifact "Beeper.vst3", target: "/Library/Audio/Plug-Ins/VST3/Beeper.vst3"

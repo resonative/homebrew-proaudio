@@ -8,7 +8,6 @@ cask "voxengo-voxformer" do
   homepage "https://www.voxengo.com/product/voxformer/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Voxformer.component", target: "/Library/Audio/Plug-Ins/Components/Voxformer.component"
   artifact "ProTools AAX/Voxformer.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Voxformer.aaxplugin"

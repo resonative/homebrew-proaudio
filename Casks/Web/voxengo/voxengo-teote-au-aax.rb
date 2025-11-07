@@ -8,7 +8,6 @@ cask "voxengo-teote-au-aax" do
   homepage "https://www.voxengo.com/product/teote/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "TEOTE.component", target: "/Library/Audio/Plug-Ins/Components/TEOTE.component"
   artifact "ProTools AAX/TEOTE.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/TEOTE.aaxplugin"

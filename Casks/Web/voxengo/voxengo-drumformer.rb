@@ -8,7 +8,6 @@ cask "voxengo-drumformer" do
   homepage "https://www.voxengo.com/product/drumformer/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Drumformer.component", target: "/Library/Audio/Plug-Ins/Components/Drumformer.component"
   artifact "ProTools AAX/Drumformer.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Drumformer.aaxplugin"

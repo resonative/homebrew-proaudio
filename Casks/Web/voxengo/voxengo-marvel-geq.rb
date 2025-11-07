@@ -1,6 +1,6 @@
 cask "voxengo-marvel-geq" do
-  version "1.16"
-  sha256 "fd30f82f781e276af2d982a748614597f4193a30807c6d88db1c7740a1d9c774"
+  version "1.17"
+  sha256 "10088c75129877881886ac9cf44b6a0bc869273b2762ad5a6e56d2071f12aad2"
 
   url "https://www.voxengo.com/files/VoxengoMarvelGEQ_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo Marvel GEQ"
@@ -8,7 +8,6 @@ cask "voxengo-marvel-geq" do
   homepage "https://www.voxengo.com/product/marvelgeq/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Marvel GEQ.component", target: "/Library/Audio/Plug-Ins/Components/Marvel GEQ.component"
   artifact "ProTools AAX/Marvel GEQ.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Marvel GEQ.aaxplugin"

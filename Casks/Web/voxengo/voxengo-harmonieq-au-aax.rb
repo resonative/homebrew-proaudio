@@ -8,7 +8,6 @@ cask "voxengo-harmonieq-au-aax" do
   homepage "https://www.voxengo.com/product/harmonieq/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "HarmoniEQ.component", target: "/Library/Audio/Plug-Ins/Components/HarmoniEQ.component"
   artifact "ProTools AAX/HarmoniEQ.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/HarmoniEQ.aaxplugin"

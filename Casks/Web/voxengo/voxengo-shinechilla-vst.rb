@@ -8,7 +8,6 @@ cask "voxengo-shinechilla-vst" do
   homepage "https://www.voxengo.com/product/shinechilla/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Shinechilla.vst", target: "/Library/Audio/Plug-Ins/VST/Shinechilla.vst"
   artifact "Shinechilla.vst3", target: "/Library/Audio/Plug-Ins/VST3/Shinechilla.vst3"

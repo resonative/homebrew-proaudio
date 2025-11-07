@@ -7,7 +7,6 @@ cask "voxengo-curveeq-vst" do
   homepage "https://www.voxengo.com/product/curveeq/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "CurveEQ.vst", target: "/Library/Audio/Plug-Ins/VST/CurveEQ.vst"
   artifact "CurveEQ.vst3", target: "/Library/Audio/Plug-Ins/VST3/CurveEQ.vst3"

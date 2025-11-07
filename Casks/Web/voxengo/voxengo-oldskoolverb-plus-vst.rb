@@ -8,7 +8,6 @@ cask "voxengo-oldskoolverb-plus-vst" do
   homepage "https://www.voxengo.com/product/oldskoolverbplus/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "OldSkoolVerb Plus.vst", target: "/Library/Audio/Plug-Ins/VST/OldSkoolVerb Plus.vst"
   artifact "OldSkoolVerb Plus.vst3", target: "/Library/Audio/Plug-Ins/VST3/OldSkoolVerb Plus.vst3"

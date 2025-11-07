@@ -8,7 +8,6 @@ cask "voxengo-beeper-au-aax" do
   homepage "https://www.voxengo.com/product/beeper/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Beeper.component", target: "/Library/Audio/Plug-Ins/Components/Beeper.component"
   artifact "ProTools AAX/Beeper.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Beeper.aaxplugin"

@@ -8,7 +8,6 @@ cask "voxengo-peakbuster-au-aax" do
   homepage "https://www.voxengo.com/product/peakbuster/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Peakbuster.component", target: "/Library/Audio/Plug-Ins/Components/Peakbuster.component"
   artifact "ProTools AAX/Peakbuster.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Peakbuster.aaxplugin"

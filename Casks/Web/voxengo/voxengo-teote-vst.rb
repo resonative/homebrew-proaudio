@@ -8,7 +8,6 @@ cask "voxengo-teote-vst" do
   homepage "https://www.voxengo.com/product/teote/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "TEOTE.vst", target: "/Library/Audio/Plug-Ins/VST/TEOTE.vst"
   artifact "TEOTE.vst3", target: "/Library/Audio/Plug-Ins/VST3/TEOTE.vst3"

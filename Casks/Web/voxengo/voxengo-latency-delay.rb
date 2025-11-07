@@ -8,7 +8,6 @@ cask "voxengo-latency-delay" do
   homepage "https://www.voxengo.com/product/latencydelay/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Latency Delay.component", target: "/Library/Audio/Plug-Ins/Components/Latency Delay.component"
   artifact "ProTools AAX/Latency Delay.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Latency Delay.aaxplugin"

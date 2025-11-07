@@ -8,7 +8,6 @@ cask "voxengo-spatifier" do
   homepage "https://www.voxengo.com/product/spatifier/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Spatifier.component", target: "/Library/Audio/Plug-Ins/Components/Spatifier.component"
   artifact "ProTools AAX/Spatifier.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Spatifier.aaxplugin"

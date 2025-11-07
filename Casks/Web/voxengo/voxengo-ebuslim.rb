@@ -8,7 +8,6 @@ cask "voxengo-ebuslim" do
   homepage "https://www.voxengo.com/product/ebuslim/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "ProTools AAX/EBusLim.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/EBusLim.aaxplugin"
   artifact "EBusLim.component", target: "/Library/Audio/Plug-Ins/Components/EBusLim.component"

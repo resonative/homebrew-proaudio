@@ -8,7 +8,6 @@ cask "voxengo-msed" do
   homepage "https://www.voxengo.com/product/msed/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "MSED.component", target: "/Library/Audio/Plug-Ins/Components/MSED.component"
   artifact "ProTools AAX/MSED.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/MSED.aaxplugin"

@@ -8,7 +8,6 @@ cask "voxengo-tempo-delay-vst" do
   homepage "https://www.voxengo.com/product/tempodelay/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Tempo Delay.vst", target: "/Library/Audio/Plug-Ins/VST/Tempo Delay.vst"
   artifact "Tempo Delay.vst3", target: "/Library/Audio/Plug-Ins/VST3/Tempo Delay.vst3"

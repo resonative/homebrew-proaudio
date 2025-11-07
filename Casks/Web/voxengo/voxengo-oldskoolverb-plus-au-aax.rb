@@ -8,7 +8,6 @@ cask "voxengo-oldskoolverb-plus-au-aax" do
   homepage "https://www.voxengo.com/product/oldskoolverbplus/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "OldSkoolVerb Plus.component", target: "/Library/Audio/Plug-Ins/Components/OldSkoolVerb Plus.component"
   artifact "ProTools AAX/OldSkoolVerb Plus.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/OldSkoolVerb Plus.aaxplugin"

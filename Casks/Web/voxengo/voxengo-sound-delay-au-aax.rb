@@ -8,7 +8,6 @@ cask "voxengo-sound-delay-au-aax" do
   homepage "https://www.voxengo.com/product/sounddelay/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Sound Delay.component", target: "/Library/Audio/Plug-Ins/Components/Sound Delay.component"
   artifact "ProTools AAX/Sound Delay.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Sound Delay.aaxplugin"

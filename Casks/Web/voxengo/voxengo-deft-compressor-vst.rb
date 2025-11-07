@@ -8,7 +8,6 @@ cask "voxengo-deft-compressor-vst" do
   homepage "https://www.voxengo.com/product/deftcompressor/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Deft Compressor.vst", target: "/Library/Audio/Plug-Ins/VST/Deft Compressor.vst"
   artifact "Deft Compressor.vst3", target: "/Library/Audio/Plug-Ins/VST3/Deft Compressor.vst3"

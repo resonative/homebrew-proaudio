@@ -8,7 +8,6 @@ cask "voxengo-soniformer" do
   homepage "https://www.voxengo.com/product/soniformer/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Soniformer.component", target: "/Library/Audio/Plug-Ins/Components/Soniformer.component"
   artifact "ProTools AAX/Soniformer.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Soniformer.aaxplugin"

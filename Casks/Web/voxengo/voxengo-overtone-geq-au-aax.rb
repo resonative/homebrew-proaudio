@@ -8,7 +8,6 @@ cask "voxengo-overtone-geq-au-aax" do
   homepage "https://www.voxengo.com/product/overtonegeq/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Overtone GEQ.component", target: "/Library/Audio/Plug-Ins/Components/Overtone GEQ.component"
   artifact "ProTools AAX/Overtone GEQ.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Overtone GEQ.aaxplugin"

@@ -8,7 +8,6 @@ cask "voxengo-curveeq-au-aax" do
   homepage "https://www.voxengo.com/product/curveeq/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "CurveEQ.component", target: "/Library/Audio/Plug-Ins/Components/CurveEQ.component"
   artifact "ProTools AAX/CurveEQ.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/CurveEQ.aaxplugin"

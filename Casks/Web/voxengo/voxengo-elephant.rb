@@ -1,6 +1,6 @@
 cask "voxengo-elephant" do
-  version "5.7"
-  sha256 "71d1804323a747b5bbe5987f661d34c77de49ff61a826d2e94ea5aa846abc930"
+  version "5.8"
+  sha256 "47781bc3d1d2862a0edf4ce01f4312db9af72a19afb0f0a6afc36c744d879d43"
 
   url "https://www.voxengo.com/files/VoxengoElephant_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo Elephant"
@@ -8,7 +8,6 @@ cask "voxengo-elephant" do
   homepage "https://www.voxengo.com/product/elephant/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Elephant.component", target: "/Library/Audio/Plug-Ins/Components/Elephant.component"
   artifact "ProTools AAX/Elephant.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Elephant.aaxplugin"

@@ -8,7 +8,6 @@ cask "voxengo-shinechilla-au-aax" do
   homepage "https://www.voxengo.com/product/shinechilla/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Shinechilla.component", target: "/Library/Audio/Plug-Ins/Components/Shinechilla.component"
   artifact "ProTools AAX/Shinechilla.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Shinechilla.aaxplugin"

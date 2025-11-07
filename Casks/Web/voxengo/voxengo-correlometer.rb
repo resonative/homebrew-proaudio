@@ -8,7 +8,6 @@ cask "voxengo-correlometer" do
   homepage "https://www.voxengo.com/product/correlometer/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Correlometer.component", target: "/Library/Audio/Plug-Ins/Components/Correlometer.component"
   artifact "ProTools AAX/Correlometer.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Correlometer.aaxplugin"

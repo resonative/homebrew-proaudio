@@ -8,7 +8,6 @@ cask "voxengo-marquis-compressor-vst" do
   homepage "https://www.voxengo.com/product/marquiscomp/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Marquis Compressor.vst", target: "/Library/Audio/Plug-Ins/VST/Marquis Compressor.vst"
   artifact "Marquis Compressor.vst3", target: "/Library/Audio/Plug-Ins/VST3/Marquis Compressor.vst3"

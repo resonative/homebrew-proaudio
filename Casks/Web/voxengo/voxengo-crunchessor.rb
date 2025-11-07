@@ -8,7 +8,6 @@ cask "voxengo-crunchessor-vst" do
   homepage "https://www.voxengo.com/product/crunchessor/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Crunchessor.component", target: "/Library/Audio/Plug-Ins/Components/Crunchessor.component"
   artifact "ProTools AAX/Crunchessor.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Crunchessor.aaxplugin"

@@ -8,7 +8,6 @@ cask "voxengo-tempo-delay-au-aax" do
   homepage "https://www.voxengo.com/product/tempodelay/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Tempo Delay.component", target: "/Library/Audio/Plug-Ins/Components/Tempo Delay.component"
   artifact "ProTools AAX/Tempo Delay.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Tempo Delay.aaxplugin"

@@ -8,7 +8,6 @@ cask "voxengo-varisaturator" do
   homepage "https://www.voxengo.com/product/varisaturator/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "VariSaturator.component", target: "/Library/Audio/Plug-Ins/Components/VariSaturator.component"
   artifact "ProTools AAX/VariSaturator.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/VariSaturator.aaxplugin"

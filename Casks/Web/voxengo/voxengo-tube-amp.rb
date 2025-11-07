@@ -8,7 +8,6 @@ cask "voxengo-tube-amp" do
   homepage "https://www.voxengo.com/product/tubeamp/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   artifact "Tube Amp.component", target: "/Library/Audio/Plug-Ins/Components/Tube Amp.component"
   artifact "ProTools AAX/Tube Amp.aaxplugin", target: "/Library/Application Support/Avid/Audio/Plug-Ins/Tube Amp.aaxplugin"
