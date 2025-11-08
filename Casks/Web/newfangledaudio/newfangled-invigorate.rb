@@ -1,6 +1,6 @@
 cask "newfangled-invigorate" do
-  version "1.3.10"
-  sha256 "7daa70d57d9b0815a9b0ff15cbcdfb6fcf5c949a76e828cd1dbf1d575179a690"
+  version "1.4.0"
+  sha256 "e71f33b3f0a28da823a2bb0a1f3ed5427894c0b9b596a0516e4168652d527bda"
 
   url "https://downloads.eventide.com/audio/installers/plug-ins/Invigorate/Invigorate-#{version}-osx-installer.dmg",
       verified: "downloads.eventide.com/"
@@ -22,5 +22,5 @@ cask "newfangled-invigorate" do
               "/Library/Audio/Plug-Ins/VST3/Newfangled Audio/Invigorate.vst3",
               "/Library/Application Support/Avid/Audio/Plug-Ins/Newfangled Audio/Invigorate.aaxplugin",
             ],
-            trash:  "/Users/davidsiu/Music/Newfangled Audio/Invigorate/"
+            trash:  "~/Music/Newfangled Audio/Invigorate/"
 end

@@ -1,6 +1,6 @@
 cask "newfangled-elevate" do
-  version "1.13.9"
-  sha256 "3fee517a6727f6168879a4f7f5624dff98811d2131c24233cf2056018d2be795"
+  version "1.14"
+  sha256 "81e855e13e28470b458213e7eb642cd67a20a5c7a4712d75223a45edef11ef8f"
 
   url "https://downloads.eventide.com/audio/installers/plug-ins/ElevateBundle/Newfangled-Elevate-Bundle-#{version}-osx-installer.dmg",
       verified: "downloads.eventide.com/"
@@ -22,5 +22,5 @@ cask "newfangled-elevate" do
               "/Library/Audio/Plug-Ins/VST3/Newfangled Audio/Newfangled Elevate.vst3",
               "/Library/Application Support/Avid/Audio/Plug-Ins/Newfangled Audio/Newfangled Elevate.aaxplugin",
             ],
-            trash:  "/Users/davidsiu/Music/Newfangled Audio/Elevate/"
+            trash:  "~/Music/Newfangled Audio/Elevate/"
 end

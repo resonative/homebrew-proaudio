@@ -1,6 +1,6 @@
 cask "newfangled-recirculate" do
-  version "1.1.9"
-  sha256 "c407c1273d03625c868aa021a28607f0c5cde5b0f5cb80a27b685487e7feebfc"
+  version "1.2.0"
+  sha256 "9c91e4abe2e74c0d2f3401352676ad645dcd52cff424ffa682c61adf3364bcc1"
 
   url "https://downloads.eventide.com/audio/installers/plug-ins/Recirculate/Recirculate-#{version}-osx-installer.dmg",
       verified: "downloads.eventide.com/"
@@ -22,5 +22,5 @@ cask "newfangled-recirculate" do
               "/Library/Audio/Plug-Ins/VST3/Newfangled Audio/Recirculate.vst3",
               "/Library/Application Support/Avid/Audio/Plug-Ins/Newfangled Audio/Recirculate.aaxplugin",
             ],
-            trash:  "/Users/davidsiu/Music/Newfangled Audio/Recirculate/"
+            trash:  "~/Music/Newfangled Audio/Recirculate/"
 end

@@ -1,6 +1,6 @@
 cask "newfangled-pendulate" do
-  version "1.6.9"
-  sha256 "5658ee25b58a05c6776c7580f63aa9be4432d1f168fc61f5bf3342c07eaa97cc"
+  version "1.7.0"
+  sha256 "db1b4e966c87f3667874f37a2d54ed825597d9c747cce9950eb8d86409a8a22b"
 
   url "https://downloads.eventide.com/audio/installers/plug-ins/Pendulate/Pendulate-#{version}-osx-installer.dmg",
       verified: "downloads.eventide.com/"
@@ -22,5 +22,5 @@ cask "newfangled-pendulate" do
               "/Library/Audio/Plug-Ins/VST3/Newfangled Audio/Pendulate.vst3",
               "/Library/Application Support/Avid/Audio/Plug-Ins/Newfangled Audio/Pendulate.aaxplugin",
             ],
-            trash:  "/Users/davidsiu/Music/Newfangled Audio/Pendulate/"
+            trash:  "~/Music/Newfangled Audio/Pendulate/"
 end
