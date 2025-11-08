@@ -1,6 +1,6 @@
 cask "mbs-mbsi" do
-  version "4.0.23.187"
-  sha256 "5baceb03ec8196866e4efb2043f072592aa2adefa6d7d0a350ba596075046a26"
+  version "4.0.89.253"
+  sha256 "77411270f2d5aa0d66fc253138f277f968636cdd710a25ca1b10f7f00485d0ad"
 
   url "https://mhsecure.com/installers/#{version}/MBSI_v#{version}.pkg",
       verified: "mhsecure.com/"
