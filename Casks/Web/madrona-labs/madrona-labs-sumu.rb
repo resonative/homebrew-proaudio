@@ -1,8 +1,8 @@
 cask "madrona-labs-sumu" do
-  version "1.0.0"
-  sha256 "f91e5e38a69017e223711805edfff627ee98f5a802ec6b45e3ad5fb2ab3adaec"
+  version "1.1.3"
+  sha256 "0cffabd2946f0685f74bf883e35f5ebb19cf05e33dac7cd87bee730e6979688e"
 
-  url "https://madronalabs-earlyaccess.s3.amazonaws.com/Sumu#{version}.pkg"
+  url "https://madronalabs.com/media/sumu/Sumu#{version}.pkg"
   name "Madrona Labs Sumu"
   desc "Spectral and FM synthesis synthesizer audio plugin"
   homepage "https://www.madronalabs.com/products/sumu"
