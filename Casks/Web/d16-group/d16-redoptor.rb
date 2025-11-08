@@ -9,7 +9,6 @@ cask "d16-redoptor" do
   homepage "https://d16.pl/redoptor2"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Redoptor 2 - #{version}.pkg"
 

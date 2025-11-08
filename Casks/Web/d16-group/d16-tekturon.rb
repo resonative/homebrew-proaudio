@@ -9,7 +9,6 @@ cask "d16-tekturon" do
   homepage "https://d16.pl/tekturon"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Tekturon - #{version}.pkg"
 

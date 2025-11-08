@@ -9,7 +9,6 @@ cask "d16-devastor" do
   homepage "https://d16.pl/devastor2"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Devastor 2 - #{version}.pkg"
 

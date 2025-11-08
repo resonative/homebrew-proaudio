@@ -9,7 +9,6 @@ cask "d16-spacerek" do
   homepage "https://d16.pl/spacerek"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Spacerek - #{version}.pkg"
 

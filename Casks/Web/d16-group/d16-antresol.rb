@@ -9,7 +9,6 @@ cask "d16-antresol" do
   homepage "https://d16.pl/antresol"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Antresol - #{version}.pkg"
 

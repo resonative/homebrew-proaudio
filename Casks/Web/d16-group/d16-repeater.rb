@@ -9,7 +9,6 @@ cask "d16-repeater" do
   homepage "https://d16.pl/repeater"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Repeater - #{version}.pkg"
 

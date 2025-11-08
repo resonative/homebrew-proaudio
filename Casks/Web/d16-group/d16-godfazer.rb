@@ -9,7 +9,6 @@ cask "d16-godfazer" do
   homepage "https://d16.pl/godfazer"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Godfazer - #{version}.pkg"
 

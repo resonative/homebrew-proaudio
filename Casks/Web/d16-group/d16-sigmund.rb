@@ -9,7 +9,6 @@ cask "d16-sigmund" do
   homepage "https://d16.pl/sigmund2"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Sigmund 2 - #{version}.pkg"
 

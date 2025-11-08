@@ -9,7 +9,6 @@ cask "d16-drumazon" do
   homepage "https://d16.pl/drumazon2"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Drumazon 2 - #{version}.pkg"
 

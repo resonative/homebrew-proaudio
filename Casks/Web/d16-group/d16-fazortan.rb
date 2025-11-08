@@ -9,7 +9,6 @@ cask "d16-fazortan" do
   homepage "https://d16.pl/fazortan2"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Fazortan 2 - #{version}.pkg"
 

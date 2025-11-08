@@ -9,7 +9,6 @@ cask "d16-decimort" do
   homepage "https://d16.pl/decimort2"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Decimort 2 - #{version}.pkg"
 

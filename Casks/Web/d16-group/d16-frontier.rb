@@ -9,7 +9,6 @@ cask "d16-frontier" do
   homepage "https://d16.pl/frontier"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Frontier - #{version}.pkg"
 

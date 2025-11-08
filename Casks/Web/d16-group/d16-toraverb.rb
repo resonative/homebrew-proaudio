@@ -9,7 +9,6 @@ cask "d16-toraverb" do
   homepage "https://d16.pl/toraverb2"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Toraverb 2 - #{version}.pkg"
 

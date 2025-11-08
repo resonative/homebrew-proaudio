@@ -9,7 +9,6 @@ cask "d16-punchbox" do
   homepage "https://d16.pl/punchbox"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Punchbox - #{version}.pkg"
 

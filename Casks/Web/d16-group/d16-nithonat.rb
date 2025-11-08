@@ -1,6 +1,6 @@
 cask "d16-nithonat" do
-  version "2.0.1"
-  sha256 "9572fcea6fc029822bdc19d68185f751fa5c403f41d590bd7a3309b19ec19fe7"
+  version "2.0.2"
+  sha256 "df78a8a61c99bfb3db8c51126e575939f6da99b31c4a244f16821c380b8dda1f"
 
   url "https://d16group.s3.amazonaws.com/installers/Nithonat2/Nithonat2-#{version}.dmg",
       verified: "d16group.s3.amazonaws.com/"
@@ -9,7 +9,6 @@ cask "d16-nithonat" do
   homepage "https://d16.pl/nithonat2"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Nithonat 2 - #{version}.pkg"
 

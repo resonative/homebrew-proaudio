@@ -9,7 +9,6 @@ cask "d16-nepheton" do
   homepage "https://d16.pl/nepheton2"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Nepheton 2 - #{version}.pkg"
 

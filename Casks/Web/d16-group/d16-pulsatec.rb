@@ -1,6 +1,6 @@
 cask "d16-pulsatec" do
-  version "1.0.0"
-  sha256 "1b7b06d0a4c4d0d63f008dacb8d0b9462c94bbc63c82a93ed77cfe6f5d16f441"
+  version "1.1.0"
+  sha256 "a82e04ae7e287b33c1bd62581ffe10458c54718366a0f81908a218dec84af7b4"
 
   url "https://d16group.s3.amazonaws.com/installers/Pulsatec/Pulsatec-#{version}.dmg",
       verified: "d16group.s3.amazonaws.com/"
@@ -9,7 +9,6 @@ cask "d16-pulsatec" do
   homepage "https://d16.pl/pulsatec"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Pulsatec - #{version}.pkg"
 

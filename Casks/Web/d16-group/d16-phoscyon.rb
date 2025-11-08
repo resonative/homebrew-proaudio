@@ -9,7 +9,6 @@ cask "d16-phoscyon" do
   homepage "https://d16.pl/phoscyon2"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Phoscyon 2 - #{version}.pkg"
 

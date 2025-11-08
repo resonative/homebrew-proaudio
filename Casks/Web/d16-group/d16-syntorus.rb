@@ -9,7 +9,6 @@ cask "d16-syntorus" do
   homepage "https://d16.pl/syntorus2"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "Syntorus 2 - #{version}.pkg"
 
