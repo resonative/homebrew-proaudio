@@ -1,6 +1,6 @@
 cask "apulsoft-splits" do
-  version "1.0.1"
-  sha256 "27ca9bd99946de2ae2357b47e4f973fbd0c59e29f0009a6e801aec9cf7372617"
+  version "1.1.2"
+  sha256 "6327e14716d6447e0ce25140be4abde4e959283392c4a7a0f9ac8fc7df44349f"
 
   url "https://www.apulsoft.ch/splits/splits-mac-#{version.dots_to_hyphens}.pkg"
   name "apulSoft splitS"
