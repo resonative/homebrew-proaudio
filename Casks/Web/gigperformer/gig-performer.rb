@@ -1,6 +1,6 @@
 cask "gig-performer" do
-  version "5.1.1"
-  sha256 "adbd136422a03f7a76bd86be63038c1f8796f63a8635062b948e9681f480511d"
+  version "5.1.4"
+  sha256 "3ba559fb2bfcaf58397a786f1744fa6df0c156d33e77856a8506cc0c9a5bc578"
 
   url "https://gigperformer.com/
 https://gigperformer5.s3.us-east-2.amazonaws.com/GP#{version}/GigPerformer5-Universal-#{version}.dmg",
@@ -10,7 +10,6 @@ https://gigperformer5.s3.us-east-2.amazonaws.com/GP#{version}/GigPerformer5-Univ
   homepage "https://gigperformer.com/"
 
   auto_updates true
-  depends_on macos: ">= :mojave"
 
   pkg "Gig Performer #{version}.pkg",
       choices: [
@@ -21,6 +20,16 @@ https://gigperformer5.s3.us-east-2.amazonaws.com/GP#{version}/GigPerformer5-Univ
         },
         {
           "choiceIdentifier" => "installer_choice_4", # TH-U for Gig Performer 1.4.25 Mac
+          "choiceAttribute"  => "selected",
+          "attributeSetting" => 0,
+        },
+        {
+          "choiceIdentifier" => "installer_choice_5", # SynthMasterPlayerContentGP
+          "choiceAttribute"  => "selected",
+          "attributeSetting" => 0,
+        },
+        {
+          "choiceIdentifier" => "installer_choice_6", # SynthMasterPlayerVST3
           "choiceAttribute"  => "selected",
           "attributeSetting" => 0,
         },
@@ -41,5 +50,5 @@ https://gigperformer5.s3.us-east-2.amazonaws.com/GP#{version}/GigPerformer5-Univ
     "~/Library/Preferences/com.deskew.gigperformer5.plist",
   ]
 
-  caveats "This formula does not install LostIn70s VST and TH-U for Gig Performer."
+  caveats "This formula does not install extra contents for Gig Performer."
 end
