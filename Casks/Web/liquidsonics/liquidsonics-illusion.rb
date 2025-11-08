@@ -1,8 +1,8 @@
 cask "liquidsonics-illusion" do
-  version "1.4.4"
-  sha256 "8c37700e4a522f4545377eedadcbb16db6964f5b4b87280d6c1fa07e39f18258"
+  version "1.4.6"
+  sha256 "ff0df30d043598764c4766ca668ae54a0e16e1bca1f61dd21348e511ef0b2ff1"
 
-  url "https://us-east-1.linodeobjects.com/liquidsonics/software/illusion/mac/Illusion-v#{version}-macOS.pkg"
+  url "https://downloads.liquidsonics.com/software/illusion/mac/Illusion-v#{version}-macOS.pkg"
   name "LiquidSonics Illusion"
   desc "Syethized Fusion-IR reverb"
   homepage "https://www.liquidsonics.com/software/illusion/"

@@ -1,8 +1,8 @@
 cask "liquidsonics-tai-chi" do
-  version "1.6.0"
-  sha256 "44a4ca5801523f11d7abded129cb5ddb8ae4c40812d8679505dd938ab0669651"
+  version "1.6.2"
+  sha256 "bf8157b49baa7fa33dc206f84652d59668af160926523aee5bad0764df439b70"
 
-  url "https://us-east-1.linodeobjects.com/reverbfoundry/downloads/tai_chi/mac/Tai_Chi-v#{version}-macOS.pkg"
+  url "https://downloads.liquidsonics.com/software/tai-chi/mac/Tai_Chi-v#{version}-macOS.pkg"
   name "LiquidSonics Tai Chi"
   desc "Chorus reverb"
   homepage "https://www.liquidsonics.com/software/tai-chi/"

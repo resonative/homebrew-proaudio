@@ -1,8 +1,8 @@
 cask "liquidsonics-cinematic-rooms-professional" do
-  version "1.3.5"
-  sha256 "7c4ee6c8381d4d762f12ac6d0e94f048a330fcc9c06291dc17a6547600133814"
+  version "1.3.9"
+  sha256 "ebf4efa979737ab15cb6604e0aada01b99102c94e771c1015aaad97dc74cf7dc"
 
-  url "https://us-east-1.linodeobjects.com/liquidsonics/software/cinematic-rooms/mac/Cinematic_Rooms_Professional-v#{version}-macOS.pkg"
+  url "https://downloads.liquidsonics.com/software/cinematic-rooms/mac/Cinematic_Rooms_Professional-v#{version}-macOS.pkg"
   name "LiquidSonics Cinematic Rooms Professional"
   desc "Surround room reverb"
   homepage "https://www.liquidsonics.com/software/cinematic-rooms/"
