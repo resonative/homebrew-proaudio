@@ -1,6 +1,6 @@
 cask "flux-center" do
-  version "25.03.0.50465"
-  sha256 "ea43ac8f6ac2a07a1d8d08265e4b46f893143d8a6efd725fad57a31801bea612"
+  version "25.11.0.50527"
+  sha256 "171e3af8a2ae75a9ffa9583eacf392e705b60a1f76b90ac23e92de25605b17bd"
 
   url "https://flux-caffeine.s3-accelerate.amazonaws.com/files/Flux/CENTER%20%20INSTALLERS/FluxCenter_Macosx_Installer_%28#{version}%29.dmg"
   name "FLUX Center"
