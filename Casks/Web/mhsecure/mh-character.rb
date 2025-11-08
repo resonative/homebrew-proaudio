@@ -1,6 +1,6 @@
 cask "mh-character" do
-  version "4.0.23.187"
-  sha256 "55db69bcc39aafcad35c4d967f314b467fda82ca42a77f4ecf04801323adcc32"
+  version "4.0.89.253"
+  sha256 "f425981d7ea4bd06796509d4ed64a3a54ffd43bc2a69c9fc96b65186e7591530"
 
   url "https://mhsecure.com/installers/#{version}/MHProductionBundleInstaller.pkg"
   name "Metric Halo MH Character v4"
