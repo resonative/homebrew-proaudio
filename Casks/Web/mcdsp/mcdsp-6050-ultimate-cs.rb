@@ -1,6 +1,6 @@
 cask "mcdsp-6050-ultimate-cs" do
-  version "7.2.35"
-  sha256 "f70f1c86d322fb09be52a088176f662307a5640499d2a7a3b9e28b4e8cfe8bea"
+  version "7.3.0"
+  sha256 "c423b5ea9117d30db2171d6bc65b30d26365ada093eb92a268052ed805401e61"
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/6050_CS_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP 6050 Ultimate Channel Strip"

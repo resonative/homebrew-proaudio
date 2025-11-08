@@ -1,6 +1,6 @@
 cask "mcdsp-compressorbank" do
-  version "7.2.35"
-  sha256 "ce6f98ee8132088fa377dd480745e5dcf748d1c55f9a0e75618348d64666a481"
+  version "7.3.0"
+  sha256 "1165da90d945ef7511db674a03cf867a78e980821ff7fa70c66450b6cb4286e6"
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/CB_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP CompressorBank"

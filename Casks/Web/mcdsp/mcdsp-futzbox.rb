@@ -1,6 +1,6 @@
 cask "mcdsp-futzbox" do
-  version "7.2.35"
-  sha256 "0144aed06a30a1b6f4f11a937d9ac327e5ee0bd1f45c5a795a346eb43abf2f6d"
+  version "7.3.0"
+  sha256 "5f270c607e99ff584fbc451d9218a2e051ad7126bccf8c51e7d04e4076037667"
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/F_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP FutzBox"

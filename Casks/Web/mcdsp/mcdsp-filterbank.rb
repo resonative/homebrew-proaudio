@@ -1,6 +1,6 @@
 cask "mcdsp-filterbank" do
-  version "7.2.35"
-  sha256 "48db869a0953b7db23b1d0503fd6a209c7ca7001049e1951b6a4f384b9785afa"
+  version "7.3.0"
+  sha256 "425152f34b05077853d9d7383a27f0248078a589c5d66a90b84aa92c21740700"
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/FB_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP FilterBank"

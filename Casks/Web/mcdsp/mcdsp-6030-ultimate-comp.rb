@@ -1,6 +1,6 @@
 cask "mcdsp-6030-ultimate-comp" do
-  version "7.2.35"
-  sha256 "84a05c070f87585166f2d9a34d2fff95263d57c004cabe441f634ccd97fbff3d"
+  version "7.3.0"
+  sha256 "214bfaaf02c0307b287013f79ba448720b9b4bcba33aa02fc9160a528ae6b09a"
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/6030_C_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP 6030 Ultimate Compressor"

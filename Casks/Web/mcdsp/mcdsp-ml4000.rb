@@ -1,6 +1,6 @@
 cask "mcdsp-ml4000" do
-  version "7.2.35"
-  sha256 "d7003b6f021a06e73ef8d428c70d336178c30e691b68fa85dab19704eae3d74e"
+  version "7.3.0"
+  sha256 "8fdd59cd097680e7338962f65b8c82d6157501f25d92e6c38eddc5e131f30708"
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/ML_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP ML4000 Mastering Limiter"

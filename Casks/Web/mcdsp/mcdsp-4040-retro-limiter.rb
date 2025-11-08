@@ -1,6 +1,6 @@
 cask "mcdsp-4040-retro-limiter" do
-  version "7.2.35"
-  sha256 "a569ccd8ed8c3f8d4a01b661b1f382474193db7e9eb30bdadaeda59b8183a3c8"
+  version "7.3.0"
+  sha256 "59876b72592f870431f1fba5575857f1881558f915da9fb07e3546e0935c9073"
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/4040_L_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP 4040 Retro Limiter"

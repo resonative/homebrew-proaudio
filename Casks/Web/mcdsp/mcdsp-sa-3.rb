@@ -1,6 +1,6 @@
 cask "mcdsp-sa-3" do
-  version "7.2.35"
-  sha256 "83a6a951aff12f9e9bb2ae563430d109659510d4fb89647d2aea440900e756a9"
+  version "7.3.0"
+  sha256 "9ef4214cfb1e4a17769e2e3d69f58fd80c2729a28b339ceb17b27fb7ed547962"
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/SA3_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP SA-3 Spectral Processor"

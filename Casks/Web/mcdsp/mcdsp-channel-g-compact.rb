@@ -1,6 +1,6 @@
 cask "mcdsp-channel-g-compact" do
-  version "7.2.35"
-  sha256 "5ebe919d639b7d82a5b90f316c51f56ef087e8628dd174296413ebef345069b9"
+  version "7.3.0"
+  sha256 "af451d17630d09e5efaca5d504ed01ea0351f7a6b7bc40f14bb03d6987646f06"
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/CGC_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP Channel G Compact"

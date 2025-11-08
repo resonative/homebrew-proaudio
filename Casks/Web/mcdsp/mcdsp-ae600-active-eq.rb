@@ -1,6 +1,6 @@
 cask "mcdsp-ae600-active-eq" do
-  version "7.2.35"
-  sha256 "0e7c7d66e021d36cca2aec6c3b65cbc66b5fc5b893a141285963a01f8f135afc"
+  version "7.3.0"
+  sha256 "e3ecf9e44595cc7132a6934aab325b61f6c4e5ab888cab2d0ab3f26effff3972"
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/AE600_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP AE600 Active EQ"

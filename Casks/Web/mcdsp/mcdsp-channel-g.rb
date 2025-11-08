@@ -1,6 +1,6 @@
 cask "mcdsp-channel-g" do
-  version "7.2.35"
-  sha256 "ecb55eb23adea54fe4260926b318b1a40564f62ea8fa225498bdef22efb0ee67"
+  version "7.3.0"
+  sha256 "fcc29a65b928c549cc1fd4c6bbbe06076b9ab150fcbcc69075467d849b7a48c2"
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/CG_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP Channel G"

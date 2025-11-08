@@ -1,6 +1,6 @@
 cask "mcdsp-4020-retro-eq" do
-  version "7.2.35"
-  sha256 "92f1672e774c30b44e18f8b29d51182f1831a6cb6da1c6bc73cbde53694c5bac"
+  version "7.3.0"
+  sha256 "7b50719067fc460cc7958bd6e3305595e52e0d2b414d045ea8eb2545c580ce24"
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/4020_E_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP 4020 Retro EQ"
