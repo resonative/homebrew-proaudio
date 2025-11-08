@@ -8,7 +8,6 @@ cask "eventide-physion-mk-ii" do
   homepage "https://www.eventideaudio.com/plug-ins/physion-mk-ii/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "Physion-Mk-II-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

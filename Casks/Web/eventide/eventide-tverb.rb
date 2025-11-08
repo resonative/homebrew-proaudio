@@ -8,7 +8,6 @@ cask "eventide-tverb" do
   homepage "https://www.eventideaudio.com/plug-ins/tverb/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "Tverb-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

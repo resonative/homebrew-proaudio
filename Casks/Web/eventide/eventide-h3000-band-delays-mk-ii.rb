@@ -8,7 +8,6 @@ cask "eventide-h3000-band-delays-mk-ii" do
   homepage "https://www.eventideaudio.com/plug-ins/h3000-band-delays-mk-ii/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "H3000-Band-Delays-Mk-II-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

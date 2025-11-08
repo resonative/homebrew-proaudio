@@ -8,7 +8,6 @@ cask "eventide-crushstation" do
   homepage "https://www.eventideaudio.com/plug-ins/crushstation/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "CrushStation-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

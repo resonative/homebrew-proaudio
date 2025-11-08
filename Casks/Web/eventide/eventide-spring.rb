@@ -8,7 +8,6 @@ cask "eventide-spring" do
   homepage "https://www.eventideaudio.com/plug-ins/spring/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "Spring-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

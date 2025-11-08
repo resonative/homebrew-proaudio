@@ -8,7 +8,6 @@ cask "eventide-precision-time-align" do
   homepage "https://www.eventideaudio.com/plug-ins/precision-time-align/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "Precision-Time-Align-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

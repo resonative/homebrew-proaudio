@@ -8,7 +8,6 @@ cask "eventide-echannel" do
   homepage "https://www.eventideaudio.com/plug-ins/echannel/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "EChannel-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

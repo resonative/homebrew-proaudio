@@ -8,7 +8,6 @@ cask "eventide-instant-flanger-mk-ii" do
   homepage "https://www.eventideaudio.com/plug-ins/instant-flanger-mk-ii/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "Instant-Flanger-Mk-II-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

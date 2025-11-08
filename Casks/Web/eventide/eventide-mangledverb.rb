@@ -8,7 +8,6 @@ cask "eventide-mangledverb" do
   homepage "https://www.eventideaudio.com/plug-ins/mangledverb/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "MangledVerb-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

@@ -8,7 +8,6 @@ cask "eventide-sp2016-reverb" do
   homepage "https://www.eventideaudio.com/plug-ins/sp2016-reverb/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "SP2016-Reverb-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

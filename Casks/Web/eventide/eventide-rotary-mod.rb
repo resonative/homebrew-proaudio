@@ -8,7 +8,6 @@ cask "eventide-rotary-mod" do
   homepage "https://www.eventideaudio.com/plug-ins/rotary-mod/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "Rotary-Mod-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

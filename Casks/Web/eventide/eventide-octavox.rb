@@ -8,7 +8,6 @@ cask "eventide-octavox" do
   homepage "https://www.eventideaudio.com/plug-ins/octavox/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "Octavox-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

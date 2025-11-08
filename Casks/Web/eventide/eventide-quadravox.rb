@@ -8,7 +8,6 @@ cask "eventide-quadravox" do
   homepage "https://www.eventideaudio.com/plug-ins/quadravox/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "Quadravox-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

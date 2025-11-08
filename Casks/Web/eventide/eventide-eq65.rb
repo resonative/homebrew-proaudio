@@ -8,7 +8,6 @@ cask "eventide-eq65" do
   homepage "https://www.eventideaudio.com/plug-ins/eq45/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "EQ65-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

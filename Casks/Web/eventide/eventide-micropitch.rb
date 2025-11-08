@@ -8,7 +8,6 @@ cask "eventide-micropitch" do
   homepage "https://www.eventideaudio.com/plug-ins/micropitch/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "MicroPitch-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

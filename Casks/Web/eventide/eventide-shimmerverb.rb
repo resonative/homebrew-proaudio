@@ -8,7 +8,6 @@ cask "eventide-shimmerverb" do
   homepage "https://www.eventideaudio.com/plug-ins/shimmerverb/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "ShimmerVerb-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

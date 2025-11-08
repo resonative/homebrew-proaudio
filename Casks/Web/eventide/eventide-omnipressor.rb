@@ -8,7 +8,6 @@ cask "eventide-omnipressor" do
   homepage "https://www.eventideaudio.com/plug-ins/omnipressor/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "Omnipressor-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

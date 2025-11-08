@@ -8,7 +8,6 @@ cask "eventide-sheen-machine" do
   homepage "https://www.eventideaudio.com/plug-ins/sheen-machine/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "Sheen-Machine-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

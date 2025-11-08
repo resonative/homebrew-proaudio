@@ -8,7 +8,6 @@ cask "eventide-h949-harmonizer" do
   homepage "https://www.eventideaudio.com/plug-ins/h949-harmonizer/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "H949-Harmonizer-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

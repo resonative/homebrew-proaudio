@@ -8,7 +8,6 @@ cask "eventide-undulator" do
   homepage "https://www.eventideaudio.com/plug-ins/undulator/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "Undulator-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

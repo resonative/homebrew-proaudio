@@ -8,7 +8,6 @@ cask "eventide-spliteq" do
   homepage "https://www.eventideaudio.com/plug-ins/spliteq/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "SplitEQ-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

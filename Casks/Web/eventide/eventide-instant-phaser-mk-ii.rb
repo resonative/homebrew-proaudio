@@ -8,7 +8,6 @@ cask "eventide-instant-phaser-mk-ii" do
   homepage "https://www.eventideaudio.com/plug-ins/instant-phaser-mk-ii/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "Instant-Phaser-Mk-II-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

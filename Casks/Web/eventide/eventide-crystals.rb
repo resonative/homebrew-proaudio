@@ -8,7 +8,6 @@ cask "eventide-crystals" do
   homepage "https://www.eventideaudio.com/plug-ins/crystals/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "Crystals-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

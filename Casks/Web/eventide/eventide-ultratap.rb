@@ -8,7 +8,6 @@ cask "eventide-ultratap" do
   homepage "https://www.eventideaudio.com/plug-ins/ultratap/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "UltraTap-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

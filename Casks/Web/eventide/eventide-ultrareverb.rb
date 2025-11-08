@@ -8,7 +8,6 @@ cask "eventide-ultrareverb" do
   homepage "https://www.eventideaudio.com/plug-ins/ultrareverb/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "UltraReverb-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

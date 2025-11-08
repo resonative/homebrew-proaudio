@@ -8,7 +8,6 @@ cask "eventide-ultrachannel" do
   homepage "https://www.eventideaudio.com/plug-ins/ultrachannel/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "UltraChannel-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

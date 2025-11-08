@@ -8,7 +8,6 @@ cask "eventide-deboom" do
   homepage "https://www.eventideaudio.com/plug-ins/deboom/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "DeBoom-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",

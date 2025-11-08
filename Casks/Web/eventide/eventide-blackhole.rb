@@ -8,7 +8,6 @@ cask "eventide-blackhole" do
   homepage "https://www.eventideaudio.com/plug-ins/blackhole/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   installer script: {
     executable: "Blackhole-#{version}-osx-installer.app/Contents/MacOS/installbuilder.sh",
