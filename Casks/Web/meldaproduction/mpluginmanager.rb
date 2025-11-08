@@ -1,7 +1,7 @@
 cask "mpluginmanager" do
-  version "02.11"
-  sha256 "666fee38e72cf33e8953471b3281dda54410840e7dfefa7089acd2370775be7e"
-  
+  version "02.13"
+  sha256 "7011b8d2bade3db53ba518e58d0398be3ed228eb8552d80d7c5d0741a385fa43"
+
   url "https://meldaproduction.b-cdn.net/download/mpluginmanager/MPluginManager_#{version.dots_to_underscores}_setupmac.zip"
   name "MeldaProduction MPluginManager V17"
   desc "Plugin manager for Melda Production products"
