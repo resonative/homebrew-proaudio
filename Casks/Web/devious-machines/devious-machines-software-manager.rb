@@ -1,6 +1,6 @@
 cask "devious-machines-software-manager" do
-  version "1.1.1"
-  sha256 :no_check
+  version "1.1.2"
+  sha256 "173ae4c84add4b4264da8f2a58b9658e07af677b21e5702eb2cd8868704dafb3"
 
   url "https://deviousmachines.com/dm_builds/dmsm/Devious%20Machines%20Software%20Manager%20v#{version}%20Mac.dmg"
   name "Devious Machines Software Manager"
@@ -12,7 +12,6 @@ cask "devious-machines-software-manager" do
   end
 
   auto_updates false
-  depends_on macos: ">= :el_capitan"
 
   app "Devious Machines Software Manager.app"
 
