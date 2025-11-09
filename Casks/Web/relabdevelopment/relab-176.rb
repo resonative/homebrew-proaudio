@@ -5,7 +5,7 @@ cask "relab-176" do
   url "https://relab-software-downloads.s3.us-west-1.amazonaws.com/products/Relab+176/v#{version}/Relab+176.pkg",
       verified: "relab-software-downloads.s3.us-west-1.amazonaws.com/"
   name "Relab 176"
-  desc "UA 176 tube compressor emulation"
+  desc "Retro 176 tube compressor emulation"
   homepage "https://relabdevelopment.com/relab-176/"
 
   auto_updates false
