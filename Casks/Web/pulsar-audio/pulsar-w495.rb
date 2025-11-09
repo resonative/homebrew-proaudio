@@ -1,6 +1,6 @@
 cask "pulsar-w495" do
-  version "1.2.6"
-  sha256 "fe48bb08d9a76f4a629e138e6f3c98112367610603a75de08010945fb2d310f4"
+  version "1.2.8"
+  sha256 "a1a1495ba707d03bfd582b5d85a29c67f4193f9cb82d8a1c434f81308eaa64d6"
 
   url "https://pulsaraudio.s3.us-east-2.amazonaws.com/w495/PulsarW495-#{version}.dmg",
       verified: "pulsaraudio.s3.us-east-2.amazonaws.com/"

@@ -1,6 +1,6 @@
 cask "pulsar-smasher" do
-  version "1.5.6"
-  sha256 "0d51891b94da8757fa2da9454c704a3e0c2bdd1c12d5a26e69f5ef34304ef6d6"
+  version "1.5.8"
+  sha256 "ec1ce7f747414a74af0cb82d7d144b39795bb2d8dc825eea245b473085083951"
 
   url "https://pulsaraudio.s3.us-east-2.amazonaws.com/Smasher/PulsarSmasher-#{version}.dmg",
       verified: "pulsaraudio.s3.us-east-2.amazonaws.com/"

@@ -1,6 +1,6 @@
 cask "pulsar-poseidon" do
-  version "1.1.6"
-  sha256 "3fb2a44b103500ec03b5e5fcebd5a78e63c2d30d929127985e9fae6c97203d9b"
+  version "1.1.8"
+  sha256 "4a062a0d017574851415934f0393d30c063a7ed3574db7522ad205f0d9ef2892"
 
   url "https://pulsaraudio.s3.us-east-2.amazonaws.com/Poseidon/PulsarPoseidon-#{version}.dmg",
       verified: "pulsaraudio.s3.us-east-2.amazonaws.com/"

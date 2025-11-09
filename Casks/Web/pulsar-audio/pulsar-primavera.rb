@@ -1,6 +1,6 @@
 cask "pulsar-primavera" do
-  version "1.2.6"
-  sha256 "f0bfea179c9dd1db6c5fec1621b41d5aeae7be50060a0b6b2f9099b8f3343d8f"
+  version "1.2.8"
+  sha256 "925bfb16fa55bf46fbfae9d124079096f643e45ef2648be7ccbd646f1929eedb"
 
   url "https://pulsaraudio.s3.us-east-2.amazonaws.com/Primavera/PulsarPrimavera-#{version}.dmg",
       verified: "pulsaraudio.s3.us-east-2.amazonaws.com/"
