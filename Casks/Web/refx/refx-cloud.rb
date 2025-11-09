@@ -8,7 +8,6 @@ cask "refx-cloud" do
   homepage "https://refx.com/"
 
   auto_updates true
-  depends_on macos: ">= :high_sierra"
 
   pkg "reFX_Cloud_#{version}.pkg"
 
