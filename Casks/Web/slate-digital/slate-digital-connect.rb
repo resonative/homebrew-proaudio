@@ -1,7 +1,7 @@
 cask "slate-digital-connect" do
-  version "1.30.0"
-  sha256 arm:   "be589f47c3bddaf83e0c6ec906095ea85f695bbf310e662c40b916a15dd55a7b",
-         intel: "dac1ce0d6851d9e1e8381f4ccad2adb1debfee92c1724d82eac5c65a5b8bb001"
+  version "1.34.13"
+  sha256 arm:   "157701561bce0d441821f487afe3c1a21528336681de00215460103623baace8",
+         intel: "2e439787330e8b0cdc464d39f1b8c9067873c050eb32af8ba6b7a4700e56fc8d"
 
   on_arm do
     url "https://cdn1.slatedigital.com/sd-connect-releases/latest/Slate%20Digital%20Connect-#{version}-arm64.dmg"
@@ -15,7 +15,6 @@ cask "slate-digital-connect" do
   homepage "https://slatedigital.com/"
 
   auto_updates true
-  depends_on macos: ">= :catalina"
 
   app "Slate Digital Connect.app"
 
