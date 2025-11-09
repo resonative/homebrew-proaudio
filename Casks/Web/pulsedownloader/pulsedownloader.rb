@@ -1,14 +1,14 @@
 cask "pulsedownloader" do
   on_arm do
-    version "40.4.20"
-    sha256 "a408518a2c69142f682b26a755b59e40d8ee87cab7462a3e666535983e8eebce"
+    version "40.4.26"
+    sha256 "41b4a294808a3e749ad2c8c94c10faed24930a1b8f25da67ddb84ae1c4610261"
 
     url "https://pulse-client.nyc3.digitaloceanspaces.com/dist/Pulse-#{version}-arm64.dmg",
         verified: "digitaloceanspaces.com/"
   end
   on_intel do
-    version "40.4.20"
-    sha256 "267d5dc2d866fa5bf8d970268aea626c4b59abcb779a3156885530ad8b9c225f"
+    version "40.4.26"
+    sha256 "3269acdf728d439733630c62c1f5404a4082ee70ca948c19af724bdbaa03c38c"
 
     url "https://pulse-client.nyc3.digitaloceanspaces.com/dist/Pulse-#{version}.dmg",
         verified: "digitaloceanspaces.com/"
