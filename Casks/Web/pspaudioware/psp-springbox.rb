@@ -9,7 +9,6 @@ cask "psp-springbox" do
   homepage "https://www.pspaudioware.com/products/psp-springbox"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   pkg "PSP_SpringBox_macOS.pkg"
  

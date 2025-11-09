@@ -9,7 +9,6 @@ cask "psp-2445-emt" do
   homepage "https://www.pspaudioware.com/products/psp-2445-emt"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   pkg "PSP_2445_EMT_macOS.pkg"
 

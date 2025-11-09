@@ -9,7 +9,6 @@ cask "psp-e27" do
   homepage "https://www.pspaudioware.com/products/psp-e27"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   pkg "PSP_E27_macOS.pkg"
  

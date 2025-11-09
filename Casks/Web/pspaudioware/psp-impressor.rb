@@ -9,7 +9,6 @@ cask "psp-impressor" do
   homepage "https://www.pspaudioware.com/products/psp-impressor"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   pkg "PSP_Impressor_macOS.pkg"
  

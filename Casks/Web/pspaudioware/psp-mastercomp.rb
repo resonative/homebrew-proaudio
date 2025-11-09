@@ -9,7 +9,6 @@ cask "psp-mastercomp" do
   homepage "https://www.pspaudioware.com/products/psp-mastercomp"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   pkg "PSP_MasterComp_macOS.pkg"
  

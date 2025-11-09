@@ -9,7 +9,6 @@ cask "psp-oldtimer" do
   homepage "https://www.pspaudioware.com/products/psp-oldtimer-me"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   pkg "PSP_oldTimer_macOS.pkg"
  

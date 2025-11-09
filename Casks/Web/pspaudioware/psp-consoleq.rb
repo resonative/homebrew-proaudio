@@ -9,7 +9,6 @@ cask "psp-consoleq" do
   homepage "https://www.pspaudioware.com/products/psp-consoleq"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   pkg "PSP_ConsoleQ_macOS.pkg"
  

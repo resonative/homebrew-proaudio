@@ -9,7 +9,6 @@ cask "psp-triplemeter" do
   homepage "https://www.pspaudioware.com/products/psp-triplemeter"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   pkg "PSP_TripleMeter_macOS.pkg"
 

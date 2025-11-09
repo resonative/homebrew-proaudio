@@ -9,7 +9,6 @@ cask "psp-infinistrip" do
   homepage "https://www.pspaudioware.com/products/psp-infinistrip"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   pkg "PSP_InfiniStrip_macOS.pkg"
 

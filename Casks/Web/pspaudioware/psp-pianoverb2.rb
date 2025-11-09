@@ -9,7 +9,6 @@ cask "psp-pianoverb2" do
   homepage "https://www.pspaudioware.com/products/psp-pianoverb2"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   pkg "PSP_PianoVerb2_macOS.pkg"
  

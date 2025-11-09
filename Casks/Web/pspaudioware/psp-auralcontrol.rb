@@ -9,7 +9,6 @@ cask "psp-auralcontrol" do
   homepage "https://www.pspaudioware.com/products/psp-auralcontrol"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   pkg "PSP_auralControl_macOS.pkg"
  

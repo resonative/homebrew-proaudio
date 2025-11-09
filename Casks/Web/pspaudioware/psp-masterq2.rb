@@ -9,7 +9,6 @@ cask "psp-masterq2" do
   homepage "https://www.pspaudioware.com/products/psp-masterq2"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   pkg "PSP_MasterQ2_macOS.pkg"
  

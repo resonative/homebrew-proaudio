@@ -9,7 +9,6 @@ cask "psp-lexicon-psp42" do
   homepage "https://www.pspaudioware.com/products/lexicon-psp-42"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   pkg "Lexicon_PSP42_macOS.pkg"
 

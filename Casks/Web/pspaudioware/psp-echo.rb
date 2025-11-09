@@ -9,7 +9,6 @@ cask "psp-echo" do
   homepage "https://www.pspaudioware.com/products/psp-echo"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   pkg "PSP_Echo_macOS.pkg"
  

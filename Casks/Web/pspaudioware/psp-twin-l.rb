@@ -9,7 +9,6 @@ cask "psp-twin-l" do
   homepage "https://www.pspaudioware.com/products/psp-twin-l"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   pkg "PSP_Twin-L_macOS.pkg"
  
