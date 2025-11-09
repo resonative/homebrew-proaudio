@@ -1,6 +1,6 @@
 cask "oek-bloom" do
-  version "1.1.1"
-  sha256 "7e6133d6816f48f9451f75b7bc5246343ac5675c3885189998100c78dae0621c"
+  version "1.1.2"
+  sha256 "08becf38591432e34c5e71927ef8f81be5d9699cfb95ac8550d50e5433b233fc"
 
   url "https://oeksound.ams3.cdn.digitaloceanspaces.com/bloom_v#{version}_macos.pkg",
       verified: "oeksound.ams3cdn.digitaloceanspaces.com/"
