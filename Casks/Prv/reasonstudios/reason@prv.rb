@@ -7,8 +7,8 @@ cask "reason@prv" do
     end
   end
 
-  version "13.3" # Reason_1330_d59-Stable-428-Mac
-  sha256 "9db6e668ff81fc58ac4c6e443412cd8794a6a31e210728aa195cf3960c030c26"
+  version "13.3.3" # Reason_1333_d36-Stable-561-Mac
+  sha256 "a0bf69fd16b476df8fed5c38345c7cfbc71236d4d9ebb621e4f2204ff0dd7c5e"
 
   url "#{prv_archive_url}/r/reason/v#{version}/Reason%2013.pkg",
       verified: prv_archive_url.to_s
@@ -46,5 +46,5 @@ cask "reason@prv" do
   ]
 
   caveats "Downloaded zip from reasonstudios.com cannot be extracted properly by brew.\n" \
-          "Reason 13.pkg should be extracted manually with Archive Utility and keep in archive."
+          "Installer should be extracted manually with Archive Utility and store as 'Reason 13.pkg'."
 end
