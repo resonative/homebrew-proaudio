@@ -7,7 +7,7 @@ cask "renoise-redux@prv" do
     end
   end
 
-  version "1.3.5"
+  version "1.4.3"
   sha256 :no_check
 
   url "#{prv_archive_url}/r/renoise-redux/v#{version}/rns_rdx_#{version.no_dots}_osx.tar.gz",
