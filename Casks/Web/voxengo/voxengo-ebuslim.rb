@@ -2,7 +2,7 @@ cask "voxengo-ebuslim" do
   version "1.11"
   sha256 :no_check
 
-  url "https://www.voxengo.com/files/VoxengoEBusLim_#{version.no_dots}_Mac_AU_AAX_setup.dmg"
+  url "https://www.voxengo.com/files/VoxengoEBusLim_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo EBusLim"
   desc "Low latency brickwall limiter"
   homepage "https://www.voxengo.com/product/ebuslim/"

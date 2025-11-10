@@ -8,7 +8,6 @@ cask "r8brain-pro" do
   homepage "https://www.voxengo.com/product/r8brainpro/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   app "r8brain PRO.app"
 

@@ -1,8 +1,8 @@
 cask "voxengo-water-chorus" do
   version "1.2"
-  sha256 :no_check
+  sha256 "605f823b43666d4fc5d706a4991acffccca874fcce0935c9ff62c2945994f43a"
 
-  url "https://www.voxengo.com/files/VoxengoWaterChorus_#{version.no_dots}_Mac_AU_AAX_setup.dmg"
+  url "https://www.voxengo.com/files/VoxengoWaterChorus_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo Water Chorus AU/AAX"
   desc "Chorus"
   homepage "https://www.voxengo.com/product/waterchorus/"

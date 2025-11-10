@@ -1,9 +1,9 @@
-cask "voxengo-crunchessor-vst" do
+cask "voxengo-crunchessor" do
   version "2.20"
   sha256 "797f79566ff2cf50b344d6ded3020e66aff4668afcaf25d5809196ac5ea4a672"
 
-  url "https://www.voxengo.com/files/VoxengoCrunchessor_#{version.no_dots}_Mac_VST_VST3_setup.dmg"
-  name "Voxengo Crunchessor VST"
+  url "https://www.voxengo.com/files/VoxengoCrunchessor_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
+  name "Voxengo Crunchessor"
   desc "Character compressor"
   homepage "https://www.voxengo.com/product/crunchessor/"
 

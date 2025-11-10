@@ -2,7 +2,7 @@ cask "voxengo-pha-979" do
   version "2.13"
   sha256 :no_check
 
-  url "https://www.voxengo.com/files/VoxengoPHA979_#{version.no_dots}_Mac_AU_AAX_setup.dmg"
+  url "https://www.voxengo.com/files/VoxengoPHA979_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo PHA-979"
   desc "Phase alignemnt and rotation utility"
   homepage "https://www.voxengo.com/product/pha979/"

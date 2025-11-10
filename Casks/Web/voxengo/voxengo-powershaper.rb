@@ -2,7 +2,7 @@ cask "voxengo-powershaper" do
   version "1.6"
   sha256 :no_check
 
-  url "https://www.voxengo.com/files/VoxengoPowershaper_#{version.no_dots}_Mac_AU_AAX_setup.dmg"
+  url "https://www.voxengo.com/files/VoxengoPowershaper_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo Powershaper"
   desc "Multi-stage saturator"
   homepage "https://www.voxengo.com/product/powershaper/"
