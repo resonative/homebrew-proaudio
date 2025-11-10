@@ -1,6 +1,6 @@
 cask "wavesfactory-cassette" do
-  version "1.0.7"
-  sha256 "3db9be01a663ce279f2d6ca9842bacf0155bef044cc6d2119650ec3002a04444"
+  version "1.0.6"
+  sha256 "e71337c07abd8d2318939b8c0d71ea071d8b954e97b96da6413c7b22819c0e2d"
 
   url "https://cassette-wavesfactory.s3.amazonaws.com/installers/Cassette%20#{version}.pkg",
       verified: "cassette-wavesfactory.s3.amazonaws.com/"

@@ -5,7 +5,7 @@ cask "wavesfactory-quantum" do
   url "https://quantum-wavesfactory.s3.amazonaws.com/installers/Quantum%20#{version}.pkg",
       verified: "quantum-wavesfactory.s3.amazonaws.com/"
   name "Wavesfactory Quantum"
-  desc "Tape echo"
+  desc "Attack/sustain processor"
   homepage "https://www.wavesfactory.com/audio-plugins/quantum"
 
   livecheck do
