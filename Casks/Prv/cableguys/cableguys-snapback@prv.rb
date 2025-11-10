@@ -7,10 +7,10 @@ cask "cableguys-snapback@prv" do
     end
   end
 
-  version "1.0.1"
-  sha256 "a5765fe2730c15e41dd2f741fac82982ef7ea3fdf3a4f876bcb14158398e5176"
+  version "1.1"
+  sha256 "be1480a6e46d5f73a49e5e69dc60e4082da9bcfd48bb6c38f0746afed13884d1"
 
-  url "#{prv_archive_url}/c/cableguys-snapback/v#{version}/Cableguys-Snapback.zip",
+  url "#{prv_archive_url}/c/cableguys-snapback/v#{version}/Cableguys-Snapback-#{version}.zip",
       verified: prv_archive_url.to_s
   name "Cableguys Snapback"
   desc "Sample trigger"

@@ -7,10 +7,10 @@ cask "cableguys-filtershaper-xl@prv" do
     end
   end
 
-  version "1.0.3"
-  sha256 "605272b424ed4fefe660e6f2d72d647113434251b76607dedac5f690c913f73e"
+  version "1.0.5"
+  sha256 "dd379ef34e7890911894d073bf3c550310defc589f8ac0817c2d4c3a2ae3201a"
 
-  url "#{prv_archive_url}/c/cableguys-filtershaper-xl/v#{version}/Cableguys-FilterShaperXL.zip",
+  url "#{prv_archive_url}/c/cableguys-filtershaper-xl/v#{version}/Cableguys-FilterShaperXL-#{version}.zip",
       verified: prv_archive_url("verified").to_s
   name "Cableguys ShaperBox"
   desc "Tempo-synced audio effects"

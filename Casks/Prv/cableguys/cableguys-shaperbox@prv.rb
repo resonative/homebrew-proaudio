@@ -7,10 +7,10 @@ cask "cableguys-shaperbox@prv" do
     end
   end
 
-  version "3.5.6"
-  sha256 "5a2a878e66b80067309bed1e99dd39278cf7fe041e3ec5ba85c1a1eeaa9cb16c"
+  version "3.6"
+  sha256 "09e9bd78684d047ebf81b9c92381a91fce4a65af8e0679b7d8aad282bd3d60a4"
 
-  url "#{prv_archive_url}/c/cableguys-shaperbox/v#{version}/Cableguys-ShaperBox3.zip",
+  url "#{prv_archive_url}/c/cableguys-shaperbox/v#{version}/Cableguys-ShaperBox-#{version}.zip",
       verified: prv_archive_url.to_s
   name "Cableguys ShaperBox"
   desc "Tempo-synced audio effects"

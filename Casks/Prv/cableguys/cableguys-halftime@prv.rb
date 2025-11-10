@@ -7,10 +7,10 @@ cask "cableguys-halftime@prv" do
     end
   end
 
-  version "1.1.10"
-  sha256 "d859bc37b14b28515e1277efa7c64afea9cd144c34f9d18e4a56850eeffa6b67"
+  version "1.1.11"
+  sha256 "45e8d531c16a315412590423a55f0f732dcdb05506c23234829d5c0023012e34"
 
-  url "#{prv_archive_url}/c/cableguys-halftime/v#{version}/Cableguys-HalfTime.zip",
+  url "#{prv_archive_url}/c/cableguys-halftime/v#{version}/Cableguys-HalfTime-#{version}.zip",
       verified: prv_archive_url.to_s
   name "Cableguys HalfTime"
   desc "Realtime audio buffer time stretch"

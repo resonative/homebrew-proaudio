@@ -10,7 +10,7 @@ cask "cableguys-curve@prv" do
   version "2.6.3"
   sha256 "8a01d089de3919e46771a408048d7d328e972737f1dd88f15e055ae614e36493"
 
-  url "#{prv_archive_url}/c/cableguys-curve/v#{version}/Cableguys-Curve#{version.major}.zip",
+  url "#{prv_archive_url}/c/cableguys-curve/v#{version}/Cableguys-Curve-#{version}.zip",
       verified: prv_archive_url.to_s
   name "Cableguys HalfTime"
   desc "Realtime audio buffer time stretch"

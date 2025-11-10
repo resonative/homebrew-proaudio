@@ -7,10 +7,10 @@ cask "cableguys-midishaper@prv" do
     end
   end
 
-  version "1.6"
-  sha256 "c2d99524e1847d6279fd423449f92e7e63e5258ae87e982a420e9f56c036fb40"
+  version "1.6.2"
+  sha256 "790a0b60d20ba44fe94484984f050618599a9c89124a37cedc5ec3c2c1b3a857"
 
-  url "#{prv_archive_url}/c/cableguys-midishaper/v#{version}/Cableguys-MidiShaper.zip",
+  url "#{prv_archive_url}/c/cableguys-midishaper/v#{version}/Cableguys-MidiShaper-#{version}.zip",
       verified: prv_archive_url.to_s
   name "Cableguys MidiShaper"
   desc "Tempo-synced midi LFO and envelopes"
