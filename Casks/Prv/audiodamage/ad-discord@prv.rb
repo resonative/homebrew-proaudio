@@ -7,18 +7,24 @@ cask "ad-discord@prv" do
     end
   end
 
-  version "4.1.0a,4.1.1"
-  sha256 "4aeed557351d3a58d17b4682595b6633040d817ea4f1431e93f821e9954ac1a7"
+  version "4.1.5"
+  sha256 "ddd379f37fe4d2bc9021417f8324a743faadaae5c4bc3b81320c3e86ed22e52d"
 
-  url "#{prv_archive_url}/a/ad-discord/v#{version.csv.first}/AD044_Discord_#{version.csv.first.no_dots}.zip",
+  url "#{prv_archive_url}/a/ad-discord/v#{version.csv.first}/AD044_Discord_#{version}.zip",
       verified: prv_archive_url.to_s
   name "Audio Damage Discord"
   desc "Stereo pitch shifter"
   homepage "https://www.audiodamage.com/collections/software/products/ad044-discord4"
 
   auto_updates false
+  container nested: "AD044_Discord_#{version}/macOS_Discord4_#{version}.zip"
 
-  pkg "AD044_Discord_#{version.csv.first.no_dots}/macOS_Discord_#{version.csv.second.no_dots}.pkg"
+  installer manual: "Discord4_Installer_v4.1.5.app"
 
-  uninstall pkgutil: "com.audiodamage.pkg.discord4*"
+  uninstall delete: [
+    "/Library/Application Support/Avid/Audio/Plug-Ins/Discord4.aaxplugin",
+    "/Library/Audio/Plug-Ins/CLAP/Discord4.clap",
+    "/Library/Audio/Plug-Ins/Components/Discord4.component",
+    "/Library/Audio/Plug-Ins/VST3/Discord4.vst3",
+  ]
 end
