@@ -1,15 +1,15 @@
-cask "zynaptiq-orange-vocoder" do
-  version "4.0.6"
-  sha256 "88c125330c8fe052a2363e4ac070d073d22715a04b65d5f3b3a5b3b79c6d1c49"
+cask "zynaptiq-intensity" do
+  version "2.0.0"
+  sha256 "83d3aa39841cef574d8d8006129e64c12fe40c372c6a1b2a9ad1cb281254f61e"
 
-  url "https://downloads.zynaptiq.com/updates/Zynaptiq_ORANGE_VOCODER_#{version.no_dots}_Mac.zip"
-  name "Zynaptiq ORANGE VOCODER"
-  desc "Vocoder with multiple models"
-  homepage "https://www.zynaptiq.com/orangevocoder/"
+  url "https://downloads.zynaptiq.com/updates/Zynaptiq_INTENSITY_#{version.no_dots}_Mac.zip"
+  name "Zynaptiq INTENSITY"
+  desc "Loudness enhancer"
+  homepage "https://www.zynaptiq.com/intensity/"
 
   auto_updates false
 
-  pkg "Zynaptiq ORANGE VOCODER #{version} Plug-In.pkg",
+  pkg "Zynaptiq INTENSITY #{version.major_minor} Plug-In.pkg",
       choices: [
         {
           "choiceIdentifier" => "installer_choice_1", # ilok license manager
@@ -24,14 +24,14 @@ cask "zynaptiq-orange-vocoder" do
                    args: [
                       "-e", "tell application \"Finder\" to close "\
                       "(first window whose name is \"Zynaptiq Plug-In Support\")",
-                      "-e", "tell application \"Finder\" to close "\
-                      "(first window whose name is \"Documentation\")",
+                      "-e", "tell application \"Preview\" to close "\
+                      "(first window whose name is \"Zynaptiq INTENSITY Manual.pdf\")",
                    ],
                    sudo: false
   end
 
   uninstall pkgutil: [
-    "com.zynaptiq.pkg.orangeVocoder",
-    "com.zynaptiq.pkg.orangeVocoder.*",
+    "com.zynaptiq.pkg.intensity2",
+    "com.zynaptiq.pkg.intensity2.*",
   ]
 end

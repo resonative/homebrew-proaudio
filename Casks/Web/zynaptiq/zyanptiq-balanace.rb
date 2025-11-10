@@ -1,15 +1,15 @@
-cask "zynaptiq-pitchshift-pro" do
-  version "1.2.2"
-  sha256 "c6bc223a3d0c4c5ff949eb37b8311030fba30abd66f0786c917c7e0e99a1553c"
+cask "zynaptiq-balance" do
+  version "1.0.2"
+  sha256 "5da17d5891d3e761ff9c6b92c3bde21a111959af4b7a03122f82c63c9481ff85"
 
-  url "https://downloads.zynaptiq.com/updates/Zynaptiq_PITCHSHIFT_PRO_#{version.no_dots}_Mac.zip"
-  name "Zynaptiq PITCHSHIFT PRO"
-  desc "Pitch shift plug-in"
-  homepage "https://www.zynaptiq.com/pitchshift/"
+  url "https://downloads.zynaptiq.com/updates/Zynaptiq_BALANCE_#{version.no_dots}_Mac.zip"
+  name "Zynaptiq BALANCE"
+  desc "Adaptive EQ"
+  homepage "https://www.zynaptiq.com/balance/"
 
   auto_updates false
 
-  pkg "Zynaptiq PITCHSHIFT PRO #{version.major_minor} Plug-In.pkg",
+  pkg "Zynaptiq BALANCE #{version} Plug-In.pkg",
       choices: [
         {
           "choiceIdentifier" => "installer_choice_1", # ilok license manager
@@ -29,7 +29,7 @@ cask "zynaptiq-pitchshift-pro" do
   end
 
   uninstall pkgutil: [
-    "com.zynaptiq.pkg.pitchshiftPro1",
-    "com.zynaptiq.pkg.pitchshiftPro1.*",
+    "com.zynaptiq.pkg.balance1",
+    "com.zynaptiq.pkg.balance1.*",
   ]
 end
