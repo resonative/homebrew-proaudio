@@ -1,6 +1,6 @@
 cask "soundtheory-gullfoss" do
-  version "1.11.6"
-  sha256 "78c54960177e434c71104cef7f487598b74fed3e099cd5a8a8420adf8b2fcaa4"
+  version "1.11.9"
+  sha256 "6850e42f36d471e09df5013a1631f52c3ee582ef503f1cc8047e34d4faa9ce27"
 
   url "https://www.soundtheory.com/static/Soundtheory%20Gullfoss%20#{version}.dmg"
   name "Soundtheory Gullfoss"

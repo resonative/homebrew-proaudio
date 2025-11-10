@@ -1,6 +1,6 @@
 cask "soundtheory-kraftur" do
-  version "1.2.3"
-  sha256 "5ddfbb582d955aab54e7559eeb3ebd02af30ec966c92913e61a4efd4c7ef73a6"
+  version "1.2.6"
+  sha256 "72cc348da19fcdd125d539e033663a241fde573f6e3ac4614eea50c5144cd28a"
 
   url "https://www.soundtheory.com/static/Soundtheory%20Kraftur%20#{version}.dmg"
   name "Soundtheory Kraftur"
