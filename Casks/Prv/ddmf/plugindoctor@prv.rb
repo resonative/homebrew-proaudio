@@ -7,8 +7,8 @@ cask "plugindoctor@prv" do
     end
   end
 
-  version "2.4.1"
-  sha256 "78e96fe2a37d26cddff25f351680967a16bd06aa7ea7f6128b5c002aaee767cb"
+  version "2.5.0"
+  sha256 "6becc910f0d97402d74c570d7ac8d88836f784db065fa8ede5c15ce372a2ca23"
 
   url "#{prv_archive_url}/p/plugindoctor/v#{version}/PlugindoctorMac.v#{version.dots_to_underscores}.zip",
       verified: prv_archive_url.to_s
