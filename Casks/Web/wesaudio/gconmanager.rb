@@ -1,6 +1,6 @@
 cask "gconmanager" do
-  version "16.0.4607"
-  sha256  "f91297b5fd74aacf088eac158df6f708d57b61bbd99d6c5d79a32824a262fb67"
+  version "17.0.4851"
+  sha256  "3f4fbe76279f07349f52a6dcdc667a72f9b04786865bfcdd5ebe476c49b7a52b"
 
   url "https://wesaudio.com/uploads/WesAudio_MACx86x64_VST_AAX_v#{version}.dmg"
   name "WesAudio GConManager"
@@ -19,6 +19,9 @@ cask "gconmanager" do
             pkgutil:   "com.wesaudio.*",
             delete:    [
               "/Applications/WesAudio/",
+              # "/Library/Application Support/Avid/Audio/Plug-Ins/WesAudio",
+              # "/Library/Audio/Plug-Ins/VST/WesAudio",
+              # "/Library/Audio/Plug-Ins/VST3/WesAudio",
               "/Library/LaunchAgents/com.wesaudio.agent.gcon.service.plist",
               "~/Library/Saved Application State/com.wesaudio.gpe.GConManager.savedState/",
               "~/Library/Preferences/com.wesaudio.gpe.GConControl.plist",
