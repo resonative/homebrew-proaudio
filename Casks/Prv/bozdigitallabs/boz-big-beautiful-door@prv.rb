@@ -7,8 +7,8 @@ cask "boz-big-beautiful-door@prv" do
     end
   end
 
-  version "2.0.3"
-  sha256 "0412019e77163b8b0b493ff4af2f5e950f1539457d20d11fc45d6195591661c8"
+  version "2.0.4"
+  sha256 "74714877b414479509e86ba608403ecd4fb95be2457063405f215656b5365cd3"
 
   url "#{Utils.prv_archive_url}/b/boz-big-beautiful-door/v#{version}/Big_Beautiful_Door_2_#{version}_Mac.pkg"
 
