@@ -7,8 +7,8 @@ cask "bc-freqanalyst-multi@prv" do
     end
   end
 
-  version "2.42"
-  sha256 "963ef806680907a567e203bc7c2b3185b6a2bd83ab432702e7065f7b2716a71b"
+  version "2.44"
+  sha256 "26a5d7a771b14a57c04657ad7454d2d70207e044f75a09140a959f900d445eba"
 
   url "#{prv_archive_url}/b/bc-freqanalyst-multi/v#{version}/BlueCatFreqAnalystMulti.dmg",
       verified: prv_archive_url.to_s

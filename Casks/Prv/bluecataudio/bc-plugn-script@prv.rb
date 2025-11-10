@@ -7,8 +7,8 @@ cask "bc-plugn-script@prv" do
     end
   end
 
-  version "3.5"
-  sha256 "d09f374981af7596865d5211cd032540140661d66691c503e9ade6e0eee1d66d"
+  version "3.52"
+  sha256 "21e39b6518be94e2578eb9038842d43ca445eefeae4def5e7c8f5348f5bdeb35"
 
   url "#{prv_archive_url}/b/bc-plugn-script/v#{version}/BlueCatPlugNScript.dmg",
       verified: prv_archive_url.to_s

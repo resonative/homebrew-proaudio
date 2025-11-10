@@ -7,8 +7,8 @@ cask "bc-patchwork@prv" do
     end
   end
 
-  version "2.72"
-  sha256 "f902617fde781fbd765519087f10bf6a0544a12ce636d48503aa0dcbdcb03cb9"
+  version "2.75"
+  sha256 "4eed9eaeac58eab31c1b543bc7ab478ed71ec672802b4da311d25eb36de41352"
 
   url "#{prv_archive_url}/b/bc-patchwork/v#{version}/BlueCatPatchWork.dmg",
       verified: prv_archive_url.to_s

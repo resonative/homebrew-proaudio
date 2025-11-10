@@ -7,8 +7,8 @@ cask "bc-fader-hub@prv" do
     end
   end
 
-  version "1.2"
-  sha256 "8268ae3e1bf4084726cac21e5013b27c1a5f92472e8087d15eda905572e5a78f"
+  version "1.22"
+  sha256 "625052896397a0268d4faaea6b1242d7e68bacd39a155964f12d89c7e07016d4"
 
   url "#{prv_archive_url}/b/bc-fader-hub/v#{version}/BlueCatFaderHub.dmg",
       verified: prv_archive_url.to_s

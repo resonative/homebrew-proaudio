@@ -7,8 +7,8 @@ cask "bc-axiom@prv" do
     end
   end
 
-  version "2.2"
-  sha256 "d230c2dda5d16e527351fef3fd14dd4bd185b8c85f5f7bffc48ec5ec62af2252"
+  version "2.22"
+  sha256 "a2e4e99b42e272f4bed42c4cfed01a81369188ce156b5bab44c6fb54a51aab33"
 
   url "#{prv_archive_url}/b/bc-axiom/v#{version}/BlueCatAxiom.dmg",
       verified: prv_archive_url.to_s

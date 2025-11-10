@@ -7,8 +7,8 @@ cask "bc-mb-7-mixer@prv" do
     end
   end
 
-  version "3.6"
-  sha256 "9ba1ccf4160e4447881829a8a0dd3ed9e9fba005512fac605dd46cef182b24ff"
+  version "3.62"
+  sha256 "a1be22de31a229ec95c1bece00f38c48bf0d44a05e92e0718075dcb3c3194efd"
 
   url "#{prv_archive_url}/b/bc-mb-7-mixer/v#{version}/BlueCatMB7Mixer.dmg",
       verified: prv_archive_url.to_s

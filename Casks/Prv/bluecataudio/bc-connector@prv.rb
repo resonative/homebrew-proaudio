@@ -7,8 +7,8 @@ cask "bc-connector@prv" do
     end
   end
 
-  version "1.4"
-  sha256 "7abf1e2302c4579a45c5fe90725e5a5cc7aca3e3381676d5aa58357991040297"
+  version "1.42"
+  sha256 "22bc934336405396dcc000a9ae49d37c459f63b130aa90a26e2ebecd8fd7dccf"
 
   url "#{prv_archive_url}/b/bc-connector/v#{version}/BlueCatConnector.dmg",
       verified: prv_archive_url.to_s
