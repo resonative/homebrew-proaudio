@@ -7,6 +7,8 @@ cask "ew-installation-center" do
   desc "Product manager/downloader for East West (Soundsonline) instruments"
   homepage "https://www.soundsonline.com/support/updates"
 
+  auto_updates true
+
   pkg "EW Installation Center-#{version}.pkg"
 
   uninstall pkgutil: "com.eastwest.pkg.installationcenter"
