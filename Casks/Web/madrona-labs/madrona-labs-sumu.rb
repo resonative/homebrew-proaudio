@@ -8,7 +8,6 @@ cask "madrona-labs-sumu" do
   homepage "https://www.madronalabs.com/products/sumu"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   pkg "Sumu#{version}.pkg"
 
