@@ -5,8 +5,8 @@ cask "xfer-serum@prv" do
     data["server"] ||= "http://not_configured.lan"
   end
 
-  version "2.0.19"
-  sha256 "2da0feda8e63b32a55a2ecd8367e6a2c596e41892f9159bbcbdcc2c9ae5bdbdc"
+  version "2.0.23"
+  sha256 "48ffb9cdeac10e9e60033572a9bb30c614a51b0b2e76f59c0cf827779da03f20"
 
   url "#{prv_archive_url}/x/xfer-serum/v#{version}/Install_Xfer_Serum2_#{version}.pkg",
       verified: prv_archive_url.to_s
