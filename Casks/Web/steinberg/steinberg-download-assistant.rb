@@ -18,6 +18,8 @@ cask "steinberg-download-assistant" do
     end
   end
 
+  auto_updates true
+
   installer script: {
     executable: "Steinberg Download Assistant Setup.app/Contents/MacOS/installbuilder.sh",
     args:       ["--mode", "unattended"],
