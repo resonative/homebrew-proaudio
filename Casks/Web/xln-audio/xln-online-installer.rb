@@ -9,6 +9,8 @@ cask "xln-online-installer" do
   desc "XLN Audio plugins manager"
   homepage "https://www.xlnaudio.com/install"
 
+  auto_updates true
+
   installer manual: "XLN Online Installer.app"
 
   uninstall launchctl: "com.xlnaudio.onlineinstallerhelpertool",
