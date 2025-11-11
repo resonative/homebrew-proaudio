@@ -7,7 +7,7 @@ cask "gconmanager" do
   desc "Configuration and remote control plugins for WesAudio devices"
   homepage "https://wesaudio.com/download/"
 
-  auto_updates true
+  auto_updates false
 
   pkg "WesAudio_MACx86x64_VST_AAX_v#{version}.pkg"
 
