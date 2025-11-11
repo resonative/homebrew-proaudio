@@ -8,7 +8,6 @@ cask "wavealchemy-glow" do
   homepage "https://www.wavealchemy.co.uk/product/glow/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   pkg "Glow_MacOS/Glow Installer #{version}.pkg"
 

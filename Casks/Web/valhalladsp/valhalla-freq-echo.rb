@@ -9,7 +9,6 @@ cask "valhalla-freq-echo" do
   homepage "https://valhalladsp.com/shop/delay/valhalla-freq-echo/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   pkg "ValhallaFreqEchoOSX.pkg"
 

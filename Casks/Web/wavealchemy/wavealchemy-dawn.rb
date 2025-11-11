@@ -9,7 +9,6 @@ cask "wavealchemy-dawn" do
   homepage "https://www.wavealchemy.co.uk/product/dawn/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   pkg "Dawn_MacOS/Dawn Installer #{version}.pkg"
 

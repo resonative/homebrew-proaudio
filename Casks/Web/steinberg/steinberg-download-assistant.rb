@@ -18,8 +18,6 @@ cask "steinberg-download-assistant" do
     end
   end
 
-  depends_on macos: ">= :sierra"
-
   installer script: {
     executable: "Steinberg Download Assistant Setup.app/Contents/MacOS/installbuilder.sh",
     args:       ["--mode", "unattended"],

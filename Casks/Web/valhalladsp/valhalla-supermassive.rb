@@ -9,7 +9,6 @@ cask "valhalla-supermassive" do
   homepage "https://valhalladsp.com/shop/reverb/valhalla-supermassive/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   pkg "ValhallaSupermassiveOSX.pkg"
 

@@ -8,7 +8,6 @@ cask "wavealchemy-radiance" do
   homepage "https://www.wavealchemy.co.uk/product/radiance/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   pkg "Radiance_MacOS/Radiance Installer #{version}.pkg"
 

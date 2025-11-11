@@ -9,7 +9,6 @@ cask "valhalla-spacemodulator" do
   homepage "https://valhalladsp.com/shop/modulation/valhalla-space-modulator/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   pkg "ValhallaSpaceModulatorOSX.pkg"
 

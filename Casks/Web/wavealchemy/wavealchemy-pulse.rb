@@ -8,7 +8,6 @@ cask "wavealchemy-pulse" do
   homepage "https://www.wavealchemy.co.uk/product/pulse/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   pkg "Pulse_MacOS/Pulse Installer #{version}.pkg"
 

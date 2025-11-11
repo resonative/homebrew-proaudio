@@ -9,7 +9,6 @@ cask "wavealchemy-tapewave" do
   homepage "https://www.wavealchemy.co.uk/product/tapewave/"
 
   auto_updates false
-  depends_on macos: ">= :sierra"
 
   pkg "Tapewave_MacOS/Tapewave Installer #{version}.pkg"
 
