@@ -7,8 +7,8 @@ cask "soundtoys-bundle@prv" do
     end
   end
 
-  version "5.4.3.17500"
-  sha256 "0c1427c2a4172cd943f37e5a1753dd87023d620a75aecb2c0107f63a9f1ad5dc"
+  version "5.5.3.18786"
+  sha256 "5cc60d0754f4e577b1661c796feb551e623e6b68892df19cbe5f92df4f261822"
 
   url "#{prv_archive_url}/s/soundtoys-bundle/v#{version}/SoundtoysV#{version.major_minor.no_dots}Bundle_#{version}.dmg",
       verified: prv_archive_url.to_s
