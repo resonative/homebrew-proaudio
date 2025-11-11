@@ -9,7 +9,7 @@ cask "zynaptiq-pitchshift-pro" do
 
   auto_updates false
 
-  pkg "Zynaptiq PITCHSHIFT PRO #{version.major_minor} Plug-In.pkg",
+  pkg "Zynaptiq PITCHSHIFT PRO #{version} Plug-In.pkg",
       choices: [
         {
           "choiceIdentifier" => "installer_choice_1", # ilok license manager
