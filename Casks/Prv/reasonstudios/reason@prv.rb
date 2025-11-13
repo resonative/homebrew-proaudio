@@ -38,12 +38,12 @@ cask "reason@prv" do
             ]
 
   zap delete: [
+    "~/Library/Application Support/Propellerhead Software/Reason/Caches/",
+    "~/Library/Application Support/Propellerhead Software/Reason/Plugin Screenshots/",
     "~/Library/Preferences/_Reasondata.prf",
     "~/Library/Preferences/Reason 13 Preferences",
     "~/Library/Preferences/Reason Plugin Dirs.prf",
     "~/Library/Preferences/Reason_13_v1.entitlement",
-    "~/Library/Propellerhead Software/Reason/Caches/",
-    "~/Library/Propellerhead Software/Reason/Plugin Screenshots/",
   ]
 
   caveats "Downloaded zip from reasonstudios.com cannot be extracted properly by brew.\n" \

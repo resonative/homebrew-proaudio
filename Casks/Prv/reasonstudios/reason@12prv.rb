@@ -38,14 +38,19 @@ cask "reason@12prv" do
               "se.propellerheads.reasonrackplugin-au",
             ]
 
-  # zap delete: [
-  #   "~/Library/Preferences/_Reasondata.prf",
-  #   "~/Library/Preferences/Reason 13 Preferences",
-  #   "~/Library/Preferences/Reason Plugin Dirs.prf",
-  #   "~/Library/Preferences/Reason_13_v1.entitlement",
-  #   "~/Library/Propellerhead Software/Reason/Caches/",
-  #   "~/Library/Propellerhead Software/Reason/Plugin Screenshots/",
-  # ]
+  zap delete: [
+    "~/Library/Application Support/Propellerhead Software/Reason/Caches/",
+    "~/Library/Application Support/Propellerhead Software/Reason/Plugin Screenshots/",
+    "~/Library/Caches/Reason/",
+    "~/Library/Caches/se.propllerheads.reason/",
+    "~/Library/HTTPStorages/se.prollerheads.reason/",
+    "~/Library/Preferences/_Reasondata.prf",
+    "~/Library/Preferences/Reason 12 Preferences",
+    "~/Library/Preferences/Reason Plugin Dirs.prf",
+    "~/Library/Preferences/Reason_12_v1.entitlement",
+    "~/Library/Preferences/Reason_index.prf",
+    "~/Library/WebKit/se.propellerheads.reason/",
+  ]
 
   caveats "Downloaded zip from reasonstudios.com cannot be extracted properly by brew.\n" \
           "Installer should be extracted manually with Archive Utility and store as 'Reason 13.pkg'."
