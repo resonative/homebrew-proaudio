@@ -20,7 +20,8 @@ cask "spectrasonics-omnisphere@prv" do
 
   installer manual: "Omnisphere 3 Installation/Mac/Omnisphere 3 Installer.pkg"
 
-  uninstall pkgutil: "com.Audija.pkg.AudijaKickDrum.*"
+  uninstall quit: "com.spectrasonics.omnispherestandalone",
+            pkgutil: "net.spectrasonics.Amber"
 
   caveats "After download with Spectrasonics' download manager,\n"\
           "in the download location, zip the entire sub folder 'Omnisphere 3 Installation'"
