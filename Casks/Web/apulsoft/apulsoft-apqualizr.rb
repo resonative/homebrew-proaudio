@@ -8,7 +8,6 @@ cask "apulsoft-apqualizr" do
   homepage "https://apulsoft.ch/apqualizr2/"
 
   auto_updates false
-  depends_on macos: ">= :el_capitan"
 
   pkg "apqualizr2-mac-#{version.dots_to_hyphens}.pkg"
 

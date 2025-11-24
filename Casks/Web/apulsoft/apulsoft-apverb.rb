@@ -8,7 +8,6 @@ cask "apulsoft-apverb" do
   homepage "https://apulsoft.ch/apverb/"
 
   auto_updates false
-  depends_on macos: ">= :el_capitan"
 
   pkg "apverb-mac-#{version.dots_to_hyphens}.pkg"
 

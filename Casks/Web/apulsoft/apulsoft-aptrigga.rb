@@ -8,7 +8,6 @@ cask "apulsoft-aptrigga" do
   homepage "https://apulsoft.ch/aptrigga3/"
 
   auto_updates false
-  depends_on macos: ">= :el_capitan"
 
   pkg "aptrigga3-mac-#{version.dots_to_hyphens}.pkg"
 

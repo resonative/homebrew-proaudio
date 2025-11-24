@@ -8,7 +8,6 @@ cask "apulsoft-splits" do
   homepage "https://www.apulsoft.ch/splits/"
 
   auto_updates false
-  depends_on macos: ">= :el_capitan"
 
   pkg "splits-mac-#{version.dots_to_hyphens}.pkg"
 

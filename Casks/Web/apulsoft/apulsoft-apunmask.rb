@@ -8,7 +8,6 @@ cask "apulsoft-apunmask" do
   homepage "https://apulsoft.ch/apunmask/"
 
   auto_updates false
-  depends_on macos: ">= :el_capitan"
 
   pkg "apunmask-mac-#{version.dots_to_hyphens}.pkg"
 

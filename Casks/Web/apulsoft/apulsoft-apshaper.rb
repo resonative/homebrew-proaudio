@@ -8,7 +8,6 @@ cask "apulsoft-apshaper" do
   homepage "https://apulsoft.ch/apshaper/"
 
   auto_updates false
-  depends_on macos: ">= :el_capitan"
 
   pkg "apshaper-mac-#{version.dots_to_hyphens}.pkg"
 
