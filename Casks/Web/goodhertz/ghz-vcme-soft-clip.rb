@@ -1,11 +1,11 @@
-cask "ghz-tupe" do
+cask "ghz-vcme-soft-clip" do
   version "3.13.1-fb6fc78"
   sha256 "b113695b25116a229c5d52e9040338bc10b9a38d20a24b5b2dac82bba4e58930"
 
   url "https://downloads.goodhertz.com/Goodhertz-Installer-#{version}.pkg"
-  name "Goodhertz Tupe"
-  desc "Tupe and tape saturation emulation"
-  homepage "https://goodhertz.com/tupe/"
+  name "Goodhertz VCME Soft Clip"
+  desc "Soft clipper from VCME"
+  homepage "https://goodhertz.com/vcme/"
 
   auto_updates false
   depends_on cask: "ghz-common-assets"
@@ -33,28 +33,28 @@ cask "ghz-tupe" do
           "attributeSetting" => 0,
         },
         {
-          "choiceIdentifier" => "com.goodhertz.pkg.TP3X-AAX",
+          "choiceIdentifier" => "com.goodhertz.pkg.VS3X-AAX",
           "choiceAttribute"  => "selected",
           "attributeSetting" => 1,
         },
         {
-          "choiceIdentifier" => "com.goodhertz.pkg.TP3X-AU",
+          "choiceIdentifier" => "com.goodhertz.pkg.VS3X-AU",
           "choiceAttribute"  => "selected",
           "attributeSetting" => 1,
         },
         {
-          "choiceIdentifier" => "com.goodhertz.pkg.TP3X-VST",
+          "choiceIdentifier" => "com.goodhertz.pkg.VS3X-VST",
           "choiceAttribute"  => "selected",
           "attributeSetting" => 1,
         },
         {
-          "choiceIdentifier" => "com.goodhertz.pkg.TP3X-VST3",
+          "choiceIdentifier" => "com.goodhertz.pkg.VS3X-VST3",
           "choiceAttribute"  => "selected",
           "attributeSetting" => 1,
         },
       ]
 
-  uninstall pkgutil: "com.goodhertz.pkg.TP3X-*"
+  uninstall pkgutil: "com.goodhertz.pkg.VS3X-*"
 
-  zap delete:  "~/Library/Preferences/com.goodhertz.0047.plist"
+  zap delete:  "~/Library/Preferences/com.goodhertz.0067.plist"
 end
