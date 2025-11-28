@@ -1,4 +1,4 @@
-cask "voxengo-ovc-128-au-aax" do
+cask "voxengo-ovc-128" do
   version "1.14"
   sha256 "cc390b11491545f17bd5134b957a80d6e45533d7066a664833c3c0b5d9af3c47"
 
