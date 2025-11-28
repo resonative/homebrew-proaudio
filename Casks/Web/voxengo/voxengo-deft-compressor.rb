@@ -1,4 +1,4 @@
-cask "voxengo-deft-compressor-au-aax" do
+cask "voxengo-deft-compressor" do
   version "1.14"
   sha256 "4f0c88235ae64f2d7cbe4c9b3a966d2560279981d56b30097f180ac06f8e6497"
 
