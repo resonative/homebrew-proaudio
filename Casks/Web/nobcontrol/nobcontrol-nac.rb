@@ -1,14 +1,14 @@
 cask "nobcontrol-nac" do
-  version "0.6.1"
+  version "0.6.2"
 
   on_arm do
-    sha256 "71dbc5d2ddc8b2b5bda9b1e2128609f23e09ad7aba563625234fa7f0bf456b23"
+    sha256 "3450d1af1c0b1c0a000eb870d12bf8d2a2debbb7e23e24c9b93a3d3b1c3efdd5"
 
     url "https://github.com/nobcontrol/nac/releases/download/v#{version}/nAc-#{version}-arm64.dmg",
         verified: "github.com/nobcontrol/nac/"
   end
   on_intel do
-    sha256 "c36ccecd5f83f5f887c463b86097795db1ec5abe6e0aac218b4f9ead879bf5e1"
+    sha256 "a2beaaf0e09cf70f565319de1bc8d7768bda74f746d39094029be1888da5fece"
 
     url "https://github.com/nobcontrol/nac/releases/download/v#{version}/nAc-#{version}.dmg",
         verified: "github.com/nobcontrol/nac/"
