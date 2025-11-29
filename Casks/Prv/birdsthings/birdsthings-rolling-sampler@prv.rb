@@ -10,7 +10,7 @@ cask "birdsthings-rolling-sampler@prv" do
   version "1.0.5"
   sha256 "f3f7caaf7a4e83b4f9a9438d1e41d5a2979c8129d5f5b2d8a34855d587f4889d"
 
-  url "#{prv_archive_url}/b/birdsthings-rolling-sampler/v#{version}/utkORTEwSUSEMylQ6yRi_Rolling Sampler.zip",
+  url "#{prv_archive_url}/b/birdsthings-rolling-sampler/v#{version}/utkORTEwSUSEMylQ6yRi_Rolling%20Sampler.zip",
       verified: prv_archive_url.to_s
   name "Bird's Things Rolling Sampler"
   desc "Always-on recorder"
