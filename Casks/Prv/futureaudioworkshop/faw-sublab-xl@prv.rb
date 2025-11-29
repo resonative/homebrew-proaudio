@@ -11,7 +11,7 @@ cask "faw-sublab-xl@prv" do
   sha256 "a601f8432d35c85cf02dc14d748f0fbe760f94de19bbcf34ef76f72f3a5f26bd"
 
   url "#{prv_archive_url}/f/faw-sublab-xl/v#{version}/SubLabXL-Installer-#{version}-Sequoia-macOS-Release-261124.zip",
-      verified: prv_archive_url("verified").to_s
+      verified: prv_archive_url.to_s
   name "Future Audio Workshop SubLab XL"
   desc "Bass synthesizer"
   homepage "https://futureaudioworkshop.com"

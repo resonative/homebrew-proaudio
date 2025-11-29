@@ -25,9 +25,9 @@ cask "plugindoctor@prv" do
               "ScanHelper",
               "eu.ddmf.pkg.Plugindoctor",
               "eu.ddmf.pkg.Plugindoctor*",
-            ]
+            ],
             delete: [
-              "~/Library/Caches/com.yourcompany.PluginAnalyzer/"
+              "~/Library/Caches/com.yourcompany.PluginAnalyzer/",
               "~/Library/HTTPStorages/com.yourcompany.PluginAnalyzer/",
               "~/Library/HTTPStorages/com.yourcompany.PluginAnalyzer.binarycookies",
             ]

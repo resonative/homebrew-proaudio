@@ -11,7 +11,7 @@ cask "klanghelm-mjuc@prv" do
   sha256 "2a026a5bc88858884c1911f68ba2f539f35195879e7a4eaac5d5f2e427f66204"
 
   url "#{prv_archive_url}/k/klanghelm-mjuc/v#{version}/MJUC-mac-installer.zip",
-      verified: prv_archive_url("verified").to_s
+      verified: prv_archive_url.to_s
   name "Klanghelm MJUC"
   desc "Vari-mu compressor"
   homepage "https://klanghelm.com/contents/products/MJUC"

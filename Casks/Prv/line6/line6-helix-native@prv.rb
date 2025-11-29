@@ -10,7 +10,7 @@ cask "line6-helix-native@prv" do
   version "3.82"
   sha256 "e13cce0bb202a1105217911e65f652e3e958a37c1b9585010247fa8091eea6bd"
 
-  url "#{prv_archive_url}/l/line6-helix-native/v#{version}/HelixNative #{version}.dmg",
+  url "#{prv_archive_url}/l/line6-helix-native/v#{version}/HelixNative%20#{version}.dmg",
       verified: prv_archive_url.to_s
   name "Line6 Helix Native"
   desc "Guitar amp and fx emulation"

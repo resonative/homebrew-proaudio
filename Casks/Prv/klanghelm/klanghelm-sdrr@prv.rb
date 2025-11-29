@@ -11,7 +11,7 @@ cask "klanghelm-sdrr@prv" do
   sha256 "4304b74c2f3bdae074d8cf99cbdbad757eeb801e2842f859b311c1fa1a646b72"
 
   url "#{prv_archive_url}/k/klanghelm-sdrr/v#{version}/SDRR#{version.major}-mac-installer.zip",
-      verified: prv_archive_url("verified").to_s
+      verified: prv_archive_url.to_s
   name "Klanghelm SDRR"
   desc "Saturation"
   homepage "https://klanghelm.com/contents/products/SDRR"

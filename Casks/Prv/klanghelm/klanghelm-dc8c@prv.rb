@@ -11,7 +11,7 @@ cask "klanghelm-dc8c@prv" do
   sha256 "b7d1861caa0c363ac49dd1e56509c502de22583dba02b03acea46b45bc834e69"
 
   url "#{prv_archive_url}/k/klanghelm-dc8c/v#{version}/DC8C#{version.major}-mac-installer.zip",
-      verified: prv_archive_url("verified").to_s
+      verified: prv_archive_url.to_s
   name "Klanghelm DC8C"
   desc "Multi style compressor"
   homepage "https://klanghelm.com/contents/products/DC8C"
