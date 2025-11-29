@@ -7,8 +7,8 @@ cask "audija-kickdrum@prv" do
     end
   end
 
-  version "2.6.0"
-  sha256 "5c4de00ae890b392bf30cc61c8c815f97aab985201c7da26c38999b1031beed8"
+  version "2.7.1B"
+  sha256 "7f35af0233b281bb3e9b61775a197acc7f93ff22eff90f2ad04730428ec3022d"
 
   url "#{prv_archive_url}/a/audija-kickdrum/v#{version}/Audija%20KickDrum%20#{version}%20-%20Setup.pkg",
       verified: prv_archive_url.to_s
