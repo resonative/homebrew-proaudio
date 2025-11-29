@@ -1,6 +1,6 @@
 cask "uhe-satin" do
   version "1.3.3_15721"
-  sha256 "7ea935c45c1aa12888348a30a8a2c4d5aff630cec8199e275ce3ce6f601640c8"
+  sha256 "324e2f68168aed4341bd333fade54a23888d621e7406039c55d7596fa7f2a8b3"
 
   url "https://dl.u-he.com/releases/Satin_#{version.no_dots}_Mac.zip"
   name "U-he Satin"

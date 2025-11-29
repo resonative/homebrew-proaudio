@@ -1,6 +1,6 @@
 cask "uhe-protoverb" do
   version "1.0.1_12092"
-  sha256 "ef229da0935eba9f525c60acbb579d0d395e2135624257cb89c39111c82a0f8d"
+  sha256 "18d15e06620c14c41923bc59c0c61d7f4614afdd6174c399f5835c766c527eaf"
 
   url "https://dl.u-he.com/releases/Protoverb_#{version.no_dots}_Mac.zip"
   name "U-he Protoverb"

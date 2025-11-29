@@ -1,6 +1,6 @@
 cask "uhe-repro" do
   version "1.1.3_16797"
-  sha256 "e47183dd78ae58edcf53aa6f3ae80c40bf95ff755b1e733dc9cb8a4ba1fe492d"
+  sha256 "2d797891319f4dcda06d7cdf30a5233949411659c5a38307010c6908f65cef63"
 
   url "https://dl.u-he.com/releases/Repro_#{version.no_dots}_Mac.zip"
   name "U-he Repro"

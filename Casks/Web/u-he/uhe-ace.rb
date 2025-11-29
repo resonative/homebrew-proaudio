@@ -1,6 +1,6 @@
 cask "uhe-ace" do
   version "1.4.3_16518"
-  sha256 "15b9fcfe7793156428712c2825a8f6fd6cdf1ff6ab95ba7270b0c281f1bcec1a"
+  sha256 "b5cd00dd3383d0f25ba7923e521fabfc0016b7b79814b43f5fef43d044f91d1a"
 
   url "https://dl.u-he.com/releases/ACE_#{version.no_dots}_Mac.zip"
   name "U-he ACE"

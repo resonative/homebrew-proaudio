@@ -1,6 +1,6 @@
 cask "uhe-twangstrom" do
   version "1.0.2_16742"
-  sha256 "050efc17725885e8129c023aca874fea1760e0b40b2d2685bb8bc84e1dd3619c"
+  sha256 "9f0d705e1f5b924f11cf2073d631cf85987cd56b43e24b418b2ca97b595865ec"
 
   url "https://dl.u-he.com/releases/Twangstrom_#{version.no_dots}_Mac.zip"
   name "U-he Twangstrom"

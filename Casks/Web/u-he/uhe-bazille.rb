@@ -1,6 +1,6 @@
 cask "uhe-bazille" do
   version "1.1.3_16518"
-  sha256 "b23cc789abfb8fce72c6c806e783a41d4f7f4c3dfcc10d67b61f936c5c7e3a4c"
+  sha256 "726104668b5baa6dcd5218a88c91c6f1f8afcd17ac962d7033a131c2fd18a7d0"
 
   url "https://dl.u-he.com/releases/Bazille_#{version.no_dots}_Mac.zip"
   name "U-he Bazille"

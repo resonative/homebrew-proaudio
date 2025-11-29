@@ -1,6 +1,6 @@
 cask "uhe-hive" do
   version "2.1.2,16520"
-  sha256 "fa911c2d13162fd7127015e051c9f7a9f827de3e466253928604e17be2f8353d"
+  sha256 "255ca6aac1c6d716b3b139d92526cc678215bf23af6fb460559a89f18ef7235f"
 
   url "https://dl.u-he.com/releases/Hive_#{version.csv.first.no_dots}_#{version.csv.second}_Mac.zip"
   name "U-he Hive"

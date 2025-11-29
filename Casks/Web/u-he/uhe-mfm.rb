@@ -1,6 +1,6 @@
 cask "uhe-mfm" do
   version "2.5.1_16742"
-  sha256 "aa62360b7a498a71f93019359c81d2169688a74a5b037b903a8f646969a29221"
+  sha256 "9830948cb796bd107c1a7a7d242bf7e3c55db798d3e5f276bfe0edcf6725b14b"
 
   url "https://dl.u-he.com/releases/MFM2_#{version.no_dots}_Mac.zip"
   name "U-he MFM (More Feedback Machine)"

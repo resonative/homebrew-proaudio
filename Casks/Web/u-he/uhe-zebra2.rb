@@ -1,6 +1,6 @@
 cask "uhe-zebra2" do
   version "2.9.4_16765"
-  sha256 "9dba6b632f3b29247448340eb97c1ce9a460d28aeeb262f89893cddca8150d51"
+  sha256 "ac383a2dfa31267c62ae29747d6f0aca8b7d031c4e9ca171c321e7e0ddf00122"
 
   url "https://dl.u-he.com/releases/Zebra_Legacy_#{version.no_dots}_Mac.zip"
   name "U-he Zebra2"

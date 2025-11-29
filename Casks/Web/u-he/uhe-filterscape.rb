@@ -1,6 +1,6 @@
 cask "uhe-filterscape" do
   version "1.5.1_15664"
-  sha256 "317e51becaa68afe53694d6375c7aad4ca05249c1d67797ba356752fb5681228"
+  sha256 "99b2b74a7283f8af18c98d7cbe44a1012ec3f70cd1a6778ad459db4f75c8f62e"
 
   url "https://dl.u-he.com/releases/Filterscape_#{version.no_dots}_Mac.zip"
   name "U-he Filterscape"

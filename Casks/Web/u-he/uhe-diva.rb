@@ -1,6 +1,6 @@
 cask "uhe-diva" do
   version "1.4.8,16519"
-  sha256 "856091eb742e8955684fe969ef45da1d33f629e325a8c06686d2f508895662fb"
+  sha256 "83baea58896bb120428c134476ba8602665315384ac1b068bc22d62e4f288189"
 
   url "https://dl.u-he.com/releases/Diva_#{version.csv.first.no_dots}_#{version.csv.second}_Mac.zip"
   name "U-he Diva"

@@ -1,6 +1,6 @@
 cask "uhe-colour-copy" do
   version "1.0.2_16742"
-  sha256 "9a13297aa35b8b4bb85cca2c35e0d03681e45154d80025edd8731b0e036aba1b"
+  sha256 "41d8db0d3546091716909f806fe6874e3d7485e22a92e8819e97c87e881ddd66"
 
   url "https://uhe-dl.b-cdn.net/releases/ColourCopy_#{version.no_dots}_Mac.zip"
   name "U-he Colour Copy"
