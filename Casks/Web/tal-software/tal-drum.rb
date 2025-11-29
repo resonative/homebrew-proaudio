@@ -3,7 +3,7 @@ cask "tal-drum" do
   sha256 :no_check
 
   url "https://tal-software.com/downloads/plugins/TAL-Drum-installer_macos.zip"
-  name "TAL-Sampler"
+  name "TAL-Drum"
   desc "Drum sample player"
   homepage "https://tal-software.com/products/tal-drum"
 
