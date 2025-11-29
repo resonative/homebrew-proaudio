@@ -12,16 +12,18 @@ cask "receivemidi" do
   pkg "receivemidi-macos-#{version}.pkg"
 
   postflight do
-    system_command "ln",
-                   args: [
-                     "-s",
-                     "/usr/local/bin/receivemidi",
-                     "#{ENV.fetch("HOMEBREW_PREFIX", nil)}/bin/receivemidi",
-                   ],
-                   sudo: false
+    unless File.exist?("#{ENV.fetch("HOMEBREW_PREFIX", nil)}/bin/receivemidi")
+      system_command "ln",
+                     args: [
+                       "-s",
+                       "/usr/local/bin/receivemidi",
+                       "#{ENV.fetch("HOMEBREW_PREFIX", nil)}/bin/receivemidi",
+                     ],
+                     sudo: false
+    end
   end
 
-  uninstall_preflight do
+  uninstall_postflight do
     system_command "rm",
                    args: [
                      "-f",

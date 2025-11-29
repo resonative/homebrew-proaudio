@@ -12,16 +12,19 @@ cask "sendmidi" do
   pkg "sendmidi-macos-#{version}.pkg"
 
   postflight do
-    system_command "ln",
-                   args: [
-                     "-s",
-                     "/usr/local/bin/sendmidi",
-                     "#{ENV.fetch("HOMEBREW_PREFIX", nil)}/bin/sendmidi",
-                   ],
-                   sudo: false
+    unless File.exist?("#{ENV.fetch("HOMEBREW_PREFIX", nil)}/bin/sendmidi")
+      puts "creating symlink..."
+      system_command "ln",
+                     args: [
+                       "-s",
+                       "/usr/local/bin/sendmidi",
+                       "#{ENV.fetch("HOMEBREW_PREFIX", nil)}/bin/sendmidi",
+                     ],
+                     sudo: false
+    end
   end
 
-  uninstall_preflight do
+  uninstall_postflight do
     system_command "rm",
                    args: [
                      "-f",
