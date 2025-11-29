@@ -1,4 +1,4 @@
-cask "reason@12prv" do
+cask "reason@prv12" do
   class << self
     define_method(:prv_archive_url) do
       json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
