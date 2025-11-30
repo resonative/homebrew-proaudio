@@ -1,18 +1,17 @@
 cask "monkeyc-rando" do
-  version :latest
-  sha256 :no_check
+  version "2.0.6,3879757"
+  sha256 "6cf95dfe5ff68fc278c3e42d3b53863d067b427cd5140dd4978380ed24dd6267"
 
   url "https://monkeyc.link/rando",
       verified: "monkeyc.link"
   name "MonkeyC Rando"
   desc "Randomizing sampler"
-  homepage "https://monkeyc.audio/pages/rando"
+  homepage "https://monkeyc.s3.eu-central-1.amazonaws.com/Rando+#{version.csv.first}.zip"
 
   auto_updates false
-  depends_on macos: ">= :catalina"
-  container nested: "Rando 2 MacOS.dmg"
+  container nested: "Rando 2 macOS #{version.csv.first} #{version.csv.second}.dmg"
 
-  pkg "Rando 2 MacOS.pkg"
+  pkg "Rando 2 macOS #{version.csv.first} #{version.csv.second}.pkg"
 
   uninstall quit:    "com.monkeycaudio.rando2",
             pkgutil: "com.monkeycaudio.rando2.*",

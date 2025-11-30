@@ -13,7 +13,6 @@ cask "monkeyc-rewind" do
   end
 
   auto_updates false
-  depends_on macos: ">= :catalina"
   container nested: "Rewind Mac #{version.csv.first} #{version.csv.second}.dmg"
 
   pkg "Rewind Mac #{version.csv.first} #{version.csv.second}.pkg",
