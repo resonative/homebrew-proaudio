@@ -18,17 +18,17 @@ cask "zynaptiq-intensity" do
         },
       ]
 
-  postflight do
-    # Close windows that were automatically opened at the end of install (pkg postscript)
-    system_command "osascript",
-                   args: [
-                      "-e", "tell application \"Finder\" to close "\
-                      "(first window whose name is \"Zynaptiq Plug-In Support\")",
-                      "-e", "tell application \"Preview\" to close "\
-                      "(first window whose name is \"Zynaptiq INTENSITY 2 Manual.pdf\")",
-                   ],
-                   sudo: false
-  end
+  # postflight do
+  #   # Close windows that were automatically opened at the end of install (pkg postscript)
+  #   system_command "osascript",
+  #                  args: [
+  #                     "-e", "tell application \"Finder\" to close "\
+  #                     "(first window whose name is \"Zynaptiq Plug-In Support\")",
+  #                     "-e", "tell application \"Preview\" to close "\
+  #                     "(first window whose name is \"Zynaptiq INTENSITY 2 Manual.pdf\")",
+  #                  ],
+  #                  sudo: false
+  # end
 
   uninstall pkgutil: [
     "com.zynaptiq.pkg.intensity2",
