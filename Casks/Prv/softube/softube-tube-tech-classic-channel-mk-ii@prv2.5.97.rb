@@ -1,4 +1,4 @@
-cask "softube-tube-tech-classic-channel-mk-ii@prv" do
+cask "softube-tube-tech-classic-channel-mk-ii@prv2.5.97" do
   class << self
     define_method(:prv_archive_url) do
       json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
@@ -36,4 +36,6 @@ cask "softube-tube-tech-classic-channel-mk-ii@prv" do
             ]
 
   zap delete: "/Library/Application Support/Softube/Presets/Tube-Tech Classic Channel mk II.spt"
+
+  caveats "Last version compatible with macos 12 Monterey"
 end
