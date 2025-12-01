@@ -22,10 +22,10 @@ cask "zynaptiq-intensity" do
     # Close windows that were automatically opened at the end of install (pkg postscript)
     system_command "osascript",
                    args: [
-                      "-e", "tell application \"Finder\" to close "\
-                      "(first window whose name is \"Zynaptiq Plug-In Support\")",
-                      "-e", "tell application \"Preview\" to close "\
-                      "(first window whose name is \"Zynaptiq INTENSITY Manual.pdf\")",
+                      "-e", "try tell application \"Finder\" to close "\
+                      "(first window whose name is \"Zynaptiq Plug-In Support\") end try",
+                      "-e", "try tell application \"Preview\" to close "\
+                      "(first window whose name is \"Zynaptiq INTENSITY 2 Manual.pdf\") end try",
                    ],
                    sudo: false
   end
