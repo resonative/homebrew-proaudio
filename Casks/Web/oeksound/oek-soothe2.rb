@@ -9,7 +9,6 @@ cask "oek-soothe2" do
   homepage "https://oeksound.com/plugins/soothe2/"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "soothe2_v#{version.no_dots}_Mac.pkg"
 

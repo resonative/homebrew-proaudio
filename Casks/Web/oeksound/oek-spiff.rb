@@ -9,7 +9,6 @@ cask "oek-spiff" do
   homepage "https://oeksound.com/plugins/spiff/"
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
 
   pkg "spiff_v#{version.no_dots}_Mac.pkg"
 

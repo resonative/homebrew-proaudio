@@ -9,7 +9,6 @@ cask "oek-bloom" do
   homepage "https://oeksound.com/plugins/bloom/"
 
   auto_updates false
-  depends_on macos: ">= :mojave"
 
   pkg "bloom_v#{version}_macos.pkg"
 
