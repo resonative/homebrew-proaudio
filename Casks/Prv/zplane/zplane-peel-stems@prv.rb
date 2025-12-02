@@ -18,14 +18,7 @@ cask "zplane-peel-stems@prv" do
 
   auto_updates false
 
-  pkg "PEEL-STEMS_#{version.csv.first}_Installer_rev#{version.csv.second}.pkg",
-      choices: [
-        {
-          "choiceIdentifier" => "zzUNINSTALLChoice", # Uninstaller
-          "choiceAttribute"  => "selected",
-          "attributeSetting" => 0,
-        },
-      ]
+  pkg "PEEL-STEMS_#{version.csv.first}_Installer_rev#{version.csv.second}.pkg"
 
   uninstall pkgutil: "com.zplane.peel-stems.*",
             delete:  "/Applications/zplane/PEEL-STEMS"
