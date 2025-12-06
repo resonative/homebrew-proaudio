@@ -1,13 +1,13 @@
 cask "sononym" do
-  version "1.6.1"
+  version "1.6.2"
 
   on_arm do
-    sha256 "dca9361da632de775c9121de8210c9fbe872cbcfb9909e83e5c6d58d35d42d37"
+    sha256 "5ce1995daab342677e2824e1ae40d82a5a81e36ff84c74697b2753a94a6400d5"
 
     url "https://www.sononym.net/download/Sononym-#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "01aa45e35c530d96edfc261ac2a56757f766b4ba9ffcb7ad9ce6410b53b0ab7d"
+    sha256 "2ac073938a66b934e72fc81976ae1aa4bf92a278dfd701a861e227141f3fd513"
 
     url "https://www.sononym.net/download/Sononym-#{version}.dmg"
   end
