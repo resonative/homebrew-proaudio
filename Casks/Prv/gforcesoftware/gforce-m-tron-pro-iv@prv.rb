@@ -1,5 +1,5 @@
 cask "gforce-m-tron-pro-iv@prv" do
-    class << self
+  class << self
     define_method(:prv_archive_url) do
       json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
       data = JSON.parse(File.read(json_path))
