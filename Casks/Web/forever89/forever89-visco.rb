@@ -1,7 +1,7 @@
 cask "forever89-visco" do
   version "2.0.0"
   sha256 "e6bbd84bfa91434f75352fa49efacda24653eccb1976acd3d647245310db44e2"
-  
+
   url "https://forever89.studio/files/Visco_v#{version.dots_to_underscores}_Mac.pkg.zip"
   name "Forever89 Visco"
   desc "Sample modeling drum machine"
