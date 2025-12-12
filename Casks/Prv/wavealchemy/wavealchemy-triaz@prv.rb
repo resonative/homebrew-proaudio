@@ -5,8 +5,8 @@ cask "wavealchemy-triaz@prv" do
     data["server"] ||= "http://not_configured.lan"
   end
 
-  version "1.1.2"
-  sha256 "a8e6b76d170ef7e260cc0aa7d02f55690f5c6b61c0cac3766b03b72efd881b73"
+  version "1.2.0"
+  sha256 "173488dc558817c7e67a28ea61382d94afa5112f3cf9d81e71d70f96c3bfd4ef"
 
   url "#{prv_archive_url}/w/wavealchemy-triaz/v#{version}/Triaz_macOS.zip",
       verified: prv_archive_url.to_s
