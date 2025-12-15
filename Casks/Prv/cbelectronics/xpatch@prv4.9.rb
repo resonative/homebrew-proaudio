@@ -10,7 +10,7 @@ cask "xpatch@prv4.9" do
   version "4.9,8.4" # csv.first is xpatch version; csv.second is midiupd version
   sha256 "5073769fa409f81f880161c5721276e4c44ad04eae9c41e847facf5c52817f82"
 
-  url "#{prv_archive_url}/x/xpatch/v#{version}/XPatch4_Pack.zip",
+  url "#{prv_archive_url}/x/xpatch/v#{version.csv.first}/XPatch4_Pack.zip",
       verified: prv_archive_url.to_s
   name "CB Electronics XPatch 4.9"
   desc "Control software for XPatch audio patchbay"
