@@ -1,4 +1,4 @@
-cask "xpatch@prv" do
+cask "xpatch@prv4.9" do
   class << self
     define_method(:prv_archive_url) do
       json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
@@ -7,8 +7,8 @@ cask "xpatch@prv" do
     end
   end
 
-  version "4.9"
-  sha256 "78b4608e8b8c58a60d4bedf92fa91ec8456c30bea89ebe5acdf66955398e3730"
+  version "4.9,8.4" # csv.first is xpatch version; csv.second is midiupd version
+  sha256 "5073769fa409f81f880161c5721276e4c44ad04eae9c41e847facf5c52817f82"
 
   url "#{prv_archive_url}/x/xpatch/v#{version}/XPatch4_Pack.zip",
       verified: prv_archive_url.to_s
@@ -18,16 +18,16 @@ cask "xpatch@prv" do
 
   auto_updates false
 
-  pkg "XPatch4_Pack/Mac Software/XPatch#{version}.pkg"
-  pkg "XPatch4_Pack/Mac Software/midiupd.pkg"
+  pkg "XPatch4_Pack/Mac Software/XPatch#{version.csv.first}.pkg"
+  pkg "XPatch4_Pack/Mac Software/Midiupd #{version.csv.second}.pkg"
 
   preflight do
     # As downloaded, the pkg does are flagged as quarantine
     system_command "xattr",
-                   args: ["-d", "com.apple.quarantine", "#{staged_path}/XPatch4_Pack/Mac Software/XPatch#{version}.pkg"],
+                   args: ["-d", "com.apple.quarantine", "#{staged_path}/XPatch4_Pack/Mac Software/XPatch#{version.csv.first}.pkg"],
                    sudo: true
     system_command "xattr",
-                   args: ["-d", "com.apple.quarantine", "#{staged_path}/XPatch4_Pack/Mac Software/midiupd.pkg"],
+                   args: ["-d", "com.apple.quarantine", "#{staged_path}/XPatch4_Pack/Mac Software/Midiupd #{version.csv.second}.pkg"],
                    sudo: true
   end
 
@@ -37,7 +37,7 @@ cask "xpatch@prv" do
                      ],
             pkgutil: [
                        "com.mygreatcompany.pkg.XPatch49",
-                       "co.uk.cbelectronics.pkg.midiupd",
+                       "com.mygreatcompany.pkg.Midiupd84",
                      ],
             delete:  "~/Library/Saved Application State/uk.co.cbelectronics.xpatch.savedState/"
 end
