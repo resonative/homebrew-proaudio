@@ -16,6 +16,8 @@ cask "reason-companion@prv" do
   desc "Reason Studios software manager"
   homepage "https://www.reasonstudios.com/download-reason-companion"
 
+  conflicts_with cask: "reason-companion"
+
   app "Reason Companion.app"
 
   uninstall quit:   "com.reasonstudios.nautilus",
