@@ -1,6 +1,6 @@
 cask "ghz-lohi" do
-  version "3.13.1-fb6fc78"
-  sha256 "b113695b25116a229c5d52e9040338bc10b9a38d20a24b5b2dac82bba4e58930"
+  version "3.13.2-a9ef3f6"
+  sha256 "980a15d0f758cb7ac970b7d1156049156e6430e4edde5e6c2c437766404247c7"
 
   url "https://downloads.goodhertz.com/Goodhertz-Installer-#{version}.pkg"
   name "Goodhertz Lohi"
