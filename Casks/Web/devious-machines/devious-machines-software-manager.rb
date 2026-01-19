@@ -1,6 +1,6 @@
 cask "devious-machines-software-manager" do
-  version "1.1.2"
-  sha256 "173ae4c84add4b4264da8f2a58b9658e07af677b21e5702eb2cd8868704dafb3"
+  version "1.1.4"
+  sha256 "73d4d8729e96aeaa058c7a8b472b738994f1592fc11b05a43a8558787fedc3da"
 
   url "https://deviousmachines.com/dm_builds/dmsm/Devious%20Machines%20Software%20Manager%20v#{version}%20Mac.dmg"
   name "Devious Machines Software Manager"
