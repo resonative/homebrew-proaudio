@@ -1,9 +1,9 @@
 cask "auracle-x" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "2.3.2"
-  sha256 arm:   "ee414e653c5868fee66f77e4469f5b194e8f3592ad3c762060556bfb762dc856",
-         intel: "50fcb6aa9f24790186170b16ddc0336db6d2e4dbb835171c93422208d57a760f"
+  version "2.4.0"
+  sha256 arm:   "067c79bbdf2395cba90b4f750cbd5104a05e06c9ec96dc8d2d50b8e772fb6c5e",
+         intel: "8f07b9c608c6ab10b767d6ec0b96d2146c1c07a0f41e4a50e9ef22cd213b5c78"
 
   url "https://cdn.iconnectivity.com/software/AuracleX#{version}-#{arch}.dmg"
   name "iConnectivity Auracle X"
