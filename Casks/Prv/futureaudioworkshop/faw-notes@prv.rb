@@ -10,7 +10,7 @@ cask "faw-notes@prv" do
   version "1.0.1,161225"
   sha256 "71e5951a96050563b5a7d48a63c9566cb4b6a85e8ad6c5c3ff421e228153b38e"
 
-  url "#{prv_archive_url}/f/faw-notes/v#{version}/Notes-Installer-#{version.csv.first}-#{version.csv.second}-macOS.dmg",
+  url "#{prv_archive_url}/f/faw-notes/v#{version.csv.first}/Notes-Installer-#{version.csv.first}-#{version.csv.second}-macOS.dmg",
       verified: prv_archive_url.to_s
   name "Future Audio Workshop Notes"
   desc "Chord sequencer"
