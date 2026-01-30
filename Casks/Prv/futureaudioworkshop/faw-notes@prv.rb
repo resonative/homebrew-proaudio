@@ -7,8 +7,8 @@ cask "faw-notes@prv" do
     end
   end
 
-  version "1.0.1,161225"
-  sha256 "71e5951a96050563b5a7d48a63c9566cb4b6a85e8ad6c5c3ff421e228153b38e"
+  version "1.0.2,270126"
+  sha256 "9b82618dc3025dab5efb88a832142962143d6ad6d72fd1ec7b2437249835e2ad"
 
   url "#{prv_archive_url}/f/faw-notes/v#{version.csv.first}/Notes-Installer-#{version.csv.first}-#{version.csv.second}-macOS.dmg",
       verified: prv_archive_url.to_s
