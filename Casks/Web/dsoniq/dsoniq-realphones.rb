@@ -1,6 +1,6 @@
 cask "dsoniq-realphones" do
-  version "2.2.2"
-  sha256 "dd742017b2a29750f9e642e58b24c528a37f6f35390d8375667443791775f415"
+  version "2.2.4"
+  sha256 "e288ff432821b76d925f5cb9f62d27e20836bc30982bb17c8172cc9c9c1d187a"
 
   url "https://download.dsoniq.com/Realphones/Realphones_installer_mac_#{version}.dmg"
   name "dSONIQ Realphones"
