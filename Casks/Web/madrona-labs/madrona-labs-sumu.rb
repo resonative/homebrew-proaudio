@@ -1,6 +1,6 @@
 cask "madrona-labs-sumu" do
-  version "1.1.3"
-  sha256 "0cffabd2946f0685f74bf883e35f5ebb19cf05e33dac7cd87bee730e6979688e"
+  version "1.3.0"
+  sha256 "20106917e9af7c9bec453713671ab8599ee768f94c7d8cea481e7688f8516fb4"
 
   url "https://madronalabs.com/media/sumu/Sumu#{version}.pkg"
   name "Madrona Labs Sumu"
