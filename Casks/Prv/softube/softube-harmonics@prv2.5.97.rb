@@ -10,7 +10,7 @@ cask "softube-harmonics@prv2.5.97" do
   version "2.5.97,e9ab2723"
   sha256 "58b9f55ecfa1f40a32e2880af7439e1647a9ec5f738c3aef41d7682cd923fa62"
 
-  url "#{prv_archive_url}/s/softube-harmonics/v#{version.csv.first}/Softube%20Harmonics%20Analog%20Saturation%20Processor%20Installer%20#{version.csv.first} #{version.csv.second}.pkg",
+  url "#{prv_archive_url}/s/softube-harmonics/v#{version.csv.first}/Softube%20Harmonics%20Analog%20Saturation%20Processor%20Installer%20#{version.csv.first}%20#{version.csv.second}.pkg",
       verified: prv_archive_url.to_s
   name "Softube Harmonics"
   desc "Saturation"
