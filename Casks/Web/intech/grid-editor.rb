@@ -1,9 +1,9 @@
 cask "grid-editor" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.6.2"
-  sha256 arm:   "d9f0662e35a8feb66c87f4379d1714d3e249408ea430352c1987f95d4ad3e8a0",
-         intel: "195924a3135fa08e1e1cd6cb4c7c124a55871c2055f61030b2c2c6f8c47061b8"
+  version "1.6.7"
+  sha256 arm:   "f343c67c3307f20822226088f2b511dc6a1f9b5ba9cc9c09614526256c813a39",
+         intel: "783169cb7cf1efe037ae8298f0e00d5ccc609b63c3f67397ceb0a843159c3f80"
 
   url "https://github.com/intechstudio/grid-editor/releases/download/v#{version}/grid-editor-macos-#{version}-#{arch}.dmg"
   name "Grid Editor"

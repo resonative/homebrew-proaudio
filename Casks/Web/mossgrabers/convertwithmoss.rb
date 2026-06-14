@@ -1,9 +1,9 @@
 cask "convertwithmoss" do
-  arch arm: "14", intel: "13"
+  arch arm: "15", intel: "15-intel"
 
-  version "14.2.0"
-  sha256 arm:   "fd5e33574a5f23b5eaabe21f84f01c6aaaa5667b35c4287d3d3c5fafd7e31ae2",
-         intel: "6f4c3f32ed5a962eeed22391254c9d40fd1ae419fff7b0a19d0aa728f397f65b"
+  version "18.1.1"
+  sha256 arm:   "bd94b0cd11a18c6d736af2313042a06766e963e42403e8b63d43ee0fe5be46eb",
+         intel: "a9b9c088407562d238579627003e9750153cedf9fb24bc77cd2df39979083a7a"
 
   url "https://www.mossgrabers.de/Software/ConvertWithMoss/ConvertWithMoss-Installers-macos-#{arch}/ConvertWithMoss-#{version}.dmg"
   name "ConvertWithMoss"
