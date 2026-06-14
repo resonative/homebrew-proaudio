@@ -1,9 +1,9 @@
 cask "newfangled-recirculate" do
-  version "1.2.0"
-  sha256 "9c91e4abe2e74c0d2f3401352676ad645dcd52cff424ffa682c61adf3364bcc1"
+  version "1.2.4"
+  sha256 "0adec37d53a4ed01037f680b347ae8b7271bc8e2f8149bbf08d926bed4d62c41"
 
-  url "https://downloads.eventide.com/audio/installers/plug-ins/Recirculate/Recirculate-#{version}-osx-installer.dmg",
-      verified: "downloads.eventide.com/"
+  url "https://downloads.eventideaudio.com/installers/plug-ins/Recirculate/Recirculate-#{version}-osx-installer.dmg",
+      verified: "downloads.eventideaudio.com/"
   name "Newfangled Audio Recirculate"
   desc "Flexible delay"
   homepage "https://www.newfangledaudio.com/recirculate"

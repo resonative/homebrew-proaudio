@@ -1,9 +1,9 @@
 cask "newfangled-saturate" do
-  version "1.14"
-  sha256 "81e855e13e28470b458213e7eb642cd67a20a5c7a4712d75223a45edef11ef8f"
+  version "1.14.4"
+  sha256 "4921d9c89b8a7538cbc1626419f744fa49980c157426794cb2de20600491c26c"
 
-  url "https://downloads.eventide.com/audio/installers/plug-ins/ElevateBundle/Newfangled-Elevate-Bundle-#{version}-osx-installer.dmg",
-      verified: "downloads.eventide.com/"
+  url "https://downloads.eventideaudio.com/installers/plug-ins/Saturate/Newfangled-Saturate-#{version}-osx-installer.dmg",
+      verified: "downloads.eventideaudio.com/"
   name "Newfangled Audio Saturate"
   desc "Spectral clipper"
   homepage "https://www.newfangledaudio.com/saturate"

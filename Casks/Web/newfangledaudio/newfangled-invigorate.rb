@@ -1,9 +1,9 @@
 cask "newfangled-invigorate" do
-  version "1.4.0"
-  sha256 "e71f33b3f0a28da823a2bb0a1f3ed5427894c0b9b596a0516e4168652d527bda"
+  version "1.4.4"
+  sha256 "223d58c649db292ca09d6615e611655ef7e5d459e99274f09ff13ed253df3429"
 
-  url "https://downloads.eventide.com/audio/installers/plug-ins/Invigorate/Invigorate-#{version}-osx-installer.dmg",
-      verified: "downloads.eventide.com/"
+  url "https://downloads.eventideaudio.com/installers/plug-ins/Invigorate/Invigorate-#{version}-osx-installer.dmg",
+      verified: "downloads.eventideaudio.com/"
   name "Newfangled Audio Invigorate"
   desc "Bus compressor and enhancer"
   homepage "https://www.newfangledaudio.com/invigorate"

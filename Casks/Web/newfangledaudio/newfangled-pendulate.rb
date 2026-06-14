@@ -1,9 +1,9 @@
 cask "newfangled-pendulate" do
-  version "1.7.0"
-  sha256 "db1b4e966c87f3667874f37a2d54ed825597d9c747cce9950eb8d86409a8a22b"
+  version "1.7.4"
+  sha256 "fadea29b2faf51793e5ea0c8740c80b8ddb3b53b1faf2e52bf6d0b19d8c3f52c"
 
-  url "https://downloads.eventide.com/audio/installers/plug-ins/Pendulate/Pendulate-#{version}-osx-installer.dmg",
-      verified: "downloads.eventide.com/"
+  url "https://downloads.eventideaudio.com/installers/plug-ins/Pendulate/Pendulate-#{version}-osx-installer.dmg",
+      verified: "downloads.eventideaudio.com/"
   name "Newfangled Audio Pendulate"
   desc "Textual mono synth"
   homepage "https://www.newfangledaudio.com/pendulate"

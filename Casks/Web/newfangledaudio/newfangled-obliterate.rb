@@ -1,8 +1,9 @@
 cask "newfangled-obliterate" do
-  version "1.1.0"
-  sha256 "11d662f9e1a22a0207488d175a43838f9b9cdbd20a91c91e13e721843a4875e8"
+  version "1.1.4"
+  sha256 "b836ffb4a562c47ad6b6c85ab1fb6836012c7ff4acaece6f7937059b51d130d8"
 
-  url "https://downloads.eventide.com/audio/installers/plug-ins/Obliterate/Obliterate-#{version}-osx-installer.dmg"
+  url "https://downloads.eventideaudio.com/installers/plug-ins/Obliterate/Obliterate-#{version}-osx-installer.dmg",
+      verified: "downloads.eventideaudio.com/"
   name "Newfangled Audio Obliterate"
   desc "OTT distortion filter"
   homepage "https://www.newfangledaudio.com/obliterate"
