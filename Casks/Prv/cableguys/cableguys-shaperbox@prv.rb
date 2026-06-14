@@ -7,8 +7,8 @@ cask "cableguys-shaperbox@prv" do
     end
   end
 
-  version "3.6.1"
-  sha256 "eae9b3f77c59b6fe1ebdb0453fcd1500617b382ff6ba4772ba7e69694e6425cb"
+  version "3.6.3"
+  sha256 "0ab21988bcc7947740e3dcf63d26e1e098e237d337d81db704a8d8637d85203c"
 
   url "#{prv_archive_url}/c/cableguys-shaperbox/v#{version}/Cableguys-ShaperBox-#{version}.zip",
       verified: prv_archive_url.to_s

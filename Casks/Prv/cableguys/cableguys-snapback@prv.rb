@@ -7,8 +7,8 @@ cask "cableguys-snapback@prv" do
     end
   end
 
-  version "1.1.1"
-  sha256 "2ab0f8f85bcfa9419f8b6cc016766120b77ca070b3166ba3a785068d7b775d06"
+  version "1.1.2"
+  sha256 "d889be4b9b89942ed30c5677273d83ad3e33c4c648ea8554808fbe5c7109135c"
 
   url "#{prv_archive_url}/c/cableguys-snapback/v#{version}/Cableguys-Snapback-#{version}.zip",
       verified: prv_archive_url.to_s

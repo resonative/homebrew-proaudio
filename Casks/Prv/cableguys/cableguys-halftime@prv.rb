@@ -7,8 +7,8 @@ cask "cableguys-halftime@prv" do
     end
   end
 
-  version "1.1.11"
-  sha256 "45e8d531c16a315412590423a55f0f732dcdb05506c23234829d5c0023012e34"
+  version "1.1.12"
+  sha256 "339dbcfafeffbfbb8591cb7a28fc2a37c391c23b34bb6128cf863ee2f14865b5"
 
   url "#{prv_archive_url}/c/cableguys-halftime/v#{version}/Cableguys-HalfTime-#{version}.zip",
       verified: prv_archive_url.to_s

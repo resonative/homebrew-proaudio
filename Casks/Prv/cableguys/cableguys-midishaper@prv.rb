@@ -7,8 +7,8 @@ cask "cableguys-midishaper@prv" do
     end
   end
 
-  version "1.6.2"
-  sha256 "790a0b60d20ba44fe94484984f050618599a9c89124a37cedc5ec3c2c1b3a857"
+  version "1.6.3"
+  sha256 "cba29cb86f5b7ce7c8b40b69458a9e51d6d94b3442a3a486f010376df5fc1131"
 
   url "#{prv_archive_url}/c/cableguys-midishaper/v#{version}/Cableguys-MidiShaper-#{version}.zip",
       verified: prv_archive_url.to_s
