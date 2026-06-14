@@ -1,6 +1,6 @@
 cask "psp-stereocontroller2" do
-  version "2.0.1"
-  sha256 "afdc4101453cab500b53690d4a60c8fa157dd39af73b192fd72bd76f414a3c42"
+  version "2.0.2"
+  sha256 "318f75bc20394aeed28b5ce2aa4661087e13d34bf9255c4ac49e28fafe515960"
 
   url "https://download-eu2.pspaudioware.net/PSP_stereoController2/OSX/PSP_stereoController2_#{version}_macOS.dmg",
       verified: "pspaudioware.net/"

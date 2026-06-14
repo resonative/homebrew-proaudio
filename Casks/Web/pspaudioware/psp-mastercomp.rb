@@ -1,6 +1,6 @@
 cask "psp-mastercomp" do
-  version "1.10.0"
-  sha256 "1d5a9ad4146cfa187a6974da61621f39f51b9edf9d454c292f87d9f504e22d5b"
+  version "1.11.0"
+  sha256 "d5f123f0c586c09642f748389fc2dbe74254118387bfa6c4babf97ab3aa94a22"
 
   url "https://download-eu2.pspaudioware.net/PSP_MasterComp/OSX/native/PSP_MasterComp_#{version}_macOS.dmg",
       verified: "pspaudioware.net/"

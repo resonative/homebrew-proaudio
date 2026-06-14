@@ -1,6 +1,6 @@
 cask "psp-busspressor" do
-  version "2.0.0"
-  sha256 "74c7f307005c27f4c2b0199435256258e7e445f06f07d016ef75759a82fef046"
+  version "2.1.0"
+  sha256 "6bcd3931a7dd1aedeac80619de96711a8764a83b3f2755f2ed310111bb092562"
 
   url "https://download-eu2.pspaudioware.net/PSP_BussPressor/OSX/PSP_BussPressor_#{version}_macOS.dmg",
       verified: "pspaudioware.net/"

@@ -1,6 +1,6 @@
 cask "psp-auralcontrol" do
-  version "1.2.5"
-  sha256 "5b4d289826214f507d521f27dff59f38be8c775d31d55ff6d017bd0466197c9c"
+  version "1.3.0"
+  sha256 "f74293fe1ebb1a6f72a890d3537766daff7a72811cb33207dc413825ebc0e244"
 
   url "https://download-eu2.pspaudioware.net/PSP_auralControl/OSX/PSP_auralControl_#{version}_macOS.dmg",
       verified: "pspaudioware.net/"

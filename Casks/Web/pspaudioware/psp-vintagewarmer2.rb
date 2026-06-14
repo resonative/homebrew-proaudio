@@ -1,6 +1,6 @@
 cask "psp-vintagewarmer2" do
-  version "2.10.6"
-  sha256 "d4e8430830c1d571dddd1033b73959f61dbcf3b0261a9ac65a0c528b5d830bee"
+  version "2.11.0"
+  sha256 "40bd08b3a7055c9f1b642d54ade1ada19db36c8ec98e90101d8055c056fb4355"
 
   url "https://download-eu2.pspaudioware.net/PSP_VintageWarmer2/OSX/native/PSP_VintageWarmer2_#{version}_macOS.dmg",
       verified: "pspaudioware.net/"

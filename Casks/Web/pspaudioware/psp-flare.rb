@@ -1,6 +1,6 @@
 cask "psp-flare" do
-  version "1.0.3"
-  sha256 "6b5381fb28f73e1d10a188595727bbca900f876e91ba6dc395f5e2d661ee7d8b"
+  version "1.1.0"
+  sha256 "d5ed11e961160de32608cc078732af782c41d909872e3ef5c8080e038961b7bd"
 
   url "https://download-eu2.pspaudioware.net/PSP_Flare/OSX/PSP_Flare_#{version}_macOS.dmg",
       verified: "pspaudioware.net/"

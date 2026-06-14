@@ -1,6 +1,6 @@
 cask "psp-oldtimer" do
-  version "2.2.2"
-  sha256 "f2b45fdc8b1e4571abe00188c0d1990419ba6c9e936a1deaa8926f67d9d00529"
+  version "2.3.0"
+  sha256 "b439ab780ea40f70c9934df7c13af039bb4fc0707c4cd6d8a2d66396ce55f57c"
 
   url "https://download-eu2.pspaudioware.net/PSP_oldTimerME/OSX/native/PSP_oldTimer_#{version}_macOS.dmg",
       verified: "pspaudioware.net/"
