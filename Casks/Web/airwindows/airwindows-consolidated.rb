@@ -1,7 +1,7 @@
 cask "airwindows-consolidated" do
-  version "2025-12-07-a797d6c"
+  version "2026-06-07-07d8756"
   sha256 :no_check
-  
+
   url "https://github.com/baconpaul/airwin2rack/releases/download/DAWPlugin/airwindows-consolidated-macOS-#{version}.dmg",
       verified: "github.com/baconpaul/airwin2rack/"
   name "Airwindows Consolidated"
