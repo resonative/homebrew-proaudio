@@ -12,13 +12,13 @@ cask "ee-noisy@prv" do
     end
   end
 
-  arch arm: "MacArm", intel: "MacIntel"
+  arch arm: "arm64", intel: "x86_64"
 
-  version "2.0"
-  sha256 arm:   "8ac2e0693baab4fd47dd11ce43310eb696430629fdad9b5df89c3e1dce3a364c",
-         intel: "596879ca706de1191f7912d1c58827cf80fa5925f7093bb58ab4d7fb71b7426e"
+  version "2.1.0"
+  sha256 arm:   "8281af210479923e8996352dccc6848c6479e32750439b783fca154bb417463b",
+         intel: "c4435221f3d717f8dfaaacb55937a2313c92f76d03bff6bc52e2873324872909"
 
-  url "#{Utils.prv_archive_url}/e/ee-noisy/v#{version}/Noisy2-#{version}_#{arch.upcase}.zip",
+  url "#{Utils.prv_archive_url}/e/ee-noisy/v#{version}/Noisy#{version}-Darwin-#{arch}.pkg",
       verified: Utils.prv_archive_url("verified").to_s
   name "ExpressiveE Noisy"
   desc "MPE modal synthesis synth"
@@ -26,7 +26,7 @@ cask "ee-noisy@prv" do
 
   auto_updates false
 
-  pkg "Noisy2-#{version}-#{arch}.pkg"
+  pkg "Noisy#{version}-Darwin-#{arch}.pkg"
 
   uninstall pkgutil: "com.expressivee.Noisy2.*"
 end
