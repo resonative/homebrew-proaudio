@@ -1,12 +1,12 @@
-cask "mbs-mbsi" do
-  version "4.0.89.253"
-  sha256 "77411270f2d5aa0d66fc253138f277f968636cdd710a25ca1b10f7f00485d0ad"
+cask "mb-mbsi" do
+  version "4.1.12.276"
+  sha256 "18ecb34d08ae52584994a035866a14efb04a81dd7fc5e9f75bf4c54a128db791"
 
   url "https://mhsecure.com/installers/#{version}/MBSI_v#{version}.pkg",
       verified: "mhsecure.com/"
   name "Make Believe Studios MBSI"
   desc "MCI style custom console channel strip emulation"
-  homepage "https://www.makebelievestudio.com/mbsi"
+  homepage "https://www.makebelievestudio.com/plugins/mbsi"
 
   pkg "MBSI_v#{version}.pkg"
 
@@ -24,7 +24,7 @@ cask "mbs-mbsi" do
     end
   end
 
-  uninstall pkgutil: "com.Metric Halo.MBSI_v4.0.23.187.MBSI",
+  uninstall pkgutil: "com.MetricHalo.MBSI_v*.MBSI",
             delete:  [
               "/Library/Audio/Plug-Ins/Components/MBSI.component",
               "/Library/Audio/Plug-Ins/VST/MBSI.vst",
