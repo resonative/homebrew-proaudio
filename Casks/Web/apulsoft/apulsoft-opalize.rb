@@ -1,6 +1,6 @@
 cask "apulsoft-opalize" do
-  version "1.0.0"
-  sha256 "f34bc7cf6c3df3cc93804943359b9e25b57d0bfe841fdcbdfece599b6566207d"
+  version "1.1.1"
+  sha256 "36636c08706d47db3bca4c27c16c9c64a8dc2bc3a7bd0528127ad10c76011224"
 
   url "https://apulsoft.com/opalize/opalize-mac-#{version.dots_to_hyphens}.pkg"
   name "apulSoft Opalize"

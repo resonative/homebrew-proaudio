@@ -1,6 +1,6 @@
 cask "apulsoft-apqualizr" do
-  version "2.7.6"
-  sha256 "1cb638c209032601a350a134f4edf81d420c1442e3ea191acfad21c5a2053eec"
+  version "2.7.7"
+  sha256 "0341c8ee1e13734ae933c4077f35398b2d57fd09a7566ec2d50bf39fb5f27a28"
 
   url "https://apulsoft.ch/apqualizr2/apqualizr2-mac-#{version.dots_to_hyphens}.pkg"
   name "apulSoft apQualizr2"
