@@ -1,6 +1,6 @@
 cask "mh-multiband-dynamics" do
-  version "4.0.89.253"
-  sha256 "f425981d7ea4bd06796509d4ed64a3a54ffd43bc2a69c9fc96b65186e7591530"
+  version "4.1.12.276"
+  sha256 "9a238d4e81b0e13241de49ff5a2355bf875333cec8820de82e19d08ed1bfbc53"
 
   url "https://mhsecure.com/installers/#{version}/MHProductionBundleInstaller.pkg"
   name "Metric Halo MH Multiband Dynamics v4"
