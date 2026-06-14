@@ -1,6 +1,6 @@
 cask "gconmanager" do
-  version "17.0.4851"
-  sha256  "3f4fbe76279f07349f52a6dcdc667a72f9b04786865bfcdd5ebe476c49b7a52b"
+  version "18.0.5322"
+  sha256  "2f5aaa2450db856d4b010e61b399afad8233a3f3af73035b3f1887483c78acab"
 
   url "https://wesaudio.com/uploads/WesAudio_MACx86x64_VST_AAX_v#{version}.dmg"
   name "WesAudio GConManager"
