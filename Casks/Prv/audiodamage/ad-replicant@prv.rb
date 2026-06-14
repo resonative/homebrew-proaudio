@@ -7,17 +7,16 @@ cask "ad-replicant@prv" do
     end
   end
 
-  version "3.0.9"
-  sha256 "73c4477b61f5e9e331151fdaa09c674a8b82a95f4e722c5f6ba094b11997bf42"
+  version "3.1.1"
+  sha256 "b2edae163d7ce62f0a78cf2855ef3ff21ee6bc47f9e03c6ff4774b96f2850612"
 
-  url "#{prv_archive_url}/a/ad-replicant/v#{version}/AD056_Replicant_#{version}.zip",
+  url "#{prv_archive_url}/a/ad-replicant/v#{version}/macOS_Replicant_3_#{version}.zip",
       verified: prv_archive_url.to_s
   name "Audio Damage Replicant"
   desc "Tempo synced audio buffer sutter slicing effect"
   homepage "https://www.audiodamage.com/products/ad056-replicant-3"
 
   auto_updates false
-  container nested: "AD056_Replicant_#{version}/macOS_Replicant_3_#{version}.zip"
 
   installer manual: "Replicant 3_Installer_v#{version}.app"
 

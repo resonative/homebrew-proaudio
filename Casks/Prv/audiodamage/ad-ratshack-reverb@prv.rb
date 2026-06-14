@@ -7,10 +7,10 @@ cask "ad-ratshack-reverb@prv" do
     end
   end
 
-  version "3.1.0"
-  sha256 "f5ae95b5e5c2ad97a979121a0bf40ff1750c0d60d0f07a307f22e16cb8595b03"
+  version "3.2.1"
+  sha256 "6d87e2de477a4d9ce9db71771e305ccb3b6499d040d9c16da730f6459a15e072"
 
-  url "#{prv_archive_url}/a/ad-ratshack-reverb/v#{version}/AD047_Ratshack_Reverb_#{version.no_dots}.zip",
+  url "#{prv_archive_url}/a/ad-ratshack-reverb/v#{version}/macOS_RatshackReverb3_#{version}.zip",
       verified: prv_archive_url.to_s
   name "Audio Damage Ratshack Reverb"
   desc "Realistic Electronic Reverb emulation"
@@ -18,7 +18,12 @@ cask "ad-ratshack-reverb@prv" do
 
   auto_updates false
 
-  pkg "AD047_Ratshack_Reverb_#{version.no_dots}/macOS_RatshackReverb_#{version.no_dots}.pkg"
+  manual "RatshackReverb3_Installer_v#{version}.app"
 
-  uninstall pkgutil: "com.audiodamage.pkg.rr3*"
+  uninstall delete: [
+    "/Library/Application Support/Avid/Audio/Plug-Ins/RatshackReverb3.aaxplugin",
+    "/Library/Audio/Plug-Ins/CLAP/RatshackReverb3.clap",
+    "/Library/Audio/Plug-Ins/Components/RatshackReverb3.component",
+    "/Library/Audio/Plug-Ins/VST3/RatshackReverb3.vst3",
+  ]
 end

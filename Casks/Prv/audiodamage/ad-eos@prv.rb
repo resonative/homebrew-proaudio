@@ -7,17 +7,16 @@ cask "ad-eos@prv" do
     end
   end
 
-  version "2.4.0"
-  sha256 "30e08551f3835c4c01b585eaddc0cb1f0e5a696f8cfd884dea4fa1409ea32287"
+  version "2.5.0"
+  sha256 "f79225bf15b74a54a8ba754e38a53a8725345348163452a3bad0b01cf2314b46"
 
-  url "#{prv_archive_url}/a/ad-eos/v#{version}/AD034_Eos_#{version}.zip",
+  url "#{prv_archive_url}/a/ad-eos/v#{version}/macOS_Eos2_#{version}.zip",
       verified: prv_archive_url.to_s
   name "Audio Damage Eos"
   desc "Reverb"
   homepage "https://www.audiodamage.com/products/ad034-eos-2"
 
   auto_updates false
-  container nested: "AD034_Eos_#{version}/macOS_Eos_#{version}.zip"
 
   installer manual: "Eos 2_Installer_v#{version}.app"
 

@@ -8,9 +8,9 @@ cask "ad-phasethree@prv" do
   end
 
   version "3.1.0"
-  sha256 "8f5cd1e68ea999a095c5ed51f3e3e4fc6ba0ce7aa0831f75aa07cb4e0035ab8e"
+  sha256 "70862d7e685b8ba1e088b13f0229712b851b9c0f4e9ad2f5bb674bf6fdfb11af"
 
-  url "#{prv_archive_url}/a/ad-phasethree/v#{version}/AD048_PhaseThree_#{version.no_dots}.zip",
+  url "#{prv_archive_url}/a/ad-phasethree/v#{version}/macOS_Phase_3_#{version}.zip",
       verified: prv_archive_url.to_s
   name "Audio Damage PhaseThree"
   desc "Mu-tron bi-phase emulation"
@@ -18,7 +18,7 @@ cask "ad-phasethree@prv" do
 
   auto_updates false
 
-  pkg "AD048_PhaseThree_#{version.no_dots}/macOS_PhaseThree_#{version.no_dots}.pkg"
+  pkg "macOS_PhaseThree_#{version.no_dots}.pkg"
 
   uninstall pkgutil: "com.audiodamage.pkg.phasethree*"
 end

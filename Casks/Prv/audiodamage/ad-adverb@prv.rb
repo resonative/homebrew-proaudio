@@ -8,9 +8,9 @@ cask "ad-adverb@prv" do
   end
 
   version "2.1.0"
-  sha256 "091cb2d5d8c75180227d014c9f7a0069654041d9c358ab77c212fafb930c6f91"
+  sha256 "7aa6d7854dcda892e266e360d770d59c82f05a8c7432df37da034757a830fad8"
 
-  url "#{prv_archive_url}/a/ad-adverb/v#{version}/AD045_ADverb_#{version.no_dots}.zip",
+  url "#{prv_archive_url}/a/ad-adverb/v#{version}/macOS_Adverb_#{version}.zip",
       verified: prv_archive_url.to_s
   name "Audio Damage ADverb"
   desc "Vintage plate reverb"
@@ -18,7 +18,7 @@ cask "ad-adverb@prv" do
 
   auto_updates false
 
-  pkg "AD045_ADverb_#{version.no_dots}/macOS_ADverb_#{version.no_dots}.pkg"
+  pkg "macOS_ADverb_#{version.no_dots}.pkg"
 
   uninstall pkgutil: "com.audiodamage.pkg.adverb2*"
 end

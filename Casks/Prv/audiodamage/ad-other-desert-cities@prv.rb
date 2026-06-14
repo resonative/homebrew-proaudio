@@ -7,17 +7,16 @@ cask "ad-other-desert-cities@prv" do
     end
   end
 
-  version "1.0.11"
-  sha256 "d70285b81d6522ae40df62fcae3113e86aba0caea78b596b5ed7660b0acccde1"
+  version "1.0.15"
+  sha256 "b81a972a045ae7aa08f5d65b595ba8c30d5eccb0001f4070b3896a3fb6aaad11"
 
-  url "#{prv_archive_url}/a/ad-other-desert-cities/v#{version}/AD054_Other_Desert_Cities_#{version}.zip",
+  url "#{prv_archive_url}/a/ad-other-desert-cities/v#{version}/macOS_Other_Desert_Cities_#{version}.zip",
       verified: prv_archive_url.to_s
   name "Audio Damage Other Desert Cities"
   desc "Multi mode stereo delay"
   homepage "https://www.audiodamage.com/products/ad054-other-desert-cities"
 
   auto_updates false
-  container nested: "AD054_Other_Desert_Cities_#{version}/macOS_Other_Desert_Cities_#{version}.zip"
 
   installer manual: "Other Desert Cities_Installer_v#{version}.app"
 

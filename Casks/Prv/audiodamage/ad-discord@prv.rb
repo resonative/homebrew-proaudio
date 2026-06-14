@@ -8,18 +8,17 @@ cask "ad-discord@prv" do
   end
 
   version "4.1.5"
-  sha256 "ddd379f37fe4d2bc9021417f8324a743faadaae5c4bc3b81320c3e86ed22e52d"
+  sha256 "8c517c601327d044864e5d9eaabbd7adc5938a5c25e52fe489b47005e98c7778"
 
-  url "#{prv_archive_url}/a/ad-discord/v#{version.csv.first}/AD044_Discord_#{version}.zip",
+  url "#{prv_archive_url}/a/ad-discord/v#{version.csv.first}/macOS_Discord4_#{version}.zip",
       verified: prv_archive_url.to_s
   name "Audio Damage Discord"
   desc "Stereo pitch shifter"
   homepage "https://www.audiodamage.com/collections/software/products/ad044-discord4"
 
   auto_updates false
-  container nested: "AD044_Discord_#{version}/macOS_Discord4_#{version}.zip"
 
-  installer manual: "Discord4_Installer_v4.1.5.app"
+  installer manual: "Discord4_Installer_v#{version}.app"
 
   uninstall delete: [
     "/Library/Application Support/Avid/Audio/Plug-Ins/Discord4.aaxplugin",

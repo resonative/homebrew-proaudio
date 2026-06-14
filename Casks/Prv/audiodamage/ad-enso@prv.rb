@@ -8,16 +8,15 @@ cask "ad-enso@prv" do
   end
 
   version "1.3.3"
-  sha256 "6673f8d17164134105abb3e18f0ecbce41c9677f36ff3ce1f404ea7c410bf035"
+  sha256 "1b22044731116454bcda7dd11b23054bd099738bce14f399c8289a1d9dc483c6"
 
-  url "#{prv_archive_url}/a/ad-enso/v#{version}/AD049_Enso_#{version}.zip",
+  url "#{prv_archive_url}/a/ad-enso/v#{version}/macOS_Enso_#{version}.zip",
       verified: prv_archive_url.to_s
   name "Audio Damage Enso"
   desc "Looper"
   homepage "https://www.audiodamage.com/products/ad049-enso"
 
   auto_updates false
-  container nested: "AD049_Enso_#{version}/macOS_Enso_#{version}.zip"
 
   installer manual: "Enso_Installer_v#{version}.app"
 

@@ -8,16 +8,15 @@ cask "ad-panstation@prv" do
   end
 
   version "2.1.1"
-  sha256 "d8be5c66f496c2a5caeefb28f1362065d8bd9ea461e1555b2917c787061859b7"
+  sha256 "3ff2b8aea628608b91ab5bd733de36b89ab3e5308a6df1f47a5f30fe5847fe66"
 
-  url "#{prv_archive_url}/a/ad-panstation/v#{version}/AD052_Panstation_#{version}.zip",
+  url "#{prv_archive_url}/a/ad-panstation/v#{version}/macOS_Panstation2_v#{version}.zip",
       verified: prv_archive_url.to_s
   name "Audio Damage Panstation"
   desc "Auto panner inspired by Drawmer M500"
   homepage "https://www.audiodamage.com/products/ad028-panstation"
 
   auto_updates false
-  container nested: "AD052_Panstation_#{version}/macOS_Panstation2_v#{version}.zip"
 
   installer manual: "Panstation2_Installer_v#{version}.app"
 

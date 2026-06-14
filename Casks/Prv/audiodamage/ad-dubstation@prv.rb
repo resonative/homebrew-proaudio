@@ -7,19 +7,18 @@ cask "ad-dubstation@prv" do
     end
   end
 
-  version "2.3.0a,2.3.1"
-  sha256 "eb52278fa265ee932c9e7ccc13f06e13476ebd50b1159942def2a5b9c8471b42"
+  version "2.4.3"
+  sha256 "aa9cec4f0ee352561972bd7d494af8e62e9873bef930cd7103108ea29e1a6ddd"
 
-  url "#{prv_archive_url}/a/ad-dubstation/v#{version.csv.first}/AD036_Dubstation_#{version.csv.first}.zip",
+  url "#{prv_archive_url}/a/ad-dubstation/v#{version}/macOS_Dubstation_2_#{version}.zip",
       verified: prv_archive_url.to_s
   name "Audio Damage Dubstation"
   desc "BBD delay"
   homepage "https://www.audiodamage.com/products/ad036-dubstation-2"
 
   auto_updates false
-  container nested: "AD036_Dubstation_2.3.0/macOS_Dubstation_2_#{version.csv.second}.zip"
 
-  installer manual: "Dubstation 2_Installer_v#{version.csv.second}.app"
+  installer manual: "Dubstation 2_Installer_v#{version}.app"
 
   uninstall delete: [
     "/Library/Application Support/Avid/Audio/Plug-Ins/Dubstation2.aaxplugin",
