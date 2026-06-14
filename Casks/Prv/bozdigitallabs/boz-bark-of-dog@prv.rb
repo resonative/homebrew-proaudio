@@ -7,8 +7,8 @@ cask "boz-bark-of-dog@prv" do
     end
   end
 
-  version "3.0.1"
-  sha256 "0ae8109ae27b380e1afccd3c0241468e119dd44af9444aabdd4b8e32d3c7bc15"
+  version "3.0.2"
+  sha256 "ee68c8f043129bbbcee6cfe485e5fed53df28cf381e94fe8d2b1ed8e66f1d537"
 
   url "#{Utils.prv_archive_url}/b/boz-bark-of-dog/v#{version}/Bark_of_Dog_3_#{version}_Mac.pkg"
 

@@ -7,10 +7,10 @@ cask "boz-the-hoser@prv" do
     end
   end
 
-  version "2.0.13"
-  sha256 "c08c926611290a5170bbbd9c0dfae8aa23263666a2419195f48fe1a5722ca4e8"
+  version "2.0.14"
+  sha256 "cd225454662d1e3354206242368add506996b006b75f2b20c80a6a674565bfdc"
 
-  url "#{Utils.prv_archive_url}/b/boz-the-hoser/v#{version}/Plus_10db_2_#{version}_Mac.pkg"
+  url "#{Utils.prv_archive_url}/b/boz-the-hoser/v#{version}/The_Hoser_2_#{version}_Mac.pkg"
 
   name "Boz Digital David Bendeth The Hoser XT"
   desc "Ward-Beck Systems M462B EQ emulation"
