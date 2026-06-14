@@ -2,7 +2,7 @@ cask "efektor-ds3603" do
   version "1.2.0"
   sha256 :no_check
 
-  url "https://www.kuassa.com/?dl_id=830"
+  url "https://www.kuassa.com/?dl_id=826"
   name "Kuassa Efektor DS3603"
   desc "Distortion FX engine"
   homepage "https://www.kuassa.com/products/efektor-ds3603-distortion"

@@ -1,10 +1,8 @@
 cask "gig-performer" do
-  version "5.1.4"
-  sha256 "3ba559fb2bfcaf58397a786f1744fa6df0c156d33e77856a8506cc0c9a5bc578"
+  version "5.2.2"
+  sha256 "0a0071b7ee7fc7c78586681b076bab0fb1bb1380f6c95455103c82f0097abcdb"
 
-  url "https://gigperformer.com/
-https://gigperformer5.s3.us-east-2.amazonaws.com/GP#{version}/GigPerformer5-Universal-#{version}.dmg",
-      verified: "gigperformer5.s3.us-east-2.amazonaws.com/"
+  url "https://files.gigperformer.com/GP5Pro/GigPerformer5-Universal-#{version}.dmg"
   name "Gig Performer"
   desc "Live Performance Audio Plugin Host"
   homepage "https://gigperformer.com/"
