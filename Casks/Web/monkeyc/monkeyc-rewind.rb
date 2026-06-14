@@ -1,6 +1,6 @@
 cask "monkeyc-rewind" do
-  version "2.5.4,7ab7098"
-  sha256 "3869afde55b219eab604676e36a50942948c567fb2967b546b6819676baacf71"
+  version "2.5.8,bae24c2"
+  sha256 "6a9b0349d35fb8f2f678153c131a5872e90b84b752f17f0f118339e474e993b9"
 
   url "https://monkeyc.link/rewind",
       verified: "monkeyc.link"
