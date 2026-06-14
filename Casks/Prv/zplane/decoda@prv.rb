@@ -7,8 +7,8 @@ cask "decoda@prv" do
     end
   end
 
-  version "1.3.2"
-  sha256 "ef1b195e3ed82cf306e05e2d84c0a1767a580d7bddd3a7ecd87a981f823ee703"
+  version "1.4.0"
+  sha256 "1b1e70688fb4afa33ab68a38085500ec7e5a94089b047a852fa9d63ecf784595"
 
   url "#{prv_archive_url}/d/decoda/v#{version}/deCoda_#{version}_Installer.pkg",
       verified: prv_archive_url.to_s
