@@ -1,6 +1,6 @@
 cask "pulsar-vocal-studio" do
-  version "1.0.18"
-  sha256 "6c730682f568457318061078aa7c99101822f37099955f09b386b9c6061b098e"
+  version "1.0.21"
+  sha256 "901454d60bcf9ee744e5aeb6c9d96e4741306793416f57d39d6a0ba68c1194a4"
 
   url "https://pulsaraudio.s3.us-east-2.amazonaws.com/Vocal-Studio/PulsarVocalStudio-#{version}.dmg",
       verified: "pulsaraudio.s3.us-east-2.amazonaws.com/"

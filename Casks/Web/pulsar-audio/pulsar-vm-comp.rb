@@ -1,6 +1,6 @@
 cask "pulsar-vm-comp" do
-  version "2.0.3"
-  sha256 "cec8ab790e3af214a4837b80d4f7ed8bced109128dd048c9ccafee5d2b0961a5"
+  version "2.0.7"
+  sha256 "7add42ada7fa9a08c4b6a6caee45c3d6ef7c0dec9d00e4371caa205e638c3e00"
 
   url "https://pulsaraudio.s3.us-east-2.amazonaws.com/VM-COMP/Pulsar-VM-Comp-#{version}.dmg",
       verified: "pulsaraudio.s3.us-east-2.amazonaws.com/"

@@ -1,6 +1,6 @@
 cask "pulsar-mp-eq" do
-  version "2.0.3"
-  sha256 "2c8398e3720ee68eebd08ff19c3ef8efb056985e82373dfe14bdf7b4a48fe209"
+  version "2.0.7"
+  sha256 "be361fb7f38656bd85ad389592af304093d9209f8320c314371aa94689ebf9d5"
 
   url "https://pulsaraudio.s3.us-east-2.amazonaws.com/MP-EQ/Pulsar-MP-EQ-#{version}.dmg",
       verified: "pulsaraudio.s3.us-east-2.amazonaws.com/"
