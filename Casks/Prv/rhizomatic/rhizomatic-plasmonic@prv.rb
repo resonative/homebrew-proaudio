@@ -7,8 +7,8 @@ cask "rhizomatic-plasmonic@prv" do
     end
   end
 
-  version "1.2.7,R1088"
-  sha256 "cebb15442fef2dd59e395bebacfcbfb431a71007344c9f1aa85e0928ccae1e06"
+  version "1.2.8,R1112"
+  sha256 "cde3439434f256beb1cbe7ed1309aa8edf16785d2be49ee481f1d5fbeaea9561"
 
   url "#{prv_archive_url}/r/rhizomatic-plasmonic/v#{version.csv.first}/Plasmonic_#{version.csv.first}_#{version.csv.second}_macOS.zip",
       verified: prv_archive_url.to_s
