@@ -1,4 +1,4 @@
-cask "synthmaster@prv" do
+cask "kv331-synthmaster@prv" do
   class << self
     define_method(:prv_archive_url) do
       json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
@@ -7,10 +7,10 @@ cask "synthmaster@prv" do
     end
   end
 
-  version "3.4.5,16650"
-  sha256 "a9ce1dfeae47da8658e8c28e5172185216fef29f44f06476ccc28f176edf82d1"
+  version "3.4.9,17331"
+  sha256 "f157748aa9b49e76244b83fecd531be6764cd76f864568d0608aca7e8d046da4"
 
-  url "#{prv_archive_url}/s/synthmaster/v#{version}/synthmaster3macsetup_rev#{version.csv.second}.zip",
+  url "#{prv_archive_url}/s/kv331-synthmaster/v#{version}/synthmaster3macsetup_rev#{version.csv.second}.zip",
       verified: prv_archive_url.to_s
   name "SynthMaster"
   desc "Versitle VA Synth"
