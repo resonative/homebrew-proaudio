@@ -1,6 +1,6 @@
 cask "ew-installation-center" do
-  version "1.5.1"
-  sha256  "4d551bd1ec68c8876baf572e5f84352ea85c7e46f7bcd352342523b42587d914"
+  version "1.6.1"
+  sha256  "6ea1b8b0d35306ed0ac624b28b097faf2e63bea051ca19518765f756a6dafd31"
 
   url "https://software.soundsonline.com/Products/IC/IC_#{version}_Mac.zip"
   name "East West EW Installation Center"
