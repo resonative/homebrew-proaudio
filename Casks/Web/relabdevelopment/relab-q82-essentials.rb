@@ -1,8 +1,8 @@
-cask "relab-quantx-essentials" do
-  version "1.0.1"
-  sha256 "30353ba49a5986ca707c725d976772a429567327f85ef555a607cef3ef3fc3b9"
+cask "relab-q82-essentials" do
+  version "2.1.0"
+  sha256 "ee462f7e2f92f950da9fa8223fbddcede49f91bde4729ea4eb8fce01b20b3642"
 
-  url "https://relab-software-downloads.s3.us-west-1.amazonaws.com/products/QuantX_Essentials/v#{version}/QuantXEssentials.pkg",
+  url "https://relab-software-downloads.s3.us-west-1.amazonaws.com/products/Q82_Essentials/Relab+Q82+Essentials.pkg",
       verified: "relab-software-downloads.s3.us-west-1.amazonaws.com/"
   name "Relab Development QuantX"
   desc "Quantec Room Simulator (QRS) reverb emulation lite version"
@@ -11,12 +11,12 @@ cask "relab-quantx-essentials" do
   auto_updates false
   depends_on macos: ">= :catalina"
 
-  pkg "QuantXEssentials.pkg"
+  pkg "Relab+Q82+Essentials.pkg"
 
   uninstall pkgutil: [
+  	"com.relab.pkg.RelabQ82EssentialsData",
     "com.relab.pkg.QuantXEssentialsAAX",
     "com.relab.pkg.QuantXEssentialsAU",
-    "com.relab.pkg.QuantXEssentialsData",
     "com.relab.pkg.QuantXEssentialsVST3",
   ]
 end

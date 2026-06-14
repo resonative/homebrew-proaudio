@@ -1,6 +1,6 @@
 cask "relab-176" do
-  version "1.0"
-  sha256 "62a159a56655f1a25e1f1c19b706086a83897d921a5af2b266c2b4ed7d688dcf"
+  version "1.2.0"
+  sha256 "ef5b55571ec82596fc88867cebdca7ed58bbc05e6e5130534e969f57cec61d00"
 
   url "https://relab-software-downloads.s3.us-west-1.amazonaws.com/products/Relab+176/v#{version}/Relab+176.pkg",
       verified: "relab-software-downloads.s3.us-west-1.amazonaws.com/"
