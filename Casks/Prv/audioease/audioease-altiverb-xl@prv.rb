@@ -7,8 +7,8 @@ cask "audioease-altiverb-xl@prv" do
     end
   end
 
-  version "8.2.5"
-  sha256 "047bc14aa728acadb5a61e68f8d7abf1078b222561893352fd37817a97e183d7"
+  version "8.2.7"
+  sha256 "cc83dcc935ebc7392a85965224f3d12d0041cd8029e852ce8d6bee9f2e3a3257"
 
   url "#{prv_archive_url}/a/audioease-altiverb-xl/v#{version}/Altiverb-XL-#{version}-Mac-Installer.zip",
       verified: prv_archive_url.to_s
