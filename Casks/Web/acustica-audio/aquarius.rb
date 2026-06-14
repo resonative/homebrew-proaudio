@@ -1,5 +1,5 @@
 cask "aquarius" do
-  version "3.0.109"
+  version "3.0.123,1"
   sha256 :no_check
 
   url "https://app.box.com/index.php?rm=box_download_shared_file&shared_name=ulbnd7iu184xiahx99ez2qrt5eipcw8d&file_id=f_247358825647",
@@ -10,7 +10,7 @@ cask "aquarius" do
 
   auto_updates true
 
-  pkg "Setup Aquarius 3.0.109 build 1 macOS.pkg",
+  pkg "Setup Aquarius #{version.csv.first} build #{version.csv.second} macOS.pkg",
       choices: [
         {
           "choiceIdentifier" => "choice1",

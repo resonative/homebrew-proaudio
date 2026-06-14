@@ -1,8 +1,8 @@
 cask "tdr-collector" do
-  version "1.0.3"
-  sha256 "85b60ab3e43e5bb5a8f0946341ec55ce0ac545fbf0912706822a1a28abda5274"
-
-  url "https://www.tokyodawn.net/labs/Collector/#{version}/TDR%20Collector%20Mac.zip?x26827"
+  version "1.0.8"
+  sha256 "9dc05aac637c3505870d5d7e99bed96efb446d6c9f0c399f65e23cbba6d34667"
+       
+  url "https://www.tokyodawn.net/labs/Collector/#{version}/TDR%20Collector%20Mac.zip"
   name "TDR Collector"
   desc "Tokyo Dawn Labs software manager"
   homepage "https://www.tokyodawn.net/tdr-collector/"

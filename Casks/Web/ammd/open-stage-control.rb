@@ -1,9 +1,9 @@
 cask "open-stage-control" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.30.0"
-  sha256 arm:   "f183a879809b7051b699b63868ad0625db158a830fe555a3225237bf0b5da2da",
-         intel: "fa901195d9a895fab8fcc9d436e7c822596ed98a48f6406a0dd041fb12ca628e"
+  version "1.30.3"
+  sha256 arm:   "f9d209024d617767372568683b2c894e8f3756516b34c141d51c48f4f13a8394",
+         intel: "900c9c6c4e9bb639fc6298d1c1fd2ec06b408c60e7e48042306ae7ff7efa8592"
 
   url "https://openstagecontrol.ammd.net/packages/open-stage-control_#{version}_osx-#{arch}.zip"
   name "Open Stage Control"
