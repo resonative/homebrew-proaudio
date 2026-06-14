@@ -7,8 +7,8 @@ cask "modartt-pianoteq@prv" do
     end
   end
 
-  version "9.1.0"
-  sha256 "1565021c1da16c025e4f5079c67b41a7988d372e55565f3020ab07ecf2de0b6a"
+  version "9.2.1"
+  sha256 "7d41365d33db19ecd138db2553ab63b5e9154ef5669a370a550b6b6f67b93881"
 
   url "#{prv_archive_url}/m/modartt-pianoteq/v#{version}/pianoteq_setup_v#{version.no_dots}.dmg",
       verified: prv_archive_url.to_s
