@@ -1,6 +1,6 @@
 cask "korg-software-pass" do
-  version "1.3.9"
-  sha256 "66f7a4d4c440c5fea4a56bf99a31b2214ecf895740722901654217fc1210b553"
+  version "1.3.16"
+  sha256 "01edca868238793752b0794528826663c7cee7c898fc544d1c4adb87c5953cef"
 
   url "https://storage.korg.com/korgms/korg_collection/mac/KORG_Software_Pass_#{version.dots_to_underscores}.dmg"
   name "KORG Software Pass"

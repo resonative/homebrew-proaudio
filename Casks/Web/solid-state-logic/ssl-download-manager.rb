@@ -1,8 +1,8 @@
 cask "ssl-download-manager" do
-  version "1.4.8"
-  sha256 "eba5297c3ba4c982cc7c29bb0355e15c346a0d61e8c51bd41ad0c6c79fa87930"
-
-  url "https://eu1.download.solidstatelogic.com/Download%20Manager/SSL%20Download%20Manager-#{version}-universal.dmg"
+  version "1.6.10"
+  sha256 "e56832df5bc61ba642ec24546ecf961522cd603e621225457fbc01141e558417"
+       
+  url "https://softwareupdate.solidstatelogic.com/DownloadManager/appReleases/latest/SSL%20Download%20Manager-#{version}-universal.dmg"
   name "SSL Download Manager"
   desc "SSL, Harrison plugins and SSL 360 install manager"
   homepage "https://solidstatelogic.com/ssl-download-manager"
