@@ -1,6 +1,6 @@
 cask "mcdsp-ml8000" do
-  version "7.3.0"
-  sha256 "2fdd5fd40dafb6a640e2b9f81b0b65b0af31d4a20c935a64fa74eced085c840c"
+  version "7.3.17"
+  sha256 :no_check
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/ML8000_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP ML8000 Advanced Limiter"

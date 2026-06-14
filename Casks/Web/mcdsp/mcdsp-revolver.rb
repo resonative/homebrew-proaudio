@@ -1,6 +1,6 @@
 cask "mcdsp-revolver" do
-  version "7.3.0"
-  sha256 "0b4cd51aba68b7de2961a04f98caa27a11f3b0792f58b54a0a46c06f8032a400"
+  version "7.3.17"
+  sha256 :no_check
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/R_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP Revolver Convolution Reverb"

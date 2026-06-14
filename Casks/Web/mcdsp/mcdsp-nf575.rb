@@ -1,6 +1,6 @@
 cask "mcdsp-nf575" do
-  version "7.3.0"
-  sha256 "8ce6e2222e789b68f94cc5d85f7cbf3abca225bcb20e8e14daff614fb7b05efa"
+  version "7.3.17"
+  sha256 :no_check
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/NF_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP NF575 Noise Filter"

@@ -1,6 +1,6 @@
 cask "mcdsp-spc2000" do
-  version "7.3.0"
-  sha256 "2e771f0b006a5588934ae8d8448f1fc2b842e3b79c50ea14cfe5d8fb9427f398"
+  version "7.3.17"
+  sha256 :no_check
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/SPC_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP SPC2000 Serial/Parallel Compressor"

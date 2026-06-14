@@ -1,6 +1,6 @@
 cask "mcdsp-6034-ultimate-mb" do
-  version "7.3.0"
-  sha256 "f01188cf55950b74278b819c46bd5f5a9551bb9c801ef894feb6c28bfc81a5a9"
+  version "7.3.17"
+  sha256 :no_check
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/6034_MB_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP 6034 Ultimate Multi-Band"

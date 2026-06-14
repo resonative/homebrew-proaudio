@@ -1,6 +1,6 @@
 cask "mcdsp-6060-ultimate-mc" do
-  version "7.3.0"
-  sha256 "a8a1e02bbcfd49e85efce4853ae918dcf106755c89af8bf54127c388340a4040"
+  version "7.3.17"
+  sha256 :no_check
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/6060_MC_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP 6060 Ultimate Module Collection"

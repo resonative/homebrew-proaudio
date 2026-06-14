@@ -1,6 +1,6 @@
 cask "mcdsp-6020-ultimate-eq" do
-  version "7.3.0"
-  sha256 "0b053fd5b5444befbbd35f7f9e515d0f28325afedb6f07c9344ddf61619023fa"
+  version "7.3.17"
+  sha256 :no_check
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/6020_E_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP 6020 Ultimate EQ"

@@ -1,6 +1,6 @@
 cask "mcdsp-sa-2" do
-  version "7.3.0"
-  sha256 "7141f8884ab2148a46c2f6283017c66488a8b9849fe3ede2006af0ebc6bd4f1c"
+  version "7.3.17"
+  sha256 :no_check
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/SA2_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP SA-2 Dialog Processor"

@@ -1,6 +1,6 @@
 cask "mcdsp-mc2000" do
-  version "7.3.0"
-  sha256 "a5a6369f6cb2c9bfdf864b189ac4b58f089e09ea0a18041d0609c233d9c47262"
+  version "7.3.17"
+  sha256 :no_check
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/MC_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP MC2000 Multi-band Compressor"

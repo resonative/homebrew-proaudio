@@ -1,6 +1,6 @@
 cask "mcdsp-ae400-active-eq" do
-  version "7.3.0"
-  sha256 "faee92506192188ab755432acf6809c0c2a91b75e1a8a1d290d97da65d4f4c3e"
+  version "7.3.17"
+  sha256 :no_check
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/AE_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP AE400 Active EQ"

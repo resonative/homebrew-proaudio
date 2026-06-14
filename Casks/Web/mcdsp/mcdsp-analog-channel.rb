@@ -1,6 +1,6 @@
 cask "mcdsp-analog-channel" do
-  version "7.3.0"
-  sha256 "d03f782092c0f8afa67c7014a789a5c9ed14aa09d7a85b37d7fe900d6fa4323d"
+  version "7.3.17"
+  sha256 :no_check
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/AC_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP Analog Channel"

@@ -1,6 +1,6 @@
 cask "mcdsp-nr800" do
-  version "7.3.0"
-  sha256 "66eba97fd1c88c6e17c4d3840f2aeb14a42cf0e6d6914edaa71bf7866e6a6a2d"
+  version "7.3.17"
+  sha256 :no_check
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/NR800_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP NR800 Noise Reduction Processor"

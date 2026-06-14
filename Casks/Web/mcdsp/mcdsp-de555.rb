@@ -1,6 +1,6 @@
 cask "mcdsp-de555" do
-  version "7.3.0"
-  sha256 "d4bef500632ebcc05702c8a138e12b73e30bf8b6c3f1ae8ffca4782c4b03b14f"
+  version "7.3.17"
+  sha256 :no_check
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/DE_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP DE555 Advanced De-esser"

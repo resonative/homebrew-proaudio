@@ -1,6 +1,6 @@
 cask "mcdsp-ec300" do
-  version "7.3.0"
-  sha256 "b03b8dad79e4b43de76a0cea917d48d1de3619fe1e2bb108f12cd7bdaec4c703"
+  version "7.3.17"
+  sha256 :no_check
 
   url "https://downloads.mcdsp.com/v7/NV/Mac/EC300_NV_Install_#{version.dots_to_underscores}_MAC.zip"
   name "McDSP EC300 Echo Collection"
