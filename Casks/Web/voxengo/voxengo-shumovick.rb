@@ -1,6 +1,6 @@
 cask "voxengo-shumovick" do
-  version "2.3"
-  sha256 "d45d62c512d0b4f25a49ba4b8d19ce89cf322d7ce7771c19c896ce24d9e826c2"
+  version "2.4"
+  sha256 "340852155b98223e9839cfee7cbb9bb5837c018b519724bd7578776c1ac53d05"
 
   url "https://www.voxengo.com/files/VoxengoShumovick_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo Shumovick"

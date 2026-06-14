@@ -1,6 +1,6 @@
 cask "voxengo-latency-delay" do
-  version "2.11"
-  sha256 "71fd08773d27c0ff5497c2ce07451abac3ba286c20b674135b9f45cb8149a778"
+  version "2.12"
+  sha256 "5515222a7b5781038aeafedbbfbf11f7e948d0ff1d2753b42b003effeb67f70f"
 
   url "https://www.voxengo.com/files/VoxengoLatencyDelay_#{version.no_dots}_Mac_AU_AAX_VST_setup.dmg"
   name "Voxengo Latency Delay"
