@@ -5,7 +5,7 @@ cask "izotope-symphony-3d" do
   url "https://downloads.izotope.com/product_download/iZotope_Symphony3D_v#{version.dots_to_underscores}.dmg"
   name "Izotope Symphony 3D"
   desc "Flexible multichannel reverb from Exponential Audio"
-  homepage "https://www.izotope.com/en/shop/symphony-3d/"
+  homepage "https://www.izotope.com/pages/legacy-products#stratus"
 
   auto_updates false
   depends_on macos: ">= :monterey"
