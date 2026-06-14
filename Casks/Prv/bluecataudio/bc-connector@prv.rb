@@ -1,4 +1,4 @@
-cask "bc-connector@prv" do
+	cask "bc-connector@prv" do
   class << self
     define_method(:prv_archive_url) do
       json_path = "#{ENV.fetch("HOMEBREW_PREFIX")}/etc/resonative/homebrew-proaudio/prvinstallerhelper.json"
@@ -7,8 +7,8 @@ cask "bc-connector@prv" do
     end
   end
 
-  version "1.42"
-  sha256 "22bc934336405396dcc000a9ae49d37c459f63b130aa90a26e2ebecd8fd7dccf"
+  version "1.43"
+  sha256 "0ad872e20707fbe82feed46468fe4f6ffcd336c0bd7a0a898d0292d1d641d5ee"
 
   url "#{prv_archive_url}/b/bc-connector/v#{version}/BlueCatConnector.dmg",
       verified: prv_archive_url.to_s
