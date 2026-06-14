@@ -7,8 +7,8 @@ cask "decent-sampler@prv" do
     end
   end
 
-  version "1.14.1"
-  sha256 "957474b7228e90abe8c24fb11f0e3b3fd11557e4befc956df701ddf8233035b5"
+  version "1.23.5"
+  sha256 "9a688a08fcaf22c9d397de4dc9aa8d9f807f7e97d7390d5d5f1b5b2e45b891b5"
 
   url "#{prv_archive_url}/d/decent-sampler/v#{version}/Decent_Sampler-#{version}-Mac.zip",
       verified: prv_archive_url.to_s
