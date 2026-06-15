@@ -10,7 +10,7 @@ cask "spectrasonics-keyscape@prv" do
   version "1"
   sha256 :no_check
 
-  url "#{prv_archive_url}/s/spectrasonics-keyscape/v#{version}/Keyscape%20#{version}%20Installation.zip",
+  url "#{prv_archive_url}/s/spectrasonics-keyscape/v#{version}/Keyscape%20Installation.zip",
       verified: prv_archive_url.to_s
   name "Spectrasonics Keyscape"
   desc "Multi sample keyboard sample library"
