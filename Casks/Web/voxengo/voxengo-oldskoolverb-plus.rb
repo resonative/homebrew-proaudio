@@ -1,4 +1,4 @@
-cask "voxengo-oldskoolverb-plus-au-aax" do
+cask "voxengo-oldskoolverb-plus" do
   version "1.7"
   sha256 "bc3348a6dbd87818cd8dd853607a2e14b21a1434bd57a12d0928610db47da4d6"
 
