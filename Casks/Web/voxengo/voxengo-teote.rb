@@ -1,4 +1,4 @@
-cask "voxengo-teote-au-aax" do
+cask "voxengo-teote" do
   version "1.16"
   sha256 "49d0c34bf4e3a6f424ee9be390004d870331e0abf15324f311eb6d539296a162"
 
