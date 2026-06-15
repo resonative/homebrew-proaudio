@@ -7,11 +7,11 @@ cask "dbpoweramp-music-converter@prv" do
     end
   end
 
-  version "2025-07-14"
+  version "2026-05-25"
   sha256 :no_check
 
   # Remove unique identifier from filename; Typically download as dBRefMusic-2025-07-14==**######=********.dmg
-  url "#{prv_archive_url}/d/dbpoweramp-music-converter/v#{version}/dBRefMusic-2025-07-14.dmg",
+  url "#{prv_archive_url}/d/dbpoweramp-music-converter/v#{version}/dBRefMusic-#{version}.dmg",
       verified: prv_archive_url.to_s
   name "dBpoweramp Music Converter"
   desc "Audio file converter and CD ripper utility"
