@@ -18,7 +18,7 @@ cask "ad-ratshack-reverb@prv" do
 
   auto_updates false
 
-  manual "RatshackReverb3_Installer_v#{version}.app"
+  installer manual: "RatshackReverb3_Installer_v#{version}.app"
 
   uninstall delete: [
     "/Library/Application Support/Avid/Audio/Plug-Ins/RatshackReverb3.aaxplugin",
