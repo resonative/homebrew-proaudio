@@ -1,4 +1,4 @@
-cask "voxengo-shinechilla-au-aax" do
+cask "voxengo-shinechilla" do
   version "1.6"
   sha256 "66f00f304cf9d0b09881b0c1d0a4296712fac77f821f4bb03f8fc969d97e307a"
 
