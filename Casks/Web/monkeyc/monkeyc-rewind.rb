@@ -13,9 +13,9 @@ cask "monkeyc-rewind" do
   end
 
   auto_updates false
-  container nested: "Rewind Mac #{version.csv.first} #{version.csv.second}.dmg"
+  container nested: "Rewind macOS #{version.csv.first} #{version.csv.second}.dmg"
 
-  pkg "Rewind Mac #{version.csv.first} #{version.csv.second}.pkg",
+  pkg "Rewind macOS #{version.csv.first} #{version.csv.second}.pkg",
       choices: [
       {
         "choiceIdentifier" => "installer_choice_5", # Driver
